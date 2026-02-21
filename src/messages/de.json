@@ -1,0 +1,704 @@
+{
+  "metadata": {
+    "title": "Promath — Mathematik wird lebendig",
+    "description": "Eine interaktive Plattform, die Mathematik intuitiv und ansprechend macht. Lerne in deinem eigenen Tempo mit interaktiven Aufgaben und visuellen Erklärungen."
+  },
+  "nav": {
+    "pensum": "Lehrplan",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "grades": "Stufen",
+    "topics": "Bereiche",
+    "selectGrade": "Klassenstufe wählen",
+    "selectTopic": "Bereich wählen",
+    "hoverCategory": "Bewege die Maus über eine Kategorie",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "matematik": "Mathematik",
+    "getStarted": "Loslegen",
+    "gradeSection": "Klassenstufen"
+  },
+  "theme": {
+    "lightMode": "Zum hellen Modus wechseln",
+    "darkMode": "Zum dunklen Modus wechseln"
+  },
+  "language": {
+    "label": "Sprache",
+    "switchLocale": "Sprache wechseln"
+  },
+  "edSystem": {
+    "label": "Schulsystem",
+    "switchSystem": "Schulsystem wechseln",
+    "dk": "Dänisch (Folkeskole + Gymnasium)",
+    "de": "Deutsch (Gymnasium G9)",
+    "uk": "Britisch (Key Stages)",
+    "us": "Amerikanisch (K-12)"
+  },
+  "home": {
+    "badge": "Interaktive Mathe-Plattform",
+    "title": "Mathematik",
+    "titleHighlight": "wird lebendig",
+    "subtitle": "Promath macht Mathematik intuitiv und ansprechend. Lerne in deinem eigenen Tempo mit interaktiven Aufgaben und visuellen Erklärungen.",
+    "cta": "Loslegen — kostenlos",
+    "secondaryCta": "So funktioniert es",
+    "featuresTitle": "Lerne Mathematik auf eine",
+    "featuresTitleHighlight": "neue Art",
+    "featuresSubtitle": "Promath verbindet Technologie und Pädagogik, um das beste Lernerlebnis zu schaffen.",
+    "feature1Title": "Interaktive Aufgaben",
+    "feature1Desc": "Löse Aufgaben Schritt für Schritt mit sofortigem Feedback, das dich voranbringt.",
+    "feature2Title": "Verfolge deinen Fortschritt",
+    "feature2Desc": "Sieh deine Entwicklung über die Zeit mit detaillierter Statistik und persönlichen Meilensteinen.",
+    "feature3Title": "Angepasstes Lernen",
+    "feature3Desc": "Intelligentes System, das den Schwierigkeitsgrad an dein Niveau und Tempo anpasst.",
+    "feature4Title": "Visuelle Erklärungen",
+    "feature4Desc": "Verstehe komplexe Konzepte durch dynamische Visualisierungen und Animationen.",
+    "topicsTitle": "Entdecke",
+    "topicsTitleHighlight": "Themen",
+    "topicsSubtitle": "Von grundlegender Algebra bis hin zu fortgeschrittener Analysis — wir decken alles ab.",
+    "topicAlgebraDesc": "Gleichungen & Polynome",
+    "topicGeometryDesc": "Formen & Beweise",
+    "topicTrigDesc": "Winkel & Funktionen",
+    "topicFunctionsDesc": "Graphen & Analysis",
+    "topicVectorsDesc": "Vektoren & lineare Algebra",
+    "topicIntegralDesc": "Integrale & Flächen",
+    "topicStatsDesc": "Daten & Wahrscheinlichkeit",
+    "topicSequencesDesc": "Folgen, Reihen & Konvergenz",
+    "ctaTitle": "Bereit, Mathematik zu",
+    "ctaTitleHighlight": "meistern?",
+    "ctaSubtitle": "Melde dich kostenlos an und starte deine mathematische Reise noch heute. Keine Kreditkarte erforderlich.",
+    "ctaButton": "Jetzt kostenlos starten"
+  },
+  "about": {
+    "metaTitle": "Über uns — Promath",
+    "metaDescription": "Erfahre mehr über Promath und unsere Mission, Mathematik für alle zugänglich und ansprechend zu machen.",
+    "title": "Über",
+    "titleHighlight": "Promath",
+    "intro": "Promath ist eine interaktive Mathematik-Plattform mit dem Ziel, Mathematik zugänglich, intuitiv und ansprechend für Schüler jeden Alters zu machen.",
+    "missionTitle": "Unsere Mission",
+    "missionText": "Wir glauben, dass jeder Mathematik lernen kann, wenn sie richtig präsentiert wird. Promath kombiniert interaktive Visualisierungen, schrittweise Erklärungen und sofortiges Feedback, um das bestmögliche Lernerlebnis zu schaffen.",
+    "howTitle": "So funktioniert es",
+    "howText1": "Promath ist nach Klassenstufen und Themen organisiert. Wähle deine Klassenstufe, finde ein Thema, das dich interessiert, und tauche in interaktive Lektionen mit visuellen Erklärungen ein.",
+    "howText2": "Jede Lektion ist darauf ausgelegt, das Verständnis schrittweise aufzubauen — von der Einführung und Theorie bis hin zu interaktiven Beispielen und Übungen.",
+    "levelsTitle": "Für alle Stufen",
+    "levelsText": "Von der Grundschulmathematik bis zur Analysis in der Oberstufe — Promath deckt das gesamte Spektrum des Mathematikunterrichts mit Inhalten ab, die auf jede Klassenstufe zugeschnitten sind."
+  },
+  "contact": {
+    "metaTitle": "Kontakt — Promath",
+    "metaDescription": "Kontaktiere uns mit Fragen, Feedback oder Vorschlägen zur Zusammenarbeit.",
+    "title": "Kontaktiere",
+    "titleHighlight": "uns",
+    "subtitle": "Hast du Fragen, Feedback oder Vorschläge? Wir freuen uns, von dir zu hören.",
+    "emailTitle": "E-Mail",
+    "emailDesc": "Sende uns eine E-Mail und wir melden uns so schnell wie möglich.",
+    "faqTitle": "FAQ",
+    "faqDesc": "Viele Fragen sind bereits in unseren FAQ beantwortet.",
+    "faqLink": "Häufig gestellte Fragen ansehen →"
+  },
+  "faq": {
+    "metaTitle": "FAQ — Promath",
+    "metaDescription": "Häufig gestellte Fragen zu Promath.",
+    "title": "Häufig gestellte",
+    "titleHighlight": "Fragen",
+    "subtitle": "Finde Antworten auf die häufigsten Fragen zu Promath.",
+    "q1": "Was ist Promath?",
+    "a1": "Promath ist eine kostenlose, interaktive Mathematik-Plattform für Schüler. Wir bieten Lektionen mit visuellen Erklärungen, interaktiven Aufgaben und sofortigem Feedback.",
+    "q2": "Ist Promath kostenlos?",
+    "a2": "Ja, Promath ist völlig kostenlos. Wir glauben, dass jeder Zugang zu gutem Mathematikunterricht haben sollte.",
+    "q3": "Welche Klassenstufen deckt Promath ab?",
+    "a3": "Promath deckt die Klassen 1 bis 12 ab, von grundlegenden Zahlen und Rechnen bis hin zu fortgeschrittener Analysis auf Oberstufenniveau.",
+    "q4": "Kann ich Promath auf dem Handy nutzen?",
+    "a4": "Ja, Promath ist vollständig responsiv und funktioniert auf allen Geräten — Computer, Tablet und Handy.",
+    "q5": "Wie fange ich an?",
+    "a5": "Gehe zur Klassenstufenübersicht, wähle deine Klassenstufe und beginne, Themen und Lektionen zu erkunden. Keine Anmeldung erforderlich.",
+    "q6": "Wer steckt hinter Promath?",
+    "a6": "Promath wird von einem Team mit Leidenschaft für Mathematik und Technologie entwickelt. Erfahre mehr auf unserer Über-uns-Seite."
+  },
+  "grades": {
+    "metaTitle": "Klassenstufen — Promath",
+    "metaDescription": "Wähle deine Klassenstufe und entdecke Mathematik.",
+    "title": "Wähle deine",
+    "titleHighlight": "Klassenstufe",
+    "subtitle": "Entdecke Mathematik auf deinem Niveau.",
+    "label_DK": "{n}. klasse",
+    "label_DK_gym": "{n}",
+    "label_DE": "Klasse {n}",
+    "label_UK": "Year {n}",
+    "label_US": "Grade {n}",
+    "label_US_K": "Kindergarten",
+    "label_short_DK": "{n}. kl",
+    "label_short_DK_gym": "{n}",
+    "label_short_DE": "Kl. {n}",
+    "label_short_UK": "Y{n}",
+    "label_short_US": "Gr. {n}",
+    "label_short_US_K": "K",
+    "topicsCount": "{count} Themen",
+    "lessonsCount": "{count} Lektionen",
+    "topicsAndLessons": "{topics} Themen · {lessons} Lektionen"
+  },
+  "gradeGroups": {
+    "dk_indskoling": "Indskoling",
+    "dk_mellemtrin": "Mellemtrin",
+    "dk_udskoling": "Udskoling",
+    "dk_gymnasium": "Gymnasium",
+    "de_grundschule": "Grundschule",
+    "de_unterstufe": "Unterstufe",
+    "de_mittelstufe": "Mittelstufe",
+    "de_oberstufe": "Oberstufe",
+    "uk_ks1": "Key Stage 1",
+    "uk_ks2": "Key Stage 2",
+    "uk_ks3": "Key Stage 3",
+    "uk_ks4": "Key Stage 4 (GCSE)",
+    "uk_ks5": "Key Stage 5 (A-Level)",
+    "us_elementary": "Elementary School",
+    "us_middle": "Middle School",
+    "us_high": "High School"
+  },
+  "curriculum": {
+    "metaTitle": "Mathematik — Promath",
+    "metaDescription": "Überblick über alle Mathematik-Themen und Klassenstufen. Finde interaktive Lektionen.",
+    "title": "Entdecke",
+    "titleHighlight": "Mathematik",
+    "subtitle": "Finde Themen und Lektionen über alle Klassenstufen hinweg.",
+    "showAll": "Alle anzeigen",
+    "hideAll": "Alle ausblenden",
+    "topic": "Thema",
+    "topicsCount": "{count} Themen",
+    "lessonsCount": "{count} Lektionen",
+    "topicsAndLessons": "{topics} Themen · {lessons} Lektionen"
+  },
+  "topic": {
+    "notFoundTitle": "Nicht gefunden — Promath",
+    "noLessons": "Es gibt noch keine Lektionen in {topicName}.",
+    "noLessonsHint": "Wir arbeiten daran, Inhalte hinzuzufügen. Schau bald wieder vorbei!",
+    "comingSoon": "Kommt bald",
+    "lessonsForGradeAndTopic": "Finde interaktive Lektionen über alle Klassenstufen hinweg.",
+    "lessonsShort": "{count} Lekt.",
+    "allGrades": "Alle",
+    "noLessonsForGrade": "Keine Lektionen für die gewählte Klassenstufe",
+    "about": {
+      "naturlige-tal": {
+        "p1": "Natürliche Zahlen sind die Zahlen, mit denen du zählst: 1, 2, 3, 4, 5 und so weiter. Schon als kleines Kind hast du damit angefangen — Finger zählen, Treppenstufen zählen, Bonbons zählen. Sie sind der erste Schritt in die Welt der Mathematik.",
+        "p2": "Mit natürlichen Zahlen lernst du zu vergleichen (ist 7 größer als 5?), zu ordnen und den Zahlenstrahl zu verstehen. Du entdeckst gerade und ungerade Zahlen, lernst die Nachbarzahlen kennen und baust dir so ein solides Zahlengefühl auf, das du für alles Weitere brauchst."
+      },
+      "de-fire-regnearter": {
+        "p1": "Addition, Subtraktion, Multiplikation und Division — das sind die vier Grundrechenarten. Sie sind die Werkzeuge, mit denen du rechnest, und du brauchst sie jeden Tag: beim Einkaufen, beim Teilen von Süßigkeiten oder wenn du ausrechnest, wie lange du noch warten musst.",
+        "p2": "Jede Rechenart hat ihre eigenen Regeln und Tricks. Du lernst das kleine Einmaleins, Überschlagen, schriftliches Rechnen und wie die Rechenarten zusammenhängen — zum Beispiel, dass Multiplikation eine Abkürzung für wiederholtes Addieren ist. Wenn du die vier Grundrechenarten sicher beherrschst, bist du für alles Weitere gut vorbereitet."
+      },
+      "hele-tal": {
+        "p1": "Ganze Zahlen erweitern die natürlichen Zahlen um Null und negative Zahlen: ..., -3, -2, -1, 0, 1, 2, 3, ... Du begegnest ihnen im Alltag öfter, als du denkst — bei Temperaturen unter null Grad, bei Schulden oder in Aufzügen, die unter das Erdgeschoss fahren.",
+        "p2": "Das Rechnen mit negativen Zahlen folgt klaren Regeln. Minus mal minus ergibt plus — das klingt erstmal seltsam, aber du wirst verstehen, warum das so sein muss. Ganze Zahlen sind der erste Schritt weg von den reinen Zählzahlen und hin zu einem erweiterten Zahlenbegriff."
+      },
+      "broeker": {
+        "p1": "Brüche beschreiben Teile eines Ganzen. Eine halbe Pizza ist 1/2, drei Viertel einer Stunde sind 3/4. Der obere Teil (Zähler) sagt dir, wie viele Teile du hast, und der untere Teil (Nenner) sagt dir, in wie viele gleiche Stücke das Ganze geteilt wurde.",
+        "p2": "Mit Brüchen kannst du addieren, subtrahieren, multiplizieren und dividieren — aber die Regeln sind etwas anders als bei ganzen Zahlen. Du lernst, Brüche zu kürzen, zu erweitern und auf einen gemeinsamen Nenner zu bringen. Brüche sind überall: in Rezepten, beim Teilen, in der Musik und später in der Algebra."
+      },
+      "decimaltal": {
+        "p1": "Dezimalzahlen sind eine andere Art, Brüche zu schreiben. Statt 1/2 schreibst du 0,5, statt 3/4 schreibst du 0,75. Das Komma trennt den ganzen Teil vom Bruchteil. Dezimalzahlen begegnen dir überall: bei Preisen, beim Messen, auf dem Taschenrechner.",
+        "p2": "Du lernst, mit Dezimalzahlen zu rechnen, sie zu runden und zwischen Brüchen und Dezimalzahlen umzurechnen. Besonders wichtig ist das Stellenwertsystem: Die erste Stelle nach dem Komma sind Zehntel, die zweite Hundertstel, die dritte Tausendstel. Wenn du das verstehst, kannst du mit Dezimalzahlen genauso sicher rechnen wie mit ganzen Zahlen."
+      },
+      "procent": {
+        "p1": "Prozent bedeutet „von hundert“. Wenn ein T-Shirt 20% billiger ist, sparst du 20 von je 100 Euro. Prozentrechnung begegnet dir ständig: bei Rabatten, Zinsen, Testergebnissen, in den Nachrichten und bei Statistiken. Es ist eine der nützlichsten Fähigkeiten, die du in Mathe lernst.",
+        "p2": "Du lernst, Prozentwert, Grundwert und Prozentsatz zu berechnen und zwischen Prozent, Brüchen und Dezimalzahlen umzurechnen. Du wirst verstehen, warum 50% Rabatt auf den doppelten Preis kein Gewinn ist und warum eine Steigerung um 10% und eine Senkung um 10% nicht wieder zum Ausgangswert führt."
+      },
+      "potenser-og-roedder": {
+        "p1": "Potenzen sind eine Abkürzung für wiederholtes Multiplizieren: 2³ bedeutet 2 × 2 × 2 = 8. Wurzeln sind das Gegenteil: √9 = 3, weil 3² = 9. Zusammen geben dir Potenzen und Wurzeln mächtige Werkzeuge, um mit sehr großen und sehr kleinen Zahlen zu arbeiten.",
+        "p2": "Du lernst die Potenzgesetze kennen, zum Beispiel dass man beim Multiplizieren gleicher Basen die Exponenten addiert. Potenzen tauchen überall auf: in der Flächen- und Volumenberechnung, bei Zinseszins, in der Physik und später bei Exponentialfunktionen. Eine sichere Beherrschung der Potenzregeln macht dir vieles leichter."
+      },
+      "talteoretiske-begreber": {
+        "p1": "Zahlentheorie untersucht die Eigenschaften der ganzen Zahlen. Du lernst, was Primzahlen sind (Zahlen, die nur durch 1 und sich selbst teilbar sind), wie man den größten gemeinsamen Teiler und das kleinste gemeinsame Vielfache findet und was Teilbarkeitsregeln sind.",
+        "p2": "Diese Begriffe sind nicht nur Theorie — du brauchst sie beim Bruchrechnen (Kürzen und Erweitern), beim Lösen von Gleichungen und später in der Algebra. Die Primzahlen sind außerdem die Bausteine aller natürlichen Zahlen: Jede Zahl lässt sich eindeutig als Produkt von Primzahlen schreiben."
+      },
+      "rationale-og-irrationale-tal": {
+        "p1": "Rationale Zahlen sind alle Zahlen, die du als Bruch schreiben kannst: 1/2, -3/4, 7 (also 7/1). Aber es gibt Zahlen, die sich nicht als Bruch darstellen lassen — zum Beispiel √2 oder π. Diese heißen irrationale Zahlen. Zusammen bilden sie die reellen Zahlen.",
+        "p2": "Irrationale Zahlen haben unendlich viele Nachkommastellen, die sich nie wiederholen. Das klingt seltsam, aber du begegnest ihnen häufig: π bei jedem Kreis, √2 bei jedem Quadrat mit Seitenlänge 1. Zu verstehen, dass es verschiedene Arten von Zahlen gibt, ist ein wichtiger Schritt in deiner mathematischen Entwicklung."
+      },
+      "regnearternes-hierarki": {
+        "p1": "Wenn in einer Aufgabe mehrere Rechenarten vorkommen, musst du in der richtigen Reihenfolge rechnen. Die Regel lautet: Klammern zuerst, dann Potenzen, dann Punkt vor Strich (Multiplikation und Division vor Addition und Subtraktion). Ohne diese Regeln wären Ergebnisse mehrdeutig.",
+        "p2": "Zum Beispiel ergibt 2 + 3 × 4 nicht 20, sondern 14 — weil du zuerst multiplizierst. Diese Regeln gelten überall in der Mathematik und sind die Grundlage dafür, dass alle Menschen eine Rechenaufgabe gleich verstehen. Wenn du sie einmal sicher beherrschst, vermeidest du viele typische Fehler."
+      },
+      "grundlaeggende-algebra": {
+        "p1": "In der Algebra ersetzt du unbekannte Zahlen durch Buchstaben wie x oder y. Statt zu fragen „welche Zahl plus 5 ergibt 12?“ schreibst du x + 5 = 12. Das ist die Grundidee: mathematische Fragen mit Symbolen aufschreiben, damit du sie Schritt für Schritt lösen kannst.",
+        "p2": "Du lernst, Terme zu vereinfachen, gleichartige Glieder zusammenzufassen und einfache Gleichungen umzuformen. Algebra ist wie eine Sprache — am Anfang fühlt sie sich fremd an, aber wenn du die Grundbegriffe beherrschst, kannst du damit viel präziser ausdrücken, was du meinst. Algebra ist die Basis für fast alles, was in der Mathematik noch kommt."
+      },
+      "ligninger": {
+        "p1": "Eine Gleichung sagt, dass zwei Seiten den gleichen Wert haben: 3x + 2 = 14. Dein Ziel ist es, herauszufinden, welchen Wert x hat. Das machst du, indem du die Gleichung Schritt für Schritt umformst — auf beiden Seiten das Gleiche tust — bis x allein auf einer Seite steht.",
+        "p2": "Gleichungen begegnen dir überall: Wie viele Stunden musst du arbeiten, um dir etwas Bestimmtes leisten zu können? Wie viel Material brauchst du? Immer wenn du eine unbekannte Größe aus bekannten Zusammenhängen bestimmen willst, löst du im Grunde eine Gleichung."
+      },
+      "ligningssystemer": {
+        "p1": "Ein Gleichungssystem besteht aus mehreren Gleichungen mit mehreren Unbekannten. Zum Beispiel: x + y = 10 und x - y = 2. Du suchst die Werte für x und y, die beide Gleichungen gleichzeitig erfüllen. Hier wäre die Lösung x = 6 und y = 4.",
+        "p2": "Du lernst verschiedene Lösungsmethoden: Einsetzungsverfahren, Gleichsetzungsverfahren und Additionsverfahren. Gleichungssysteme sind wichtig, weil viele Probleme in der Praxis mehr als eine Unbekannte haben — zum Beispiel bei der Mischungsrechnung oder in der Physik."
+      },
+      "parentesregler-og-faktorisering": {
+        "p1": "Klammern geben Struktur: Du lernst, Klammern aufzulösen (Ausmultiplizieren) und umgekehrt gemeinsame Faktoren herauszuziehen (Faktorisieren). Zum Beispiel ist 3(x + 2) = 3x + 6, und 3x + 6 = 3(x + 2). Das sind zwei Seiten derselben Medaille.",
+        "p2": "Besonders wichtig sind die binomischen Formeln: (a + b)², (a - b)² und (a + b)(a - b). Sie tauchen so oft auf, dass es sich lohnt, sie auswendig zu kennen. Klammerregeln und Faktorisierung sind grundlegende Werkzeuge, die du in der Algebra, bei Gleichungen und später in der Analysis ständig brauchst."
+      },
+      "andengradsligninger": {
+        "p1": "Quadratische Gleichungen enthalten x² als höchste Potenz, zum Beispiel x² - 5x + 6 = 0. Anders als lineare Gleichungen können sie zwei, eine oder gar keine Lösung haben. Die Lösungsformel (abc-Formel oder pq-Formel) liefert dir die Antworten direkt.",
+        "p2": "Quadratische Gleichungen tauchen überall auf: bei Wurfbahnen, Flächenberechnungen und in der Physik. Ob ein Ball den Korb trifft, kann von der Lösung einer quadratischen Gleichung abhängen. Du lernst auch, sie durch Faktorisieren oder quadratische Ergänzung zu lösen."
+      },
+      "polynomier": {
+        "p1": "Ein Polynom ist ein Ausdruck wie 2x³ - 5x² + 3x - 1, also eine Summe von Potenzen von x mit verschiedenen Koeffizienten. Du kennst bereits lineare Ausdrücke (Grad 1) und quadratische (Grad 2) — Polynome verallgemeinern das auf jeden Grad.",
+        "p2": "Du lernst, Polynome zu addieren, zu multiplizieren, zu dividieren und in Faktoren zu zerlegen. Nullstellen finden, Polynomdivision und der Zusammenhang zwischen Nullstellen und Faktoren sind wichtige Themen. Polynome bilden die Grundlage für viele Funktionstypen, die du in der Oberstufe untersuchst."
+      },
+      "broekregning-med-algebra": {
+        "p1": "Algebraische Brüche sind Brüche, in denen Variablen vorkommen, zum Beispiel (x + 1)/(x - 2). Du rechnest mit ihnen im Prinzip wie mit normalen Brüchen — kürzen, erweitern, addieren, multiplizieren — aber du musst dabei auf die Variablen achten.",
+        "p2": "Besonders wichtig ist es, den Definitionsbereich zu bestimmen: Für welche Werte von x wird der Nenner null? Diese Werte sind nicht erlaubt. Algebraische Brüche begegnen dir häufig in der Analysis und in physikalischen Formeln — ein sicherer Umgang mit ihnen ist deshalb sehr wichtig."
+      },
+      "logaritmer": {
+        "p1": "Der Logarithmus ist die Umkehrung des Potenzierens. Wenn 2³ = 8, dann ist log₂(8) = 3. Er beantwortet die Frage: „Mit welchem Exponenten muss ich die Basis potenzieren, um diese Zahl zu bekommen?“ Das klingt abstrakt, ist aber ein äußerst nützliches Werkzeug.",
+        "p2": "Logarithmen verwandeln Multiplikation in Addition und Potenzen in Multiplikation. Dadurch werden sie unverzichtbar, wenn du Exponentialgleichungen lösen willst. Sie spielen eine zentrale Rolle in der Finanzmathematik, der Physik und überall dort, wo exponentielles Wachstum vorkommt."
+      },
+      "komplekse-tal": {
+        "p1": "Komplexe Zahlen erweitern die reellen Zahlen um die imaginäre Einheit i, wobei i² = -1. Damit kann plötzlich auch die Gleichung x² = -1 gelöst werden — etwas, das mit reellen Zahlen unmöglich ist. Eine komplexe Zahl hat die Form a + bi, mit einem Realteil a und einem Imaginärteil b.",
+        "p2": "Komplexe Zahlen lassen sich als Punkte in einer Ebene darstellen und haben faszinierende geometrische Eigenschaften. Multiplikation mit einer komplexen Zahl entspricht einer Drehung und Streckung. In der Elektrotechnik, Physik und höheren Mathematik sind sie unverzichtbar."
+      },
+      "grundlaeggende-funktionslaere": {
+        "p1": "Eine Funktion ist eine Regel, die jedem Eingabewert genau einen Ausgabewert zuordnet. Stell dir eine Maschine vor: du gibst eine Zahl hinein, und es kommt genau eine Zahl heraus. Wenn die Regel „mit 2 multiplizieren“ lautet, wird aus 3 die Zahl 6 und aus 5 die Zahl 10.",
+        "p2": "Du lernst, Funktionen als Gleichung (y = 2x + 1), als Tabelle und als Graph darzustellen. Du verstehst Begriffe wie Definitionsbereich, Wertebereich und Funktionswert. Funktionen sind das zentrale Werkzeug, um Zusammenhänge in der Mathematik, Physik und im Alltag zu beschreiben."
+      },
+      "lineaere-funktioner": {
+        "p1": "Lineare Funktionen haben die Form f(x) = mx + b. Ihr Graph ist eine gerade Linie. Die Zahl m ist die Steigung — sie sagt dir, wie steil die Linie verläuft. Die Zahl b ist der y-Achsenabschnitt — dort schneidet die Linie die y-Achse.",
+        "p2": "Lineare Zusammenhänge begegnen dir überall: Ein Taxifahrer berechnet einen Grundpreis plus einen Betrag pro Kilometer. Dein Handyvertrag kostet eine Grundgebühr plus Kosten pro Minute. Immer wenn etwas gleichmäßig wächst oder fällt, steckt eine lineare Funktion dahinter."
+      },
+      "andengradsfunktioner-parabler": {
+        "p1": "Quadratische Funktionen haben die Form f(x) = ax² + bx + c. Ihr Graph ist eine Parabel — eine U-förmige Kurve, die entweder nach oben oder nach unten geöffnet ist. Der höchste oder tiefste Punkt heißt Scheitel, und die Nullstellen sind die Punkte, an denen die Parabel die x-Achse schneidet.",
+        "p2": "Quadratische Funktionen beschreiben viele Phänomene: die Flugbahn eines Balls, die Form eines Brückenbogens oder den Zusammenhang zwischen Preis und Gewinn. Du lernst die Scheitelpunktform kennen, berechnest Nullstellen und analysierst, wie sich die Parabel verhält."
+      },
+      "potensfunktioner": {
+        "p1": "Potenzfunktionen haben die Form f(x) = x^a, wobei a eine beliebige reelle Zahl sein kann. Du kennst schon Spezialfälle: f(x) = x (eine Gerade), f(x) = x² (eine Parabel) und f(x) = 1/x (eine Hyperbel). Der Exponent a bestimmt, wie sich die Funktion verhält.",
+        "p2": "Potenzfunktionen modellieren viele Zusammenhänge in der Natur: Die Fläche eines Kreises wächst quadratisch mit dem Radius, das Volumen einer Kugel wächst mit der dritten Potenz. Im doppelt-logarithmischen Koordinatensystem erscheinen Potenzfunktionen als Geraden — das ist ein wichtiges Erkennungsmerkmal."
+      },
+      "eksponentialfunktioner": {
+        "p1": "Exponentialfunktionen haben die Form f(x) = b · a^x. Das Besondere: Die Variable x steht im Exponenten. Dadurch wachsen oder schrumpfen diese Funktionen extrem schnell. Verdopplung, Verdreifachung, explosionsartiges Wachstum — das ist die Welt der Exponentialfunktionen.",
+        "p2": "Du begegnest ihnen überall: Bevölkerungswachstum, Zinseszins, radioaktiver Zerfall und die Ausbreitung von Krankheiten folgen alle exponentiellen Mustern. Du lernst, die Verdopplungszeit und die Halbwertszeit zu berechnen und Exponentialfunktionen an Daten anzupassen."
+      },
+      "logaritmefunktioner": {
+        "p1": "Die Logarithmusfunktion f(x) = log_a(x) ist die Umkehrfunktion der Exponentialfunktion. Wenn die Exponentialfunktion schnell wächst, wächst die Logarithmusfunktion sehr langsam. Ihr Graph steigt steil an und wird dann immer flacher, ohne je aufzuhören zu wachsen.",
+        "p2": "Logarithmusfunktionen helfen dir, exponentielles Wachstum zu verstehen und zu handhaben. Sie beantworten Fragen wie: „Nach wie vielen Jahren hat sich mein Kapital verdoppelt?“ Auch die Dezibel-Skala für Lautstärke und die Richter-Skala für Erdbeben beruhen auf Logarithmen."
+      },
+      "trigonometriske-funktioner": {
+        "p1": "Die trigonometrischen Funktionen Sinus, Kosinus und Tangens beschreiben periodische Vorgänge — Dinge, die sich regelmäßig wiederholen. Ihr Graph ist eine Wellenlinie, die immer wieder auf und ab schwingt. Frequenz, Amplitude und Phase sind die zentralen Eigenschaften.",
+        "p2": "Schwingungen und Wellen sind überall: Schall, Licht, Wechselstrom, die Gezeiten, der Herzschlag. All das lässt sich mit Sinus- und Kosinusfunktionen beschreiben. In der Oberstufe lernst du, diese Funktionen zu analysieren, zu verschieben und miteinander zu kombinieren."
+      },
+      "funktioners-egenskaber": {
+        "p1": "Jede Funktion hat bestimmte Eigenschaften, die ihr Verhalten beschreiben: Wo ist sie definiert? Wo hat sie Nullstellen? Wo wächst sie, wo fällt sie? Hat sie Symmetrien? Gibt es Grenzwerte oder Asymptoten? Diese Fragen systematisch zu beantworten ist die Grundlage der Funktionsanalyse.",
+        "p2": "Du lernst Begriffe wie Monotonie, Beschränktheit, Stetigkeit und Symmetrie. Gerade Funktionen (wie x²) sind symmetrisch zur y-Achse, ungerade Funktionen (wie x³) sind punktsymmetrisch zum Ursprung. Diese Eigenschaften helfen dir, Funktionen zu verstehen und ihre Graphen zu skizzieren."
+      },
+      "transformationer-af-funktioner": {
+        "p1": "Du kannst den Graphen einer Funktion verschieben, strecken, stauchen und spiegeln, ohne die Grundform zu verändern. Aus f(x) wird f(x - 3) (3 Einheiten nach rechts verschoben) oder 2·f(x) (in y-Richtung gestreckt). Diese Transformationen folgen klaren Regeln.",
+        "p2": "Wenn du Transformationen verstehst, musst du nicht jede Funktion einzeln analysieren. Du kennst die Grundfunktionen (Parabel, Exponentialfunktion, Sinusfunktion) und kannst vorhersagen, wie ihr Graph aussieht, wenn du Parameter änderst. Das spart enorm viel Arbeit."
+      },
+      "grundlaeggende-figurer-og-begreber": {
+        "p1": "Punkte, Linien, Strecken, Strahlen und Winkel — das sind die Grundbausteine der Geometrie. Aus ihnen setzt sich alles zusammen, was du in der Geometrie untersuchst. Du lernst, was parallel und senkrecht bedeutet, wie man Winkel misst und welche Winkelarten es gibt.",
+        "p2": "Diese Grundbegriffe sind wie das Alphabet der Geometrie: Du brauchst sie, um über Figuren sprechen zu können. Wenn du weißt, was ein rechter Winkel, eine Mittelsenkrechte oder eine Symmetrieachse ist, kannst du Figuren präzise beschreiben und geometrische Aufgaben systematisch lösen."
+      },
+      "trekanter": {
+        "p1": "Das Dreieck ist die einfachste Figur mit einer Fläche. Es hat drei Seiten und drei Winkel, die zusammen immer 180° ergeben. Du lernst verschiedene Dreieckstypen kennen: gleichseitig, gleichschenklig, rechtwinklig — jeder Typ hat besondere Eigenschaften.",
+        "p2": "Dreiecke sind die wichtigste Figur der Geometrie. Du berechnest Umfang, Flächeninhalt und Höhen und entdeckst besondere Linien wie Seitenhalbierende und Winkelhalbierende. Später kommen der Satz des Pythagoras und die Trigonometrie hinzu. Dreiecke sind auch die Grundlage von Computergrafik und Ingenieurwesen."
+      },
+      "firkanter": {
+        "p1": "Vierecke haben vier Seiten und vier Winkel. Aber Viereck ist nicht gleich Viereck: Es gibt Quadrate, Rechtecke, Parallelogramme, Rauten und Trapeze. Jeder Typ hat besondere Eigenschaften — zum Beispiel hat ein Rechteck vier rechte Winkel und ein Parallelogramm parallele Gegenseiten.",
+        "p2": "Du lernst, Vierecke zu erkennen, ihre Fläche und ihren Umfang zu berechnen und die Beziehungen zwischen den verschiedenen Typen zu verstehen. Ein Quadrat ist zum Beispiel gleichzeitig ein Rechteck, ein Parallelogramm und eine Raute. Dieses Ordnen und Klassifizieren trainiert dein logisches Denken."
+      },
+      "cirkler": {
+        "p1": "Ein Kreis ist die Menge aller Punkte, die denselben Abstand von einem Mittelpunkt haben. Dieser Abstand ist der Radius. Mit den Formeln U = 2πr für den Umfang und A = πr² für die Fläche kannst du alles berechnen, was du über einen Kreis wissen musst.",
+        "p2": "Die Kreiszahl π ≈ 3,14159... ist eine der berühmtesten Zahlen der Mathematik. Du begegnest Kreisen überall: Räder, Uhren, Pizzen, Planeten. Später lernst du Kreisbogen, Kreissektoren und die Kreisgleichung in der Koordinatengeometrie kennen."
+      },
+      "polygoner": {
+        "p1": "Polygone (Vielecke) sind geschlossene Figuren mit drei oder mehr geraden Seiten: Dreiecke, Vierecke, Fünfecke, Sechsecke und so weiter. Regelmäßige Polygone haben alle Seiten gleich lang und alle Winkel gleich groß — wie ein Stoppschild (Achteck) oder eine Bienenwabe (Sechseck).",
+        "p2": "Du lernst, die Winkelsumme zu berechnen (sie steigt um 180° mit jeder zusätzlichen Seite), Flächen zu bestimmen und Polygone in Dreiecke zu zerlegen. Polygone verbinden die einfache Geometrie der Dreiecke und Vierecke mit komplexeren Formen und sind die Grundlage für viele Anwendungen."
+      },
+      "rumgeometri-stereometri": {
+        "p1": "Raumgeometrie befasst sich mit dreidimensionalen Körpern: Quader, Zylinder, Kegel, Kugeln und Pyramiden. Du lernst, ihre Oberfläche und ihr Volumen zu berechnen. Wie viel Wasser passt in einen zylindrischen Tank? Wie viel Papier braucht man, um eine Schachtel zu umwickeln?",
+        "p2": "Der Schritt von der Fläche in den Raum erfordert räumliches Vorstellungsvermögen. Du lernst Netze zu zeichnen (die „abgerollte“ Oberfläche), Schnittflächen zu bestimmen und Körper zu kombinieren. Raumgeometrie ist die Grundlage für Architektur, Verpackungsdesign und 3D-Druck."
+      },
+      "koordinatgeometri": {
+        "p1": "In der Koordinatengeometrie beschreibst du Figuren mit Zahlen. Jeder Punkt hat Koordinaten (x, y), eine Gerade hat eine Gleichung wie y = 2x + 1, und ein Kreis wird zu x² + y² = r². Geometrie und Algebra verbinden sich zu einem mächtigen Werkzeug.",
+        "p2": "Du lernst, Abstände und Mittelpunkte zu berechnen, Geraden auf Parallelität und Orthogonalität zu prüfen und Schnittpunkte zu finden. Koordinatengeometrie macht die Geometrie berechenbar: Was du früher mit Zirkel und Lineal konstruiert hast, löst du jetzt mit Gleichungen."
+      },
+      "geometriske-transformationer": {
+        "p1": "Geometrische Transformationen verändern die Lage oder Größe von Figuren: Verschiebungen (Translation), Drehungen (Rotation), Spiegelungen (Reflexion) und Vergrößerungen (Skalierung). Dabei bleibt die Form erhalten — nur Position, Orientierung oder Größe ändern sich.",
+        "p2": "Du lernst, Transformationen präzise zu beschreiben und durchzuführen. Ähnlichkeit und Kongruenz sind eng mit Transformationen verbunden: Zwei Figuren sind kongruent, wenn du die eine durch Verschieben, Drehen und Spiegeln in die andere überführen kannst. In der Computergrafik und im Design sind Transformationen alltäglich."
+      },
+      "retvinklet-trigonometri": {
+        "p1": "Im rechtwinkligen Dreieck definieren Sinus, Kosinus und Tangens das Verhältnis zwischen zwei Seiten, bezogen auf einen spitzen Winkel. Sinus = Gegenkathete/Hypotenuse, Kosinus = Ankathete/Hypotenuse, Tangens = Gegenkathete/Ankathete. Mit diesen drei Verhältnissen kannst du unbekannte Seiten und Winkel berechnen.",
+        "p2": "Zusammen mit dem Satz des Pythagoras (a² + b² = c²) bildet die rechtwinklige Trigonometrie ein mächtiges Werkzeugset. Wie hoch ist der Baum, wenn du seinen Schatten und den Winkel der Sonne kennst? Wie weit ist das Schiff vom Leuchtturm entfernt? Solche Fragen löst du damit."
+      },
+      "enhedscirklen": {
+        "p1": "Der Einheitskreis ist ein Kreis mit Radius 1 um den Ursprung. Jeder Punkt auf dem Kreis hat die Koordinaten (cos α, sin α), wobei α der Winkel zur positiven x-Achse ist. Damit werden Sinus und Kosinus für alle Winkel definiert — nicht nur für spitze Winkel in Dreiecken.",
+        "p2": "Der Einheitskreis zeigt dir auf einen Blick, wann Sinus und Kosinus positiv oder negativ sind, wo sie null werden und wie sie zusammenhängen (sin² + cos² = 1). Er ist das zentrale Werkzeug, um die Trigonometrie vom Dreieck auf beliebige Winkel zu erweitern."
+      },
+      "trigonometriske-identiteter": {
+        "p1": "Trigonometrische Identitäten sind Gleichungen, die für alle Winkel gelten: sin²(x) + cos²(x) = 1 ist die bekannteste. Dazu kommen Additionstheoreme, Doppelwinkelformeln und viele weitere. Sie ermöglichen es, komplizierte trigonometrische Ausdrücke zu vereinfachen.",
+        "p2": "Diese Formeln auswendig zu lernen ist eine Sache — zu verstehen, warum sie stimmen und wann man sie anwendet, eine andere. Trigonometrische Identitäten brauchst du beim Lösen von Gleichungen, beim Integrieren und in der Physik. Sie sind das Handwerkszeug der fortgeschrittenen Trigonometrie."
+      },
+      "vilkaarlige-trekanter": {
+        "p1": "Nicht jedes Dreieck hat einen rechten Winkel. Für allgemeine Dreiecke brauchst du den Sinussatz und den Kosinussatz. Der Sinussatz setzt Seiten und gegenüberliegende Winkel ins Verhältnis. Der Kosinussatz verallgemeinert den Satz des Pythagoras für beliebige Dreiecke.",
+        "p2": "Mit diesen beiden Sätzen kannst du jedes Dreieck vollständig berechnen, wenn du genug Informationen hast (zum Beispiel drei Seiten oder zwei Seiten und den eingeschlossenen Winkel). Das ist in der Vermessung, Navigation und Technik unverzichtbar."
+      },
+      "trigonometriske-ligninger": {
+        "p1": "Trigonometrische Gleichungen enthalten Sinus, Kosinus oder Tangens der Unbekannten, zum Beispiel sin(x) = 0,5 oder 2cos²(x) - 1 = 0. Das Besondere: Weil die trigonometrischen Funktionen periodisch sind, gibt es in der Regel unendlich viele Lösungen.",
+        "p2": "Du lernst, alle Lösungen systematisch zu finden und mit der Periode der Funktionen zu arbeiten. Dazu nutzt du den Einheitskreis, Identitäten und algebraische Umformungen. Trigonometrische Gleichungen sind ein wichtiger Teil der Oberstufenmathematik und kommen in Physik und Technik häufig vor."
+      },
+      "vektorer-i-planen": {
+        "p1": "Ein Vektor in der Ebene ist ein Pfeil mit Richtung und Länge, dargestellt als Zahlenpaar (x, y). Du kannst Vektoren addieren, subtrahieren und mit Zahlen multiplizieren. Geometrisch bedeutet das: Verschiebungen verketten, Richtungen ändern, Strecken verlängern oder verkürzen.",
+        "p2": "Das Skalarprodukt zweier Vektoren gibt dir ein Werkzeug, um Winkel zu berechnen und Orthogonalität zu prüfen. Wenn das Skalarprodukt null ist, stehen die Vektoren senkrecht aufeinander. Vektoren in der Ebene sind der Einstieg in die lineare Algebra und haben Anwendungen in Physik, Navigation und Computergrafik."
+      },
+      "vektorer-i-rummet": {
+        "p1": "Vektoren im Raum erweitern die Idee auf drei Dimensionen: Statt (x, y) hast du jetzt (x, y, z). Damit kannst du Positionen, Richtungen und Bewegungen im dreidimensionalen Raum beschreiben. Addition, Skalarmultiplikation und Skalarprodukt funktionieren genauso wie in der Ebene.",
+        "p2": "Zusätzlich lernst du das Kreuzprodukt kennen, das dir einen Vektor liefert, der senkrecht auf zwei gegebenen Vektoren steht. Es wird verwendet, um Flächeninhalte und Normalenvektoren zu berechnen. Vektoren im Raum sind die Grundlage für die analytische Geometrie in drei Dimensionen."
+      },
+      "linjer-og-planer-i-rummet": {
+        "p1": "Mit Vektoren kannst du Geraden und Ebenen im Raum beschreiben. Eine Gerade wird durch einen Punkt und einen Richtungsvektor festgelegt, eine Ebene durch einen Punkt und zwei Richtungsvektoren (oder einen Normalenvektor). So wird räumliche Geometrie berechenbar.",
+        "p2": "Du lernst, Schnittpunkte zu finden, Abstände zu berechnen und Lagebeziehungen zu bestimmen: Sind zwei Geraden parallel, schneiden sie sich, oder sind sie windschief? Liegt ein Punkt in einer Ebene? Dieses Thema verbindet Geometrie, Algebra und räumliches Denken."
+      },
+      "matricer": {
+        "p1": "Eine Matrix ist ein rechteckiges Zahlenschema, zum Beispiel eine 2×3-Tabelle mit Zahlen. Matrizen können addiert und multipliziert werden und beschreiben lineare Abbildungen, Gleichungssysteme und Transformationen. Sie sind ein zentrales Werkzeug der linearen Algebra.",
+        "p2": "Du lernst Matrizenmultiplikation, Determinanten und inverse Matrizen kennen. Mit Matrizen löst du Gleichungssysteme systematisch (Gauß-Verfahren) und beschreibst Drehungen, Spiegelungen und Skalierungen. In der Informatik, Physik und Wirtschaft sind Matrizen allgegenwärtig."
+      },
+      "graensevaerdier": {
+        "p1": "Der Grenzwert beschreibt, welchem Wert sich eine Funktion oder Folge annähert, wenn die Variable immer näher an einen bestimmten Punkt rückt. Zum Beispiel nähert sich 1/n immer mehr der Null, wenn n immer größer wird — auch wenn 1/n die Null nie ganz erreicht.",
+        "p2": "Grenzwerte sind das Fundament der Analysis: Sowohl die Ableitung als auch das Integral werden über Grenzwerte definiert. Du lernst, Grenzwerte zu berechnen, die Grenzwertsätze anzuwenden und zu erkennen, ob eine Folge oder Funktion konvergiert oder divergiert."
+      },
+      "differentialkvotienten": {
+        "p1": "Der Differentialquotient ist der Grenzwert des Differenzenquotienten. Er beschreibt die momentane Änderungsrate einer Funktion in einem Punkt — also die Steigung der Tangente an den Graphen. Anschaulich: Wie schnell ändert sich die Funktion genau in diesem Augenblick?",
+        "p2": "Vom Differenzenquotienten (durchschnittliche Änderungsrate über ein Intervall) zum Differentialquotienten (momentane Änderungsrate in einem Punkt) — das ist der entscheidende Schritt der Differentialrechnung. Wenn du diesen Grenzübergang verstehst, hast du die zentrale Idee der Analysis erfasst."
+      },
+      "regneregler-for-differentiering": {
+        "p1": "Zum Glück musst du nicht jedes Mal den Grenzwert berechnen: Die Ableitungsregeln geben dir Rezepte. Die Potenzregel, Faktorregel, Summenregel, Produktregel, Quotientenregel und Kettenregel decken zusammen fast alle Funktionen ab, die dir in der Oberstufe begegnen.",
+        "p2": "Jede Regel hat ihren Zweck: Die Kettenregel hilft bei verschachtelten Funktionen, die Produktregel bei Produkten. Wenn du diese Regeln sicher beherrschst, kannst du Ableitungen schnell und fehlerfrei bestimmen. Das ist eine der wichtigsten technischen Fähigkeiten in der Oberstufenmathematik."
+      },
+      "afledede-af-standardfunktioner": {
+        "p1": "Jede Standardfunktion hat eine bestimmte Ableitung: Die Ableitung von x^n ist n·x^(n-1), die Ableitung von e^x ist wieder e^x, die Ableitung von sin(x) ist cos(x). Diese Ableitungen sind das Grundwissen, das du für die Differentialrechnung brauchst.",
+        "p2": "Du lernst die Ableitungen von Potenzfunktionen, Exponentialfunktionen, Logarithmusfunktionen und trigonometrischen Funktionen. Zusammen mit den Ableitungsregeln kannst du damit jede zusammengesetzte Funktion ableiten. Es lohnt sich, diese Standardableitungen gut zu kennen, weil sie ständig vorkommen."
+      },
+      "funktionsanalyse": {
+        "p1": "Kurvendiskussion ist die systematische Untersuchung einer Funktion: Nullstellen, Extrempunkte (Hoch- und Tiefpunkte), Wendepunkte, Monotonie, Krümmung und Verhalten für sehr große oder sehr kleine x. All das ergibt ein vollständiges Bild der Funktion.",
+        "p2": "Die Ableitung ist dabei dein wichtigstes Werkzeug: f'(x) = 0 liefert mögliche Extremstellen, f''(x) = 0 liefert mögliche Wendepunkte. Kurvendiskussion trainiert dein analytisches Denken und zeigt dir, wie mächtig die Werkzeuge der Differentialrechnung wirklich sind."
+      },
+      "optimering": {
+        "p1": "Optimierung bedeutet, den besten Wert zu finden: den maximalen Gewinn, die minimalen Kosten, die größte Fläche bei gegebenem Umfang. Du stellst eine Funktion auf, die die zu optimierende Größe beschreibt, und findest ihr Maximum oder Minimum mit der Ableitung.",
+        "p2": "Die Vorgehensweise ist immer ähnlich: Zielfunktion aufstellen, Nebenbedingungen einsetzen, ableiten, null setzen, prüfen. Optimierungsaufgaben verbinden Mathematik direkt mit der Praxis — sie zeigen, warum die Differentialrechnung eines der nützlichsten Werkzeuge der Mathematik ist."
+      },
+      "differentialer-og-tilnaermelser": {
+        "p1": "Differentiale und Näherungen nutzen die Ableitung, um Funktionswerte abzuschätzen, ohne sie exakt zu berechnen. Die Idee: In der Nähe eines bekannten Punktes verhält sich die Funktion fast wie ihre Tangente. Das ergibt die lineare Approximation f(x₀ + h) ≈ f(x₀) + f'(x₀)·h.",
+        "p2": "Diese Näherung ist erstaunlich nützlich: √(101) lässt sich damit schnell und ohne Taschenrechner abschätzen. Auch Fehlerabschätzungen in Technik und Naturwissenschaft beruhen auf diesem Prinzip. Das Differential ist die mathematische Grundlage dafür."
+      },
+      "ubestemt-integral-stamfunktion": {
+        "p1": "Das unbestimmte Integral (die Stammfunktion) ist die Umkehrung der Ableitung. Wenn die Ableitung von F(x) gleich f(x) ist, dann ist F(x) eine Stammfunktion von f(x). Zum Beispiel ist x³/3 eine Stammfunktion von x², weil die Ableitung von x³/3 genau x² ergibt.",
+        "p2": "Du lernst die Grundintegrale kennen und wendest sie an. Wichtig ist die Integrationskonstante C: Weil die Ableitung einer Konstanten null ist, gibt es zu jeder Funktion unendlich viele Stammfunktionen, die sich nur um eine Konstante unterscheiden."
+      },
+      "bestemt-integral": {
+        "p1": "Das bestimmte Integral ∫_a^b f(x) dx berechnet die Fläche zwischen dem Graphen einer Funktion und der x-Achse im Intervall von a bis b. Der Hauptsatz der Differential- und Integralrechnung sagt: Du berechnest einfach F(b) - F(a), wobei F eine Stammfunktion ist.",
+        "p2": "Die Fläche unter einer Kurve klingt abstrakt, hat aber konkrete Bedeutung: Die Fläche unter einer Geschwindigkeitskurve ist die zurückgelegte Strecke. Die Fläche unter einer Leistungskurve ist die verbrauchte Energie. Bestimmte Integrale übersetzen Graphen in Zahlen."
+      },
+      "integrationsmetoder": {
+        "p1": "Nicht jede Funktion lässt sich direkt integrieren. Integrationsmethoden wie Substitution und partielle Integration geben dir Techniken, um auch kompliziertere Integrale zu lösen. Substitution ändert die Variable, partielle Integration kehrt die Produktregel um.",
+        "p2": "Integrieren erfordert oft mehr Kreativität als Ableiten: Es gibt keine einfache Schritt-für-Schritt-Regel, die immer funktioniert. Stattdessen lernst du, die richtige Methode zu erkennen und geschickt einzusetzen. Das ist eine Fähigkeit, die mit Übung wächst."
+      },
+      "anvendelser-af-integration": {
+        "p1": "Integration hat zahlreiche Anwendungen jenseits der reinen Flächenberechnung: Du kannst Volumina von Rotationskörpern berechnen, Bogenlängen bestimmen, Mittelwerte von Funktionen finden und Flächen zwischen zwei Kurven berechnen.",
+        "p2": "In der Physik berechnet man mit Integralen Arbeit, Energie und Schwerpunkte. In der Wirtschaft bestimmt man Konsumenten- und Produzentenrente. Anwendungen der Integration zeigen dir, wie ein mathematisches Werkzeug in vielen verschiedenen Bereichen eingesetzt wird."
+      },
+      "differentialligninger-introduktion": {
+        "p1": "Eine Differentialgleichung ist eine Gleichung, in der eine unbekannte Funktion und ihre Ableitung vorkommen. Zum Beispiel: y' = 2y bedeutet, dass die Änderungsrate einer Größe proportional zu ihrem aktuellen Wert ist. Die Lösung ist eine Exponentialfunktion.",
+        "p2": "Differentialgleichungen beschreiben, wie sich Dinge verändern: Bevölkerungswachstum, Abkühlung, Schwingungen, radioaktiver Zerfall. Du lernst einfache Typen wie separable und lineare Differentialgleichungen zu lösen. Es ist der Punkt, an dem Ableitung und Integral zusammenkommen."
+      },
+      "deskriptiv-statistik": {
+        "p1": "Beschreibende Statistik hilft dir, Daten zu ordnen und zusammenzufassen. Du lernst Lagemaße wie Mittelwert, Median und Modus sowie Streuungsmaße wie Spannweite und Standardabweichung. Damit kannst du eine Datenmenge mit wenigen Zahlen charakterisieren.",
+        "p2": "Ebenso wichtig ist die Darstellung: Säulen- und Kreisdiagramme, Histogramme, Boxplots und Streudiagramme machen Daten anschaulich. Beschreibende Statistik ist die Grundlage für alles Weitere und begegnet dir von der Grundschule bis zur Universität."
+      },
+      "kombinatorik": {
+        "p1": "Kombinatorik ist die Kunst des Zählens. Wie viele Möglichkeiten gibt es, 3 Schüler aus einer Klasse von 25 auszuwählen? Wie viele verschiedene Passwörter kann man aus 4 Ziffern bilden? Statt alle Möglichkeiten einzeln aufzuzählen, lernst du clevere Formeln.",
+        "p2": "Die wichtigsten Konzepte sind Permutationen (Anordnungen), Kombinationen (Auswahlen) und das Zählprinzip. Kombinatorik ist die Grundlage der Wahrscheinlichkeitsrechnung — denn um eine Wahrscheinlichkeit zu berechnen, musst du oft zählen, wie viele günstige und wie viele mögliche Fälle es gibt."
+      },
+      "sandsynlighedsregning": {
+        "p1": "Wahrscheinlichkeitsrechnung beantwortet die Frage: Wie wahrscheinlich ist es, dass etwas passiert? Die Wahrscheinlichkeit liegt zwischen 0 (unmöglich) und 1 (sicher). Ein fairer Würfel zeigt jede Zahl mit Wahrscheinlichkeit 1/6. Du lernst, mit Baumdiagrammen, Vierfeldertafeln und Formeln zu arbeiten.",
+        "p2": "Wichtige Konzepte sind unabhängige und abhängige Ereignisse, bedingte Wahrscheinlichkeit und der Satz von Bayes. Wahrscheinlichkeitsrechnung hilft dir, Risiken einzuschätzen und Entscheidungen unter Unsicherheit zu treffen — eine Fähigkeit, die im Alltag und in vielen Berufen wichtig ist."
+      },
+      "diskrete-sandsynlighedsfordelinger": {
+        "p1": "Eine diskrete Wahrscheinlichkeitsverteilung ordnet jedem möglichen Ergebnis eine Wahrscheinlichkeit zu. Die Binomialverteilung beschreibt zum Beispiel, wie oft ein Ereignis bei einer festen Anzahl von Versuchen eintritt: Wie oft fällt Kopf bei 10 Münzwürfen?",
+        "p2": "Du lernst Erwartungswert und Varianz kennen — sie beschreiben, was du im Durchschnitt erwarten kannst und wie stark die Ergebnisse streuen. Die Binomialverteilung und die hypergeometrische Verteilung sind die wichtigsten diskreten Verteilungen in der Oberstufe."
+      },
+      "kontinuerte-sandsynlighedsfordelinger": {
+        "p1": "Stetige Wahrscheinlichkeitsverteilungen beschreiben Größen, die jeden beliebigen Wert in einem Intervall annehmen können, wie Körpergröße oder Temperatur. Die Wahrscheinlichkeit wird hier über Flächen unter einer Dichtefunktion berechnet — ein bestimmtes Integral.",
+        "p2": "Die Normalverteilung (Gauß-Verteilung) mit ihrer berühmten Glockenkurve ist die wichtigste stetige Verteilung. Sie beschreibt viele natürliche Phänomene und ist die Grundlage der Statistik. Du lernst, mit der Standardnormalverteilung und Tabellen zu arbeiten."
+      },
+      "statistisk-inferens": {
+        "p1": "Statistische Inferenz zieht Schlüsse von einer Stichprobe auf die Gesamtheit. Wenn du 100 Personen befragst und 60% Ja sagen, gilt das dann für die gesamte Bevölkerung? Konfidenzintervalle und Hypothesentests geben dir mathematische Werkzeuge, um solche Fragen präzise zu beantworten.",
+        "p2": "Du lernst, Signifikanzniveaus zu wählen, p-Werte zu interpretieren und zwischen Fehler 1. und 2. Art zu unterscheiden. Statistische Inferenz ist das Herzstück der modernen Datenanalyse und wird in Medizin, Psychologie, Wirtschaft und Naturwissenschaften täglich eingesetzt."
+      },
+      "foelger": {
+        "p1": "Eine Folge ist eine geordnete Liste von Zahlen, die einem Muster folgt: 2, 4, 6, 8, ... oder 1, 4, 9, 16, ... Du beschreibst eine Folge mit einer Formel, die das n-te Glied direkt berechnet, oder mit einer Rekursionsformel, die jedes Glied aus dem vorherigen bestimmt.",
+        "p2": "Arithmetische Folgen wachsen um einen festen Betrag (wie 2, 5, 8, 11, ...), geometrische Folgen werden mit einem festen Faktor multipliziert (wie 3, 6, 12, 24, ...). Du untersuchst, ob Folgen konvergieren oder divergieren, und berechnest Grenzwerte. Folgen sind die Basis für Reihen und die Analysis."
+      },
+      "raekker": {
+        "p1": "Eine Reihe entsteht, wenn du die Glieder einer Folge aufsummierst: 1 + 2 + 3 + ... oder 1 + 1/2 + 1/4 + 1/8 + ... Die zentrale Frage ist: Hat die Summe einen endlichen Wert, auch wenn unendlich viele Glieder addiert werden? Wenn ja, konvergiert die Reihe.",
+        "p2": "Die geometrische Reihe 1 + r + r² + r³ + ... konvergiert für |r| < 1 und hat die Summe 1/(1-r). Reihen sind grundlegend für die Analysis: Taylor-Reihen können Funktionen als unendliche Summen darstellen und sind die Basis vieler Berechnungen in Naturwissenschaft und Technik."
+      },
+      "binomialformlen": {
+        "p1": "Die Binomialformel (der binomische Lehrsatz) beschreibt, wie man (a + b)^n für beliebige natürliche Zahlen n ausmultipliziert. Die Koeffizienten sind die Binomialkoeffizienten, die du im Pascalschen Dreieck findest. Für n = 2 kennst du das schon als binomische Formeln.",
+        "p2": "Die Formel lautet: (a + b)^n = ∑ C(n,k) · a^(n-k) · b^k. Binomialkoeffizienten tauchen auch in der Kombinatorik und der Wahrscheinlichkeitsrechnung auf. Der binomische Lehrsatz verbindet Algebra, Kombinatorik und Analysis auf elegante Weise."
+      },
+      "laengde-areal-rumfang": {
+        "p1": "Länge, Fläche und Volumen sind die drei grundlegenden Maße der Geometrie. Länge misst Strecken (in Millimetern, Zentimetern, Metern, Kilometern), Fläche misst die Größe von Oberflächen (in cm², m²) und Volumen misst, wie viel Raum ein Körper einnimmt (in cm³, Litern, m³).",
+        "p2": "Du lernst die Formeln für Rechtecke, Dreiecke, Kreise, Quader und Zylinder. Genauso wichtig ist das Umrechnen zwischen Einheiten: Wie viele Quadratzentimeter sind ein Quadratmeter? (10.000!) Messen und Rechnen mit Länge, Fläche und Volumen ist eine der praktischsten Fähigkeiten der Mathematik."
+      },
+      "vaegt-og-masse": {
+        "p1": "Gramm, Kilogramm und Tonne — das sind die Einheiten, mit denen du Gewicht und Masse misst. Du lernst, diese Einheiten umzurechnen (1 kg = 1000 g), Gegenstände zu schätzen und zu wiegen und die passende Einheit für verschiedene Situationen zu wählen.",
+        "p2": "Wann benutzt du Gramm, wann Kilogramm? Ein Apfel wiegt etwa 200 g, ein Schulranzen etwa 5 kg, ein Auto etwa 1,5 Tonnen. Ein gutes Gefühl für Gewichte zu entwickeln hilft dir im Alltag — beim Einkaufen, Kochen und in den Naturwissenschaften."
+      },
+      "tid": {
+        "p1": "Sekunden, Minuten, Stunden, Tage, Wochen, Monate, Jahre — Zeit hat viele Einheiten, und sie hängen nicht immer so einfach zusammen wie Längeneinheiten: Eine Stunde hat 60 Minuten, ein Tag 24 Stunden, aber ein Monat hat mal 28, mal 31 Tage.",
+        "p2": "Du lernst, die Uhr zu lesen, Zeitspannen zu berechnen und zwischen Einheiten umzurechnen. Wie lange dauert es von 8:45 bis 11:20? Wie viele Minuten sind 3,5 Stunden? Zeitrechnung ist eine mathematische Fähigkeit, die du jeden Tag brauchst."
+      },
+      "skala-og-kort": {
+        "p1": "Maßstab beschreibt das Verhältnis zwischen einer Zeichnung oder Karte und der Wirklichkeit. Bei einem Maßstab von 1:100 entspricht 1 cm auf der Karte 100 cm (= 1 m) in der Realität. Du lernst, Maßstäbe zu lesen, Entfernungen auf Karten zu berechnen und maßstabsgetreue Zeichnungen zu erstellen.",
+        "p2": "Maßstab begegnet dir bei Landkarten, Bauplänen, Modellen und in der Geografie. Es ist ein Beispiel für Verhältnisrechnung in der Praxis: Wenn du den Maßstab und eine Länge auf der Karte kennst, kannst du die wirkliche Entfernung berechnen — und umgekehrt."
+      },
+      "matematisk-logik": {
+        "p1": "Mathematische Logik untersucht, wie man präzise argumentiert. Du lernst Aussagen (wahr oder falsch), Verknüpfungen (und, oder, nicht) und Implikationen (wenn ... dann). Wahrheitstafeln zeigen dir systematisch, wann zusammengesetzte Aussagen wahr oder falsch sind.",
+        "p2": "Logik ist das Fundament der Mathematik: Jeder Beweis, jede Definition und jeder Satz beruht auf logischen Prinzipien. Auch in der Informatik ist Logik zentral — Computer arbeiten im Kern mit logischen Operationen. Klar und logisch denken zu können ist eine Fähigkeit, die weit über die Mathematik hinaus nützlich ist."
+      },
+      "bevisteknikker": {
+        "p1": "Beweistechniken sind die Methoden, mit denen du mathematische Aussagen zweifelsfrei begründest. Der direkte Beweis führt Schritt für Schritt von den Voraussetzungen zur Behauptung. Der Widerspruchsbeweis nimmt das Gegenteil an und zeigt, dass dies zu einem Widerspruch führt.",
+        "p2": "Die vollständige Induktion beweist Aussagen für alle natürlichen Zahlen: Du zeigst den Anfang und den Schritt von n auf n+1. Beweisen zu lernen schult dein logisches Denken auf eine Art, die keine andere mathematische Tätigkeit erreicht — es geht darum, wirklich zu verstehen, warum etwas stimmt."
+      },
+      "rente-og-finansregning": {
+        "p1": "Zins- und Finanzrechnung zeigt dir, wie Geld über die Zeit wächst. Bei einfacher Verzinsung bekommst du jedes Jahr den gleichen Betrag. Bei Zinseszins werden die Zinsen mitverzinst — und das lässt dein Kapital exponentiell wachsen. Die Formel K = K₀ · (1+p)ⁿ beschreibt diesen Effekt.",
+        "p2": "Du lernst, Endkapital, Laufzeit und Zinssatz zu berechnen und Annuitäten (gleichmäßige Ratenzahlungen) zu verstehen. Dieses Wissen ist direkt nützlich: Wenn du ein Sparkonto eröffnest, einen Kredit aufnimmst oder Angebote vergleichst, hilft dir Finanzmathematik, die richtige Entscheidung zu treffen."
+      },
+      "maengdelaere": {
+        "p1": "Eine Menge ist eine Sammlung von Objekten: {1, 2, 3} oder die Menge aller geraden Zahlen. Mengenlehre untersucht, wie Mengen zusammenhängen: Gibt es gemeinsame Elemente (Schnittmenge)? Was ergibt die Vereinigung? Ist eine Menge Teil einer anderen (Teilmenge)?",
+        "p2": "Venn-Diagramme machen Mengenbeziehungen anschaulich. Mengenlehre ist die Sprache, die viele Bereiche der Mathematik verbindet: Zahlenmengen (natürliche, ganze, rationale, reelle Zahlen), Wahrscheinlichkeitsrechnung und Logik nutzen alle Konzepte der Mengenlehre."
+      },
+      "grafteori": {
+        "p1": "Ein Graph besteht aus Knoten und Kanten, die sie verbinden — wie ein Netzwerk. Straßennetze, soziale Netzwerke, das Internet und Fahrpläne lassen sich als Graphen modellieren. Die zentrale Frage: Wie findest du den kürzesten Weg, die effizienteste Verbindung oder die optimale Verteilung?",
+        "p2": "Du lernst Begriffe wie Grad, Pfad, Zyklus und Zusammenhang. Klassische Probleme wie das Königsberger Brückenproblem (Euler, 1736) und das Handlungsreisendenproblem zeigen, wie einfache Fragen zu tiefer Mathematik führen. Graphentheorie ist eine Schlüsseldisziplin der Informatik und Logistik."
+      },
+      "talrepraesentationer": {
+        "p1": "Zahlen lassen sich in verschiedenen Systemen darstellen. Im Dezimalsystem (Basis 10) nutzen wir die Ziffern 0–9. Computer verwenden das Binärsystem (Basis 2) mit nur 0 und 1. Es gibt auch das Oktalsystem (Basis 8) und das Hexadezimalsystem (Basis 16).",
+        "p2": "Du lernst, Zahlen zwischen verschiedenen Basen umzurechnen und zu verstehen, dass der Wert einer Zahl nicht von ihrer Darstellung abhängt — 1010 im Binärsystem ist dasselbe wie 10 im Dezimalsystem. Dieses Verständnis ist wichtig, wenn du dich für Informatik und digitale Technik interessierst."
+      }
+    }
+  },
+  "lesson": {
+    "backTo": "Zurück zu {topicName}",
+    "comingSoonTitle": "Interaktiver Inhalt kommt bald",
+    "comingSoonDesc": "Wir arbeiten an interaktiven Lektionen für {lessonName}. Schau bald wieder vorbei!",
+    "cosineRule": {
+      "sections": {
+        "intro": "Einführung",
+        "proof": "Beweis",
+        "interactive": "Interaktiv",
+        "examples": "Beispiele",
+        "exercises": "Übungen"
+      },
+      "intro": {
+        "title": "Was ist der",
+        "titleHighlight": "Kosinussatz",
+        "desc": "Der Kosinussatz ist eine Verallgemeinerung des Satzes von Pythagoras auf beliebige Dreiecke — auch solche, die nicht rechtwinklig sind. Er verbindet die drei Seiten eines Dreiecks mit einem seiner Winkel.",
+        "formulaLabel": "Die Formel",
+        "findSideTitle": "Unbekannte Seite finden",
+        "findSideDesc": "Wenn du zwei Seiten und den eingeschlossenen Winkel kennst.",
+        "findAngleTitle": "Unbekannten Winkel finden",
+        "findAngleDesc": "Wenn du alle drei Seiten des Dreiecks kennst.",
+        "pythagorasTitle": "Pythagoras verallgemeinern",
+        "pythagorasDesc": "Bei A = 90° vereinfacht sich die Formel zu a² = b² + c².",
+        "allTypesTitle": "Alle Dreieckstypen",
+        "allTypesDesc": "Funktioniert für spitzwinklige, rechtwinklige und stumpfwinklige Dreiecke.",
+        "variantsLabel": "Winkelvarianten:"
+      },
+      "proof": {
+        "title": "Beweis des",
+        "titleHighlight": "Kosinussatzes",
+        "desc": "Klicke dich Schritt für Schritt durch den Beweis.",
+        "step": "Schritt {current}/{total}",
+        "previous": "Zurück",
+        "next": "Weiter"
+      },
+      "interactive": {
+        "title": "Interaktives",
+        "titleHighlight": "Dreieck",
+        "desc": "Passe die Seiten und den Winkel an — sieh, wie der Kosinussatz die unbekannte Seite in Echtzeit berechnet.",
+        "sideB": "Seite b",
+        "sideC": "Seite c",
+        "angleA": "Winkel A",
+        "calculation": "Berechnung",
+        "allAngles": "Alle Winkel:",
+        "rightAngled": "Rechtwinklig!",
+        "obtuseAngled": "Stumpfwinklig",
+        "acuteAngled": "Spitzwinklig"
+      },
+      "examples": {
+        "title": "Durchgerechnete",
+        "titleHighlight": "Beispiele",
+        "desc": "Klicke \"Nächsten Schritt zeigen\" um die Lösung Schritt für Schritt aufzudecken.",
+        "task": "Aufgabe",
+        "showNext": "Nächsten Schritt zeigen",
+        "reset": "Zurücksetzen",
+        "answer": "Antwort"
+      },
+      "exercises": {
+        "title": "Teste dich selbst —",
+        "titleHighlight": "Übungen",
+        "desc": "Versuche die Aufgaben zu lösen. Du kannst einen Taschenrechner benutzen! Klicke auf \"Tipp\" wenn du nicht weiterkommst.",
+        "correct": "Richtig ✓",
+        "tryAgain": "Nochmal versuchen",
+        "exerciseN": "Aufgabe {n}",
+        "hint": "Tipp",
+        "hideHint": "Tipp ausblenden",
+        "placeholder": "Deine Antwort...",
+        "check": "Prüfen",
+        "correctAnswer": "Die richtige Antwort ist {answer}{unit}. Versuche eine ähnliche Aufgabe!",
+        "checkAll": "Alle Antworten prüfen",
+        "perfect": "Perfekt! Du beherrschst den Kosinussatz!",
+        "keepPracticing": "Übe weiter — du schaffst das!",
+        "score": "{score} / {total}"
+      }
+    }
+  },
+  "category": {
+    "topicsAndLessons": "{topics} Themen · {lessons} Lektionen",
+    "about": {
+      "tal-og-talfornemmelse": {
+        "p1": "Zahlen sind das Grundlegendste in der Mathematik. Schon ab den ersten Schuljahren arbeitest du mit Zählen, Vergleichen und dem Verstehen, was Zahlen eigentlich bedeuten. Zahlengefühl bedeutet, ein intuitives Verständnis für Zahlen zu haben — zu wissen, dass 100 viel mehr ist als 10, dass die Hälfte von 8 gleich 4 ist, und einschätzen zu können, ob ein Ergebnis vernünftig ist.",
+        "p2": "Die vier Grundrechenarten — Addition, Subtraktion, Multiplikation und Division — sind die Bausteine. Wenn du sie beherrschst, kannst du unzählige Alltagsprobleme lösen: Süßigkeiten gerecht teilen, Wechselgeld berechnen oder herausfinden, wie viele Tage es noch bis zu den Ferien sind. Rechnen ist nicht nur etwas für die Schule — du benutzt es ständig.",
+        "p3": "Nach und nach erweitert sich dein Zahlbegriff. Du lernst negative Zahlen kennen (was passiert, wenn die Temperatur unter null fällt?), Brüche (eine halbe Pizza, drei Viertel einer Stunde) und Dezimalzahlen. Jede neue Art von Zahl eröffnet neue Möglichkeiten, die Wirklichkeit zu beschreiben.",
+        "p4": "Prozenten begegnest du überall — bei Sonderangeboten im Laden, Noten, Statistiken und Nachrichten. Prozent zu verstehen bedeutet, zwischen Teilen und dem Ganzen übersetzen zu können, und es ist eine der praktischsten Fähigkeiten, die dir die Mathematik mitgibt.",
+        "p5": "In den höheren Klassen und der Oberstufe tauchst du in Potenzen, Wurzeln und Zahlentheorie ein. Du lernst, was es bedeutet, dass eine Zahl eine Primzahl ist, wie man den größten gemeinsamen Teiler findet, und warum Zahlen wie π und √2 sich nie als Bruch schreiben lassen.",
+        "p6": "Ein gutes Zahlengefühl ist das Fundament für alles andere in der Mathematik. Je besser du Zahlen und Rechnen verstehst, desto leichter werden Algebra, Geometrie und alles, was darauf aufbaut."
+      },
+      "algebra": {
+        "p1": "In der Algebra verwenden wir Buchstaben wie x und y, um für Zahlen zu stehen, die wir noch nicht kennen. Statt zu fragen „welche Zahl plus 3 ergibt 10?“ schreiben wir x + 3 = 10 — und haben damit eine Gleichung, die wir lösen können. Das ist die Grundidee der Algebra: mathematische Fragen mit Symbolen aufzuschreiben, damit wir uns Schritt für Schritt zur Lösung vorarbeiten können.",
+        "p2": "Eigentlich benutzt du Algebra schon, vielleicht ohne es zu merken. Wenn du ausrechnest, wie viel Geld dir noch fehlt, um etwas zu kaufen, stellst du im Kopf eine Gleichung auf: was du hast + was du brauchst = der Preis. Algebra gibt dir ein Werkzeug, um solche Gedanken aufzuschreiben und genau zu lösen.",
+        "p3": "Wenn du mit Algebra anfängst, lernst du zuerst, mit einfachen Ausdrücken und Gleichungen zu arbeiten. Du lernst, gleichartige Glieder zusammenzufassen, Klammern aufzulösen und eine Gleichung so umzustellen, dass die Unbekannte allein auf einer Seite steht. Es ist ein bisschen wie ein Puzzle — es gibt feste Regeln, und wenn du ihnen folgst, ergibt sich die Lösung.",
+        "p4": "Später begegnest du anspruchsvolleren Gleichungen: Gleichungen mit Brüchen, mit mehreren Unbekannten oder quadratische Gleichungen, in denen x zum Quadrat vorkommt. Du lernst auch praktische Abkürzungen wie die binomischen Formeln, mit denen das Multiplizieren und Faktorisieren schneller geht. Je mehr Techniken du beherrschst, desto größere Aufgaben kannst du bewältigen.",
+        "p5": "In der Oberstufe baust du weiter auf mit Polynomen, Logarithmen und schließlich komplexen Zahlen. Aber das Prinzip bleibt dasselbe wie am Anfang: Du schreibst ein Problem mit Symbolen auf und formst es um, bis du eine Lösung hast. Die Werkzeuge werden mehr, aber die Denkweise bleibt gleich.",
+        "p6": "Algebra taucht überall in der Mathematik auf — in Funktionen, Geometrie, Physik und Wirtschaft. Sie ist der gemeinsame Werkzeugkasten, auf den der Rest der Mathematik aufbaut. Deshalb lohnt es sich, mit Algebra vertraut zu werden: Es macht alles andere leichter."
+      },
+      "funktioner": {
+        "p1": "Eine Funktion ist eine Regel, die eine Zahl aufnimmt und eine bestimmte Zahl zurückgibt. Stell dir eine Maschine vor: du gibst etwas hinein, und es kommt etwas heraus. Wenn die Regel „mit 2 multiplizieren“ lautet, ergibt Eingabe 3 Ausgabe 6, und Eingabe 5 ergibt 10. Das ist die ganze Idee.",
+        "p2": "Funktionen sind überall im Alltag, auch wenn man es nicht immer bemerkt. Der Benzinpreis hängt davon ab, wie viele Liter du tankst. Dein Gehalt hängt davon ab, wie viele Stunden du arbeitest. Die Temperatur ändert sich im Laufe des Tages. All diese Zusammenhänge lassen sich mit Funktionen beschreiben.",
+        "p3": "Der Graph ist das Bild einer Funktion. Wenn du eine Funktion in ein Koordinatensystem einträgst, kannst du ihr Verhalten auf einen Blick sehen: Steigt sie oder fällt sie? Wie schnell? Hat sie einen Hoch- oder Tiefpunkt? Ein Graph macht das Abstrakte konkret und anschaulich.",
+        "p4": "Die einfachsten Funktionen sind die linearen — gerade Linien, die mit konstanter Steigung steigen oder fallen. Danach begegnest du quadratischen Funktionen, die Parabeln zeichnen, und Exponentialfunktionen, die explosionsartig schnell wachsen. Jeder Funktionstyp hat seine eigene Form und seine eigenen Eigenschaften.",
+        "p5": "In der Oberstufe lernst du, Funktionen genauer zu analysieren: wo sie wachsen, wo sie Extrema haben, wie sie sich verhalten, wenn x sehr groß wird. Du begegnest auch trigonometrischen Funktionen, die wie Wellen schwingen, und Logarithmusfunktionen, die das Gegenteil von Exponentialfunktionen sind.",
+        "p6": "Funktionen sind die Sprache, die Naturwissenschaft und Wirtschaft verwenden, um Veränderung zu beschreiben. Von den Bewegungsgesetzen der Physik bis zu wirtschaftlichen Wachstumsmodellen — alles sind Funktionen. Mit Funktionen umgehen zu können ist eine Schlüsselkompetenz in fast jedem Fach, das Mathematik nutzt."
+      },
+      "geometri": {
+        "p1": "Geometrie handelt von Formen, Figuren und Raum. Es ist der Teil der Mathematik, den du sehen und anfassen kannst — von Dreiecken und Kreisen auf dem Papier bis zu Gebäuden, Brücken und Bällen in der realen Welt. Geometrie hilft dir zu verstehen, wie Dinge geformt sind, wie groß sie sind und wie sie zusammenpassen.",
+        "p2": "Du beginnst mit den grundlegenden Figuren: Punkte, Linien, Dreiecke, Vierecke und Kreise. Du lernst, Winkel zu messen, Umfang und Fläche zu berechnen, und entdeckst Regeln wie die, dass die Winkel eines Dreiecks immer 180° ergeben. Diese Regeln sind nicht willkürlich — sie folgen aus der Logik der Geometrie.",
+        "p3": "Dreiecke nehmen in der Geometrie einen besonderen Platz ein. Sie sind die einfachste Figur mit Fläche und tauchen überall auf: in Dachkonstruktionen, Brücken, GPS-Berechnungen und Computergrafik. Dreiecke zu verstehen — ihre Seiten, Winkel und Flächen — ist ein Grundstein des gesamten Faches.",
+        "p4": "Der Kreis ist eine weitere Schlüsselfigur. Mit nur einer Formel, U = 2πr, kannst du den Umfang von allem berechnen, vom Fahrradrad bis zum Erdäquator. Die Zahl π verbindet den Kreis mit dem Rest der Mathematik auf Weisen, die Mathematiker bis heute faszinieren.",
+        "p5": "In den höheren Klassen und der Oberstufe arbeitest du mit Koordinatengeometrie, wo Figuren mit Zahlen und Gleichungen beschrieben werden. Ein Kreis wird zu x² + y² = r², und Abstände und Winkel lassen sich exakt berechnen. Du begegnest auch der Raumgeometrie und arbeitest mit Kugeln, Zylindern und anderen dreidimensionalen Figuren.",
+        "p6": "Geometrie trainiert deine Fähigkeit, visuell und logisch zu denken. Es ist eines der ältesten mathematischen Fächer — die alten Griechen nutzten es, um die Welt zu verstehen — und es ist heute noch genauso relevant, von der Architektur bis zur Robotik."
+      },
+      "trigonometri": {
+        "p1": "Trigonometrie handelt von der Beziehung zwischen Winkeln und Seiten in Dreiecken. Die grundlegende Frage lautet: Wenn du einige Seiten und Winkel eines Dreiecks kennst, kannst du den Rest finden? Die Antwort ist ja — und die Trigonometrie gibt dir die Methoden dafür.",
+        "p2": "Alles beginnt mit dem rechtwinkligen Dreieck und den drei grundlegenden Verhältnissen: Sinus, Kosinus und Tangens. Jedes beschreibt das Verhältnis zwischen zwei bestimmten Seiten des Dreiecks, abhängig davon, welchen Winkel du betrachtest. Mit diesen drei Werkzeugen kannst du Höhen, Entfernungen und Winkel berechnen, die du nicht direkt messen kannst.",
+        "p3": "Trigonometrie ist unglaublich praktisch. Vermesser nutzen sie, um Entfernungen zu berechnen, ohne den ganzen Weg zu gehen. Navigatoren nutzen sie zur Positionsbestimmung. Ingenieure nutzen sie beim Entwurf von Konstruktionen. Wann immer du eine unbekannte Länge oder einen Winkel aus dem, was du bereits weißt, finden musst, ist Trigonometrie die Antwort.",
+        "p4": "In der Oberstufe erweitert sich die Trigonometrie mit dem Einheitskreis, der Winkel mit Koordinaten verbindet. Sinus und Kosinus werden zu Funktionen, die wie Wellen schwingen — und plötzlich können sie alles beschreiben, von Schall und Licht bis zu Wechselstrom und Gezeiten.",
+        "p5": "Du begegnest auch trigonometrischen Identitäten — Formeln, die immer wahr sind, egal welchen Winkel du einsetzt. Und mit dem Sinussatz und Kosinussatz kannst du mit allen Dreiecken arbeiten, nicht nur mit rechtwinkligen.",
+        "p6": "Trigonometrie verbindet Geometrie und Algebra. Sie beginnt mit etwas sehr Konkretem — einem Dreieck mit Seiten und Winkeln — und führt dich zu Werkzeugen, die in allem von Physik und Ingenieurwesen bis zu Musik und Computergrafik verwendet werden."
+      },
+      "vektorer-og-lineaer-algebra": {
+        "p1": "Ein Vektor ist eine Größe mit Richtung und Betrag. Stell dir einen Pfeil vor: Er sagt dir nicht nur wie viel, sondern auch wohin. Wind hat eine Stärke und eine Richtung. Eine Kraft drückt in eine bestimmte Richtung. Bewegung hat eine Geschwindigkeit und einen Kurs. All das wird mit Vektoren beschrieben.",
+        "p2": "In der Mathematik schreiben wir einen Vektor als ein Paar oder Tripel von Zahlen, z.B. (3, 2), das eine Bewegung von 3 nach rechts und 2 nach oben beschreibt. Du kannst Vektoren addieren, subtrahieren und mit Zahlen multiplizieren. Diese einfachen Operationen ermöglichen es, Bewegungen, Kräfte und Richtungen exakt zu beschreiben und zu berechnen.",
+        "p3": "Das Skalarprodukt ist eines der wichtigsten Werkzeuge der Vektorrechnung. Es nimmt zwei Vektoren und gibt eine einzige Zahl zurück — und diese Zahl sagt dir etwas über den Winkel zwischen ihnen. Ist das Skalarprodukt null, stehen die Vektoren senkrecht aufeinander. Es ist eine elegante Art, Richtungen zu messen.",
+        "p4": "Vektoren im Raum erweitern die Idee auf drei Dimensionen. Jetzt kannst du Positionen, Richtungen und Bewegungen im gesamten Raum beschreiben — nicht nur in der Ebene. Du kannst Gleichungen für Geraden und Ebenen finden, Abstände und Schnittpunkte berechnen und mit Geometrie in 3D arbeiten.",
+        "p5": "Lineare Algebra behandelt Systeme linearer Gleichungen und die dabei entstehenden Strukturen. Matrizen sind rechteckige Zahlentabellen, die alles beschreiben können, von Gleichungssystemen bis zu Drehungen und Transformationen. Sie sind ein unverzichtbares Werkzeug in der modernen Mathematik und Informatik.",
+        "p6": "Vektoren und lineare Algebra sind das mathematische Fundament für 3D-Grafik, maschinelles Lernen, Physik und Wirtschaft. Wenn ein Computerspiel eine 3D-Welt rendert oder eine KI Daten analysiert, sind es Vektoren und Matrizen, die im Hintergrund arbeiten."
+      },
+      "differentialregning": {
+        "p1": "Differentialrechnung handelt von Veränderung. Wie schnell wächst etwas? Wann steigt es, und wann fällt es? Wann ist es am höchsten? Wenn du eine Größe mit einer Funktion beschreiben kannst, kann die Differentialrechnung dir genau sagen, wie sich diese Größe verändert.",
+        "p2": "Die zentrale Idee ist die Ableitung — eine neue Funktion, die dir sagt, wie schnell die ursprüngliche Funktion in jedem Punkt wächst oder schrumpft. Wenn f(x) deine Position auf einer Straße beschreibt, dann beschreibt f'(x) deine Geschwindigkeit. Und die Geschwindigkeit der Geschwindigkeit — f''(x) — ist deine Beschleunigung.",
+        "p3": "Ableiten bedeutet, die Ableitung zu finden, und es folgt überraschend einfachen Regeln. Die Potenzregel, die Kettenregel, die Produktregel — mit einer Handvoll Techniken kannst du fast jede Funktion ableiten, der du begegnest. Es braucht Übung, aber die Muster fügen sich schnell zusammen.",
+        "p4": "Eine der wichtigsten Anwendungen ist das Finden von Maxima und Minima. Wann ist eine Funktion am höchsten? Das passiert dort, wo die Ableitung null ist — die Funktion weder steigt noch fällt. Dieses Prinzip wird in der Optimierung genutzt: die beste Lösung finden, ob es um Kostenminimierung oder Gewinnmaximierung geht.",
+        "p5": "Die Differentialrechnung gibt dir auch Werkzeuge zur gründlichen Funktionsanalyse: Wendepunkte, Monotonieverhalten, Krümmung und asymptotisches Verhalten. Du kannst eine präzise Skizze eines Funktionsgraphen erstellen, indem du nur seine Ableitungen analysierst.",
+        "p6": "Die Differentialrechnung wurde von Newton und Leibniz im 17. Jahrhundert entwickelt und revolutionierte die Mathematik. Heute wird sie in Physik, Wirtschaft, Biologie, Ingenieurwesen verwendet — überall wo sich etwas verändert und wir verstehen wollen, wie."
+      },
+      "integralregning": {
+        "p1": "Integralrechnung ist das Gegenstück zur Differentialrechnung. Wo es beim Differenzieren darum geht, die Geschwindigkeit aus der Position zu finden, geht es beim Integrieren um das Umgekehrte: die Position aus der Geschwindigkeit zu finden. Wenn du weißt, wie schnell etwas wächst, kann das Integral dir sagen, wie viel insgesamt gewachsen ist.",
+        "p2": "Das bestimmte Integral berechnet die Fläche unter einer Kurve. Das klingt vielleicht abstrakt, ist aber äußerst praktisch: Die Fläche unter einem Geschwindigkeitsgraphen ist die zurückgelegte Strecke. Die Fläche unter einer Leistungskurve ist der gesamte Energieverbrauch. Integrale übersetzen Graphen in konkrete Zahlen.",
+        "p3": "Integrieren bedeutet in seiner einfachsten Form, eine Stammfunktion zu finden — eine Funktion, deren Ableitung die Funktion ergibt, mit der du angefangen hast. Wenn die Ableitung von x² gleich 2x ist, dann ist eine Stammfunktion von 2x genau x². Es ist, als würde man die Differentialrechnung rückwärts laufen lassen.",
+        "p4": "Integrationsmethoden wie Substitution und partielle Integration sind Techniken für kompliziertere Funktionen. So wie die Differentialrechnung ihre Regeln hat, hat auch die Integralrechnung ihre eigenen — sie erfordern mehr Kreativität, aber die Prinzipien sind klar.",
+        "p5": "Die Integralrechnung wird auch zur Berechnung von Rotationsvolumina, Kurvenlängen und vielem mehr verwendet. Sie ist ein leistungsstarkes geometrisches Werkzeug, das weit über einfache Flächenberechnungen hinausreicht.",
+        "p6": "Zusammen mit der Differentialrechnung bildet die Integralrechnung die klassische Analysis — eines der wichtigsten und am weitesten angewandten Gebiete der Mathematik. Von Physik und Ingenieurwesen bis zu Wirtschaft und Wahrscheinlichkeitstheorie sind Integrale ein unverzichtbares Werkzeug."
+      },
+      "sandsynlighed-og-statistik": {
+        "p1": "Wahrscheinlichkeit und Statistik handeln davon, Daten und Zufälligkeit zu verstehen. Wie groß ist die Chance, mit einem Würfel eine Sechs zu werfen? Was ist der Durchschnitt der Testergebnisse einer Klasse? Können wir den Ergebnissen einer Umfrage vertrauen? Das sind die Fragen, die dieses Gebiet beantwortet.",
+        "p2": "Statistik beginnt mit dem Sammeln und Beschreiben von Daten. Du lernst, Mittelwert, Median und Modus zu berechnen, und du lernst, Daten in Diagrammen darzustellen, die die Zahlen übersichtlich machen. Es geht darum, ein klares Bild davon zu bekommen, was die Zahlen aussagen.",
+        "p3": "Wahrscheinlichkeitsrechnung handelt davon, vorherzusagen, wie wahrscheinlich etwas ist. Wie groß ist die Chance, eine rote Karte aus einem Kartenstapel zu ziehen? Wie groß ist die Chance, im Lotto zu gewinnen? Du lernst, Möglichkeiten zu zählen, Wahrscheinlichkeiten zu berechnen und zu verstehen, wie Zufall funktioniert.",
+        "p4": "Kombinatorik gibt dir die Werkzeuge zum systematischen Zählen. Auf wie viele Arten kannst du 3 Schüler aus einer Klasse von 25 auswählen? Wie viele verschiedene Codes kannst du mit 4 Ziffern bilden? Es geht darum, clever zu zählen, statt alles einzeln durchzuzählen.",
+        "p5": "In der Oberstufe begegnest du Wahrscheinlichkeitsverteilungen — mathematischen Modellen für zufällige Ergebnisse. Die Binomialverteilung beschreibt zum Beispiel die Anzahl der Erfolge in einer Versuchsreihe, und die Normalverteilung ist die berühmte glockenförmige Kurve, die überall in Natur und Gesellschaft auftaucht.",
+        "p6": "Statistik und Wahrscheinlichkeit gehören zu den am meisten angewandten Bereichen der Mathematik heute. Von medizinischen Studien und Qualitätskontrolle bis zu maschinellem Lernen und Wettervorhersagen — die Fähigkeit, Daten zu analysieren und Unsicherheit einzuschätzen, ist eine entscheidende Kompetenz."
+      },
+      "foelger-og-raekker": {
+        "p1": "Eine Folge ist eine Liste von Zahlen, die einem bestimmten Muster folgen. Es kann so einfach sein wie 2, 4, 6, 8, ... (wir addieren jedes Mal 2) oder 1, 2, 4, 8, 16, ... (wir multiplizieren jedes Mal mit 2). Das Muster zu finden und mit einer Formel zu beschreiben, ist die grundlegende Aufgabe.",
+        "p2": "Arithmetische Folgen steigen oder fallen jedes Mal um den gleichen Betrag — wie eine Treppe mit gleichen Stufen. Geometrische Folgen werden jedes Mal mit der gleichen Zahl multipliziert — sie wachsen explosionsartig schnell oder schrumpfen gegen null. Diese beiden Typen bilden die Grundlage für das Verständnis von Folgen.",
+        "p3": "Eine Reihe entsteht, wenn du die Glieder einer Folge zusammenaddierst. Was ergibt 1 + 2 + 3 + ... + 100? Gauß fand als Kind die Antwort (5050), und die Geschichte veranschaulicht gut, worum es bei Reihen geht: clevere Wege zu finden, Summen zu berechnen, ohne jede Zahl einzeln zu addieren.",
+        "p4": "Rekursive Folgen sind dadurch definiert, dass jedes Glied von den vorherigen abhängt. Die Fibonacci-Folge — 1, 1, 2, 3, 5, 8, 13, ... — ist das berühmteste Beispiel: Jede Zahl ist die Summe der beiden vorherigen. Sie taucht in der Natur auf, von den Spiralen der Sonnenblumen bis zu Nautilusschalen.",
+        "p5": "In der Oberstufe arbeitest du mit Konvergenz: Was passiert, wenn eine Folge oder Reihe ins Unendliche weitergeht? Manche Reihen wachsen unbegrenzt, während andere sich einem bestimmten Wert nähern. Die geometrische Reihe 1 + 1/2 + 1/4 + 1/8 + ... nähert sich zum Beispiel genau 2.",
+        "p6": "Folgen und Reihen verbinden Algebra mit Analysis und bilden die Grundlage für viele wichtige Konzepte in der Mathematik, vom Zinseszins bis zu Taylor-Reihen, die jede Funktion als unendliche Summe beschreiben können."
+      },
+      "maaling-og-enheder": {
+        "p1": "Messen handelt davon, der Welt, in der wir leben, Zahlen zuzuordnen. Wie lang ist der Tisch? Wie viel wiegt das Paket? Wie lange dauert die Reise? Jedes Mal, wenn du etwas misst, benutzt du Mathematik, um die Wirklichkeit mit Zahlen und Einheiten zu beschreiben.",
+        "p2": "Länge ist das grundlegendste Maß. Du beginnst mit Zentimetern und Metern und lernst, wie die Einheiten zusammenhängen: 100 Zentimeter sind 1 Meter, 1000 Meter sind 1 Kilometer. Zwischen Einheiten umzurechnen ist eine wichtige Fähigkeit, die im Alltag ständig gebraucht wird.",
+        "p3": "Fläche misst, wie groß eine Oberfläche ist — von einem Boden, der verlegt werden soll, bis zu einem Feld, das besät werden soll. Du lernst, die Fläche von Rechtecken, Dreiecken und Kreisen zu berechnen, und entdeckst, dass Fläche schneller wächst, als du vielleicht erwartest: Ein Quadrat mit doppelt so langen Seiten hat die vierfache Fläche.",
+        "p4": "Volumen sagt dir, wie viel Platz in etwas ist — wie viele Liter Wasser ein Behälter fassen kann oder wie viel Erde nötig ist, um ein Beet zu füllen. Von Kästen und Zylindern bis zu Kugeln und Kegeln lernst du, das Volumen der Formen zu berechnen, denen du im Alltag begegnest.",
+        "p5": "Gewicht, Zeit und Maßstab sind weitere wichtige Messgrößen. Gramm und Kilogramm für Gewicht, Sekunden, Minuten und Stunden für Zeit, und Maßstab für Karten und Zeichnungen, wo 1 Zentimeter auf dem Papier 1 Kilometer in der Wirklichkeit entsprechen kann.",
+        "p6": "Messen und Einheiten zu beherrschen gibt dir einen praktischen mathematischen Werkzeugkasten, den du den Rest deines Lebens benutzen wirst. Es ist Mathematik, die du buchstäblich in die Hand nehmen kannst."
+      },
+      "logik-og-bevisteknik": {
+        "p1": "Mathematische Logik handelt davon, präzise zu denken. Im Alltag kommen wir mit „das stimmt wahrscheinlich“ oder „das ergibt Sinn“ aus, aber in der Mathematik verlangen wir Sicherheit. Ein Beweis ist eine Kette logischer Schritte, die zeigt, dass etwas wahr ist — nicht nur wahrscheinlich, sondern unbestreitbar wahr.",
+        "p2": "Die Grundlage ist die Aussagenlogik: Behauptungen, die entweder wahr oder falsch sind. „5 ist eine Primzahl“ ist wahr. „Alle geraden Zahlen sind Primzahlen“ ist falsch. Du lernst, Aussagen mit „und“, „oder“ und „nicht“ zu kombinieren, und du lernst, Implikationen zu verstehen: „wenn A, dann B.“",
+        "p3": "Der direkte Beweis ist die geradlinigste Technik: Du startest mit dem, was du weißt, und leitest Schritt für Schritt ab, was du zeigen willst. Es ist wie eine Brücke von der Voraussetzung zur Schlussfolgerung zu bauen, wobei jeder Schritt solide sein muss.",
+        "p4": "Der Widerspruchsbeweis ist eine elegante Methode, bei der du das Gegenteil von dem annimmst, was du beweisen willst, und zeigst, dass es zu einem Widerspruch führt. So wurde zum Beispiel bewiesen, dass √2 irrational ist — es lässt sich nicht als Bruch schreiben, egal wie sehr man es versucht.",
+        "p5": "Der Induktionsbeweis wird verwendet, wenn du etwas für alle natürlichen Zahlen beweisen willst. Du zeigst, dass es für 1 gilt, und dass, wenn es für eine beliebige Zahl n gilt, es auch für n + 1 gilt. Wie Dominosteine: Der erste kippt den nächsten, der den nächsten kippt, in alle Ewigkeit.",
+        "p6": "Logik und Beweistechnik sind das Fundament, auf dem die gesamte Mathematik ruht. Selbst wenn du nie einen formalen Beweis schreibst, stärkt es deine Fähigkeit, klar zu denken, präzise zu argumentieren und zwischen dem zu unterscheiden, was bewiesen ist, und dem, was nur vermutet wird."
+      },
+      "finansiel-matematik": {
+        "p1": "Finanzmathematik handelt von Geld und Zeit. Der Kern ist eine einfache, aber wichtige Idee: Geld heute ist mehr wert als dasselbe Geld in einem Jahr — weil Geld wachsen kann, wenn es verzinst wird. Diesen Zusammenhang zu verstehen ist der Schlüssel zu guten finanziellen Entscheidungen.",
+        "p2": "Einfache Zinsen sind am leichtesten zu verstehen: Du leihst dir 1000 Euro zu 5% pro Jahr, und jedes Jahr zahlst du 50 Euro Zinsen. In der Praxis wird aber Zinseszins verwendet, bei dem die Zinsen selbst beginnen, Zinsen zu erwirtschaften. Hier fängt das Geld wirklich an zu wachsen — oder die Schulden beginnen zu steigen.",
+        "p3": "Der Wachstumsfaktor ist das zentrale Werkzeug. Wenn der Zinssatz 5% beträgt, ist der Wachstumsfaktor 1,05. Einmal damit multiplizieren gibt dir den Betrag nach einem Jahr. Zehnmal multiplizieren gibt dir den Betrag nach zehn Jahren. Das ist exponentielles Wachstum — und es kann überraschen, wie schnell es wächst.",
+        "p4": "Annuitäten betreffen feste Zahlungen über die Zeit — wie eine Hypothek, bei der du jeden Monat denselben Betrag über viele Jahre zahlst. Die dahinterliegende Mathematik berechnet, wie viel du insgesamt zahlst und wie viel davon Zinsen und wie viel Tilgung ist. Das ist direkt nützliches Wissen für den Tag, an dem du Geld leihen musst.",
+        "p5": "Indexzahlen werden verwendet, um Werte über die Zeit zu vergleichen: Preisentwicklung, Lohnentwicklung oder Inflation. Indem man ein Basisjahr auf 100 setzt, kann man schnell sehen, ob etwas gestiegen oder gefallen ist und um wie viel.",
+        "p6": "Finanzmathematik gehört zum direkt nützlichsten, was du in Mathematik lernst. Sie hilft dir, Sparen, Kredite, Investitionen und die Wirtschaftsnachrichten zu verstehen, denen du jeden Tag begegnest. Es ist Mathematik mit Euro und Cent."
+      },
+      "maengdelaere": {
+        "p1": "Mengenlehre handelt davon, Dinge in Gruppen zu sammeln und zu untersuchen, wie diese Gruppen zusammenhängen. Eine Menge ist einfach eine Sammlung von Dingen — Zahlen, Buchstaben, Personen, was auch immer. {1, 2, 3} ist eine Menge. Die Schüler in der Klasse, die eine Brille tragen, bilden eine Menge. Es ist ein einfaches, aber mächtiges Konzept.",
+        "p2": "Die wichtigste Frage in der Mengenlehre ist: Gehört etwas zur Menge oder nicht? Die Zahl 5 gehört zur Menge der ungeraden Zahlen. Die Zahl 4 nicht. Diese einfache Ja/Nein-Logik ist die Grundlage des gesamten Themas.",
+        "p3": "Venn-Diagramme sind das visuelle Werkzeug der Mengenlehre. Mit überlappenden Kreisen kannst du zeigen, was zwei Mengen gemeinsam haben und was jeweils einzigartig ist. Es macht es leicht, Zusammenhänge zu sehen, die sich mit Worten allein schwer formulieren lassen.",
+        "p4": "Schnittmenge, Vereinigungsmenge und Differenzmenge sind die drei Grundoperationen. Die Schnittmenge ist das, was beide Gruppen teilen. Die Vereinigungsmenge ist alles, was in mindestens einer von ihnen ist. Die Differenzmenge ist das, was in der einen, aber nicht in der anderen ist.",
+        "p5": "Teilmengen und Komplementmengen erweitern den Werkzeugkasten. Eine Teilmenge ist eine Menge, die vollständig in einer anderen enthalten ist — wie „Mädchen in der Klasse“ eine Teilmenge von „alle Schüler“ ist. Das Komplement ist alles, was nicht enthalten ist.",
+        "p6": "Mengenlehre ist eine grundlegende Sprache in der Mathematik. Sie wird verwendet, um Zahlentypen zu definieren (natürliche Zahlen, ganze Zahlen, reelle Zahlen), in der Wahrscheinlichkeitsrechnung und in der Logik. Der Einstieg ist leicht, aber die Ideen reichen weit."
+      },
+      "diskret-matematik": {
+        "p1": "Diskrete Mathematik handelt von Dingen, die gezählt werden können: ganze Zahlen, Netzwerke, Graphen und Kombinationen. Anders als zum Beispiel bei der Analysis, wo alles glatt fließt, arbeitet die diskrete Mathematik mit getrennten, zählbaren Objekten — wie Stufen auf einer Treppe statt einer glatten Rampe.",
+        "p2": "Graphentheorie ist ein zentraler Teil der diskreten Mathematik. Ein Graph ist ein Netzwerk aus Punkten (Knoten), die durch Linien (Kanten) verbunden sind. Das klingt abstrakt, beschreibt aber alles von Straßennetzen und Zugverbindungen bis zu sozialen Netzwerken und dem Internet. Wann immer du die kürzeste Route oder die effizienteste Verbindung finden willst, benutzt du Graphentheorie.",
+        "p3": "Ein klassisches Problem sind die „Brücken von Königsberg“: Kann man alle sieben Brücken der Stadt genau einmal überqueren? Euler bewies 1736, dass es unmöglich ist — und begründete damit die Graphentheorie. Es ist ein gutes Beispiel dafür, wie eine einfache Frage zu einem ganz neuen mathematischen Feld führen kann.",
+        "p4": "Zahlensysteme gehören ebenfalls hierher. Normalerweise benutzen wir das Dezimalsystem (Basis 10), aber Computer benutzen das Binärsystem (Basis 2). Zu verstehen, wie Zahlen in verschiedenen Basen geschrieben werden können, gibt Einblick in die Art, wie Computer denken und rechnen.",
+        "p5": "Algorithmen — schrittweise Anleitungen zur Lösung von Problemen — sind das Herzstück der diskreten Mathematik und Informatik. Daten sortieren, in Datenbanken suchen und Routen optimieren sind alles diskrete Probleme mit diskreten Lösungen.",
+        "p6": "Diskrete Mathematik ist der Teil der Mathematik, der der Informatik am nächsten steht. In einer Welt voller Computer, Netzwerke und Daten ist es ein immer wichtigeres Feld — und es ist überraschend zugänglich, weil es ums Zählen, Zeichnen und logische Denken geht."
+      }
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Seite nicht gefunden",
+    "description": "Die gesuchte Seite existiert nicht. Sie wurde möglicherweise verschoben oder gelöscht.",
+    "goHome": "Zur Startseite",
+    "seePensum": "Lehrplan ansehen"
+  },
+  "footer": {
+    "tagline": "Mit Leidenschaft für Mathematik gebaut."
+  },
+  "breadcrumb": {
+    "trin": "Stufen",
+    "pensum": "Lehrplan",
+    "omraader": "Bereiche",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "faq": "FAQ"
+  }
+}

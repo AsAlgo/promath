@@ -1,0 +1,704 @@
+{
+  "metadata": {
+    "title": "Promath — Mathematics comes alive",
+    "description": "An interactive platform that makes mathematics intuitive and engaging. Learn at your own pace with interactive exercises and visual explanations."
+  },
+  "nav": {
+    "pensum": "Curriculum",
+    "about": "About us",
+    "contact": "Contact",
+    "grades": "Grades",
+    "topics": "Areas",
+    "selectGrade": "Select grade",
+    "selectTopic": "Select area",
+    "hoverCategory": "Hover over a category",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "matematik": "Mathematics",
+    "getStarted": "Get started",
+    "gradeSection": "Grades"
+  },
+  "theme": {
+    "lightMode": "Switch to light mode",
+    "darkMode": "Switch to dark mode"
+  },
+  "language": {
+    "label": "Language",
+    "switchLocale": "Switch language"
+  },
+  "edSystem": {
+    "label": "Education system",
+    "switchSystem": "Switch education system",
+    "dk": "Danish (Folkeskole + Gymnasium)",
+    "de": "German (Gymnasium G9)",
+    "uk": "British (Key Stages)",
+    "us": "American (K-12)"
+  },
+  "home": {
+    "badge": "Interactive math platform",
+    "title": "Mathematics",
+    "titleHighlight": "comes alive",
+    "subtitle": "Promath makes mathematics intuitive and engaging. Learn at your own pace with interactive exercises and visual explanations.",
+    "cta": "Get started — it's free",
+    "secondaryCta": "See how it works",
+    "featuresTitle": "Learn mathematics in a",
+    "featuresTitleHighlight": "new way",
+    "featuresSubtitle": "Promath combines technology and pedagogy to create the best learning experience.",
+    "feature1Title": "Interactive exercises",
+    "feature1Desc": "Solve problems step by step with instant feedback guiding you forward.",
+    "feature2Title": "Track your progress",
+    "feature2Desc": "See your development over time with detailed statistics and personal milestones.",
+    "feature3Title": "Adaptive learning",
+    "feature3Desc": "Intelligent system that adapts difficulty to your level and pace.",
+    "feature4Title": "Visual explanations",
+    "feature4Desc": "Understand complex concepts through dynamic visualizations and animations.",
+    "topicsTitle": "Explore",
+    "topicsTitleHighlight": "topics",
+    "topicsSubtitle": "From basic algebra to advanced calculus — we cover it all.",
+    "topicAlgebraDesc": "Equations & polynomials",
+    "topicGeometryDesc": "Shapes & proofs",
+    "topicTrigDesc": "Angles & functions",
+    "topicFunctionsDesc": "Graphs & analysis",
+    "topicVectorsDesc": "Vectors & linear algebra",
+    "topicIntegralDesc": "Integrals & area",
+    "topicStatsDesc": "Data & probability",
+    "topicSequencesDesc": "Sequences, series & convergence",
+    "ctaTitle": "Ready to master",
+    "ctaTitleHighlight": "mathematics?",
+    "ctaSubtitle": "Sign up for free and start your mathematical journey today. No credit card required.",
+    "ctaButton": "Start for free now"
+  },
+  "about": {
+    "metaTitle": "About us — Promath",
+    "metaDescription": "Learn more about Promath and our mission to make mathematics accessible and engaging for everyone.",
+    "title": "About",
+    "titleHighlight": "Promath",
+    "intro": "Promath is an interactive mathematics platform built with the goal of making mathematics accessible, intuitive, and engaging for students of all ages.",
+    "missionTitle": "Our mission",
+    "missionText": "We believe that everyone can learn mathematics when it's presented the right way. Promath combines interactive visualizations, step-by-step explanations, and instant feedback to create the best possible learning experience.",
+    "howTitle": "How it works",
+    "howText1": "Promath is organized around grades and topics. Choose your grade, find a topic that interests you, and dive into interactive lessons with visual explanations.",
+    "howText2": "Each lesson is designed to build understanding gradually — from introduction and theory to interactive examples and exercises.",
+    "levelsTitle": "For all levels",
+    "levelsText": "From 1st grade basic arithmetic to high school calculus — Promath covers the full spectrum of mathematics education with content tailored to each grade level."
+  },
+  "contact": {
+    "metaTitle": "Contact — Promath",
+    "metaDescription": "Contact us with questions, feedback, or collaboration ideas.",
+    "title": "Contact",
+    "titleHighlight": "us",
+    "subtitle": "Do you have questions, feedback, or suggestions? We'd love to hear from you.",
+    "emailTitle": "Email",
+    "emailDesc": "Send us an email and we'll get back to you as soon as possible.",
+    "faqTitle": "FAQ",
+    "faqDesc": "Many questions are already answered in our FAQ.",
+    "faqLink": "See frequently asked questions →"
+  },
+  "faq": {
+    "metaTitle": "FAQ — Promath",
+    "metaDescription": "Frequently asked questions about Promath.",
+    "title": "Frequently asked",
+    "titleHighlight": "questions",
+    "subtitle": "Find answers to the most common questions about Promath.",
+    "q1": "What is Promath?",
+    "a1": "Promath is a free, interactive mathematics platform designed for students. We offer lessons with visual explanations, interactive exercises, and instant feedback.",
+    "q2": "Is Promath free?",
+    "a2": "Yes, Promath is completely free to use. We believe that everyone should have access to quality mathematics education.",
+    "q3": "What grade levels does Promath cover?",
+    "a3": "Promath covers grades 1 through 12, from basic numbers and arithmetic to advanced calculus at the high school level.",
+    "q4": "Can I use Promath on my phone?",
+    "a4": "Yes, Promath is fully responsive and works on all devices — computer, tablet, and phone.",
+    "q5": "How do I get started?",
+    "a5": "Go to the grade overview, select your grade, and start exploring topics and lessons. No sign-up required.",
+    "q6": "Who is behind Promath?",
+    "a6": "Promath is built by a team with a passion for mathematics and technology. Learn more on our About page."
+  },
+  "grades": {
+    "metaTitle": "Grades — Promath",
+    "metaDescription": "Choose your grade and explore mathematics.",
+    "title": "Choose",
+    "titleHighlight": "your grade",
+    "subtitle": "Explore mathematics tailored to your level.",
+    "label_DK": "{n}. klasse",
+    "label_DK_gym": "{n}",
+    "label_DE": "Klasse {n}",
+    "label_UK": "Year {n}",
+    "label_US": "Grade {n}",
+    "label_US_K": "Kindergarten",
+    "label_short_DK": "{n}. kl",
+    "label_short_DK_gym": "{n}",
+    "label_short_DE": "Kl. {n}",
+    "label_short_UK": "Y{n}",
+    "label_short_US": "Gr. {n}",
+    "label_short_US_K": "K",
+    "topicsCount": "{count} topics",
+    "lessonsCount": "{count} lessons",
+    "topicsAndLessons": "{topics} topics · {lessons} lessons"
+  },
+  "gradeGroups": {
+    "dk_indskoling": "Primary",
+    "dk_mellemtrin": "Middle school",
+    "dk_udskoling": "Lower secondary",
+    "dk_gymnasium": "High school",
+    "de_grundschule": "Primary school",
+    "de_unterstufe": "Lower secondary",
+    "de_mittelstufe": "Middle school",
+    "de_oberstufe": "Upper secondary",
+    "uk_ks1": "Key Stage 1",
+    "uk_ks2": "Key Stage 2",
+    "uk_ks3": "Key Stage 3",
+    "uk_ks4": "Key Stage 4 (GCSE)",
+    "uk_ks5": "Key Stage 5 (A-Level)",
+    "us_elementary": "Elementary School",
+    "us_middle": "Middle School",
+    "us_high": "High School"
+  },
+  "curriculum": {
+    "metaTitle": "Mathematics — Promath",
+    "metaDescription": "Overview of all mathematics topics and grade levels. Find interactive lessons.",
+    "title": "Explore",
+    "titleHighlight": "mathematics",
+    "subtitle": "Find topics and lessons across grade levels.",
+    "showAll": "Show all",
+    "hideAll": "Hide all",
+    "topic": "Topic",
+    "topicsCount": "{count} topics",
+    "lessonsCount": "{count} lessons",
+    "topicsAndLessons": "{topics} topics · {lessons} lessons"
+  },
+  "topic": {
+    "notFoundTitle": "Not found — Promath",
+    "noLessons": "There are no lessons in {topicName} yet.",
+    "noLessonsHint": "We're working on adding content. Come back soon!",
+    "comingSoon": "Coming soon",
+    "lessonsForGradeAndTopic": "Find interactive lessons across grade levels.",
+    "lessonsShort": "{count} les.",
+    "allGrades": "All",
+    "noLessonsForGrade": "No lessons for the selected grade",
+    "about": {
+      "naturlige-tal": {
+        "p1": "Natural numbers are the counting numbers you use every day: 1, 2, 3, 4, and so on. They are the very first numbers you learn, and they help you count objects, compare amounts, and understand the idea of \"how many.\" Zero is sometimes included too, giving you a starting point for the number line.",
+        "p2": "Understanding natural numbers is the foundation for all of mathematics. Once you are comfortable counting, ordering, and comparing these numbers, you can move on to addition, subtraction, and everything else that builds on top of them."
+      },
+      "de-fire-regnearter": {
+        "p1": "The four operations — addition, subtraction, multiplication, and division — are the basic tools you use to work with numbers. Addition combines quantities, subtraction finds the difference, multiplication is repeated addition, and division splits a quantity into equal parts.",
+        "p2": "These four operations appear everywhere in daily life, from splitting a bill to figuring out how many days until your birthday. Mastering them gives you the skills to solve problems quickly and confidently, and they form the backbone of every branch of mathematics you will encounter later."
+      },
+      "hele-tal": {
+        "p1": "Integers extend the natural numbers by including zero and negative numbers: ..., −3, −2, −1, 0, 1, 2, 3, ... You need negative numbers to describe things like temperatures below zero, debts, or elevations below sea level.",
+        "p2": "Learning to add, subtract, multiply, and divide with negative numbers opens up a whole new range of problems you can solve. Integers are essential for algebra and for understanding how the number line stretches in both directions from zero."
+      },
+      "broeker": {
+        "p1": "A fraction represents a part of a whole. When you write 3/4, you are saying you have three out of four equal pieces. Fractions let you describe quantities that fall between whole numbers, like half a pizza or a quarter of an hour.",
+        "p2": "Working with fractions — comparing them, adding them, multiplying them — is a skill you will use throughout mathematics and everyday life. Understanding fractions also prepares you for decimals, percentages, and algebra, where they appear constantly."
+      },
+      "decimaltal": {
+        "p1": "Decimals are another way to write fractions, using a decimal point and place values like tenths, hundredths, and thousandths. For example, 0.75 means the same as 3/4. You see decimals on price tags, measuring tools, and calculators every day.",
+        "p2": "Being comfortable with decimals means you can handle money, measurements, and scientific data with ease. You will learn to add, subtract, multiply, and divide decimals, and to convert freely between decimals and fractions."
+      },
+      "procent": {
+        "p1": "A percentage is a way of expressing a number as a fraction of 100. When you say 25%, you mean 25 out of 100, which is the same as 1/4. Percentages make it easy to compare parts of different-sized groups on a common scale.",
+        "p2": "You encounter percentages everywhere: discounts in shops, test scores, battery levels, and statistics in the news. Learning to calculate percentages, and to convert between percentages, fractions, and decimals, is one of the most practical math skills you can have."
+      },
+      "potenser-og-roedder": {
+        "p1": "A power (or exponent) is a shorthand for repeated multiplication: 2³ means 2 × 2 × 2 = 8. A root is the reverse operation: √9 = 3 because 3² = 9. Together, powers and roots let you work with very large or very small numbers efficiently.",
+        "p2": "Powers and roots appear in area and volume calculations, scientific notation, compound interest, and many formulas in physics and chemistry. Once you understand them, you unlock a powerful set of tools for simplifying and solving more advanced problems."
+      },
+      "talteoretiske-begreber": {
+        "p1": "Number theory studies the properties of whole numbers. You explore ideas like prime numbers (numbers divisible only by 1 and themselves), factors, multiples, divisibility rules, and the greatest common divisor. These concepts reveal surprising patterns hidden inside ordinary numbers.",
+        "p2": "Number theory is not just abstract — it is the basis for modern cryptography that keeps your online data secure. Understanding primes and divisibility also makes working with fractions and algebra much easier, because you can simplify expressions with confidence."
+      },
+      "rationale-og-irrationale-tal": {
+        "p1": "Rational numbers are any numbers you can write as a fraction of two integers, like 3/4 or −7/2. Irrational numbers, such as π and √2, cannot be written as a simple fraction — their decimal expansions go on forever without repeating.",
+        "p2": "Understanding the difference between these two types of numbers deepens your knowledge of the number system. You learn that the number line is filled with irrational numbers hiding between the rationals, and this insight is essential for advanced algebra, geometry, and calculus."
+      },
+      "regnearternes-hierarki": {
+        "p1": "The order of operations is a set of rules that tells you which calculations to do first in an expression. You handle brackets first, then powers, then multiplication and division (left to right), and finally addition and subtraction (left to right).",
+        "p2": "Without these rules, the same expression could give different answers depending on who reads it. Learning the order of operations ensures that everyone interprets a mathematical expression in the same way, which is essential as your calculations become more complex."
+      },
+      "grundlaeggende-algebra": {
+        "p1": "Algebra introduces letters (like x and y) to stand for unknown or variable quantities. Instead of just working with specific numbers, you learn to write general rules and relationships, such as the formula for the area of a rectangle: A = l × w.",
+        "p2": "This shift from numbers to symbols is one of the most important steps in mathematics. Algebra lets you solve problems where something is unknown, describe patterns, and build formulas that work in every situation — skills that are used in science, engineering, economics, and everyday problem-solving."
+      },
+      "ligninger": {
+        "p1": "An equation is a statement that two expressions are equal, and solving it means finding the value of the unknown that makes it true. For example, 2x + 3 = 11 is solved when x = 4. You learn systematic methods like isolating the variable by doing the same operation to both sides.",
+        "p2": "Equations are everywhere: calculating distances, converting currencies, balancing budgets, and modelling scientific phenomena. The ability to set up and solve equations is one of the most broadly useful skills in all of mathematics."
+      },
+      "ligningssystemer": {
+        "p1": "A system of equations is two or more equations with the same unknowns that must all be true at the same time. For example, you might need to find x and y that satisfy both x + y = 10 and 2x — y = 5 simultaneously.",
+        "p2": "You learn methods like substitution and elimination to find the solution. Systems of equations arise whenever multiple conditions must be met at once — in physics, economics, engineering, and optimisation problems. They also connect beautifully to the geometry of intersecting lines."
+      },
+      "parentesregler-og-faktorisering": {
+        "p1": "Bracket rules tell you how to expand expressions like (a + b)(a — b), while factorisation is the reverse process: rewriting an expression as a product of simpler factors. Both skills rely on the distributive law and are essential for simplifying algebraic expressions.",
+        "p2": "Mastering these techniques makes it much easier to solve equations, simplify fractions, and work with polynomials. Factorisation is especially powerful because it can turn a complicated expression into a form where you can immediately read off solutions or simplify further."
+      },
+      "andengradsligninger": {
+        "p1": "A quadratic equation has the form ax² + bx + c = 0, where the highest power of the unknown is 2. You can solve these using the quadratic formula, by factorising, or by completing the square. A quadratic equation can have two solutions, one solution, or no real solutions.",
+        "p2": "Quadratic equations model many real-world situations: the path of a thrown ball, the area of a changing rectangle, or the profit of a business. Understanding them is a gateway to higher-level mathematics and gives you powerful tools for analysing curved relationships."
+      },
+      "polynomier": {
+        "p1": "A polynomial is an expression like 3x³ — 2x² + 5x — 1, built from variables and constants using addition, subtraction, multiplication, and non-negative integer exponents. The degree of the polynomial tells you its highest power and determines the overall shape of its graph.",
+        "p2": "You learn to add, multiply, divide, and factorise polynomials, and to find their roots. Polynomials are among the most important objects in mathematics because they can approximate almost any function, and they appear in physics, computer science, and engineering."
+      },
+      "broekregning-med-algebra": {
+        "p1": "Algebraic fractions are fractions where the numerator, denominator, or both contain algebraic expressions, like (x² — 1)/(x + 1). You learn to simplify them by factorising and cancelling common factors, and to add, subtract, multiply, and divide them just as you do with numerical fractions.",
+        "p2": "Working confidently with algebraic fractions is essential for solving advanced equations, working with functions, and doing calculus. These skills tie together your knowledge of fractions and algebra into a unified toolkit for handling complex mathematical expressions."
+      },
+      "logaritmer": {
+        "p1": "A logarithm answers the question: \"What exponent do I need?\" If 10² = 100, then log₁₀(100) = 2. Logarithms are the inverse of exponentiation, just as subtraction is the inverse of addition. You learn the rules for combining and simplifying logarithmic expressions.",
+        "p2": "Logarithms are indispensable in science and engineering because they let you handle extremely large or small numbers on a manageable scale. They appear in measuring earthquakes (Richter scale), sound (decibels), and in solving exponential equations that model growth and decay."
+      },
+      "komplekse-tal": {
+        "p1": "Complex numbers extend the real numbers by introducing i, the imaginary unit, defined by i² = −1. A complex number has the form a + bi, where a is the real part and b is the imaginary part. This means every quadratic equation now has solutions, even x² + 1 = 0.",
+        "p2": "Complex numbers are far more than a theoretical curiosity. They are used in electrical engineering, quantum physics, signal processing, and fluid dynamics. Learning to add, multiply, and visualise them on the complex plane opens a rich and elegant chapter of mathematics."
+      },
+      "grundlaeggende-funktionslaere": {
+        "p1": "A function is a rule that assigns exactly one output to each input. You can think of it as a machine: you put a number in, and a specific number comes out. Functions are written as f(x), and you learn to read their graphs, tables, and formulas.",
+        "p2": "Functions are the language used to describe relationships in mathematics and science — how distance depends on time, how temperature changes through the day, or how cost depends on quantity. Understanding functions is the key to almost all higher-level mathematics."
+      },
+      "lineaere-funktioner": {
+        "p1": "A linear function has the form f(x) = ax + b, and its graph is a straight line. The number a is the slope (how steep the line is) and b is the y-intercept (where the line crosses the vertical axis). You learn to find these values, draw the graph, and interpret them in context.",
+        "p2": "Linear functions model constant-rate relationships: a taxi fare that increases steadily per kilometre, a bathtub filling at a fixed rate, or a phone plan with a flat monthly fee plus a per-minute charge. Recognising and working with them is fundamental to algebra, statistics, and science."
+      },
+      "andengradsfunktioner-parabler": {
+        "p1": "A quadratic function has the form f(x) = ax² + bx + c, and its graph is a U-shaped curve called a parabola. The parabola has a vertex (its highest or lowest point), an axis of symmetry, and it may cross the x-axis at zero, one, or two points.",
+        "p2": "Quadratic functions describe projectile motion, the shape of satellite dishes, and profit maximisation in business. You learn to find the vertex, roots, and axis of symmetry, and to use these to sketch graphs and solve real-world problems involving curved relationships."
+      },
+      "potensfunktioner": {
+        "p1": "A power function has the form f(x) = b · xᵃ, where the variable x is raised to a constant power a. Depending on whether a is positive, negative, a fraction, or a whole number, the graph takes on very different shapes. You already know some power functions: x² gives a parabola, and x³ gives a cubic curve.",
+        "p2": "Power functions model many natural relationships, such as how the area of a circle grows with its radius (A = πr²) or how gravitational force decreases with distance. Recognising a power function in data — often by using logarithmic plots — is a key skill in science and engineering."
+      },
+      "eksponentialfunktioner": {
+        "p1": "An exponential function has the form f(x) = b · aˣ, where the variable is in the exponent. When a > 1 the function grows rapidly; when 0 < a < 1 it decays. Unlike linear growth that adds the same amount each step, exponential growth multiplies by the same factor each step.",
+        "p2": "Exponential functions describe population growth, radioactive decay, compound interest, and the spread of diseases. You learn to identify exponential behaviour in data, write the function, and use logarithms to solve exponential equations. These functions are some of the most important in applied mathematics."
+      },
+      "logaritmefunktioner": {
+        "p1": "A logarithmic function is the inverse of an exponential function. If y = aˣ, then x = log_a(y). Its graph rises steeply at first and then levels off, growing more and more slowly. You learn about the natural logarithm (ln) and the common logarithm (log₁₀).",
+        "p2": "Logarithmic functions are used to model phenomena where growth slows over time, such as perceived loudness of sound or the pH scale in chemistry. They also help you solve exponential equations and are essential tools in calculus, data science, and information theory."
+      },
+      "trigonometriske-funktioner": {
+        "p1": "The trigonometric functions — sine, cosine, and tangent — can be extended beyond triangles to become functions of any real number. Their graphs are smooth, repeating waves that oscillate between fixed values. You learn about amplitude, period, and phase shift.",
+        "p2": "These wave-like functions model anything that repeats: sound waves, tides, seasonal temperatures, and alternating current in electrical circuits. Understanding trigonometric functions and their properties is essential for physics, engineering, and signal processing."
+      },
+      "funktioners-egenskaber": {
+        "p1": "When you study the properties of functions, you examine features like domain and range, whether a function is increasing or decreasing, its symmetry, continuity, and behaviour as x approaches very large or very small values (asymptotes).",
+        "p2": "Analysing these properties lets you build a detailed picture of a function without plotting every single point. This skill is central to calculus and mathematical modelling, where you need to understand how a function behaves across its entire domain to draw conclusions and make predictions."
+      },
+      "transformationer-af-funktioner": {
+        "p1": "Transformations let you modify a function's graph by shifting it up, down, left, or right, stretching or compressing it, or reflecting it across an axis. For instance, f(x) + 3 shifts the graph up by 3 units, and f(−x) mirrors it horizontally.",
+        "p2": "Understanding transformations means you can quickly sketch the graph of a new function based on one you already know. This saves time and deepens your intuition about how algebraic changes in a formula correspond to visual changes in its graph."
+      },
+      "grundlaeggende-figurer-og-begreber": {
+        "p1": "Geometry starts with basic shapes and ideas: points, lines, angles, triangles, rectangles, and circles. You learn to name shapes, identify their properties, and understand concepts like parallel and perpendicular lines, symmetry, and congruence.",
+        "p2": "These building blocks are everywhere in the world around you — in buildings, artwork, road signs, and nature. Learning to see and describe geometric shapes trains your spatial thinking and prepares you for more advanced geometry, measurement, and design."
+      },
+      "trekanter": {
+        "p1": "A triangle is a three-sided polygon, and it is the simplest shape that encloses an area. You learn about different types (equilateral, isosceles, right-angled, scalene), the angle sum property (always 180°), and important features like altitudes, medians, and the circumscribed and inscribed circles.",
+        "p2": "Triangles are the foundation of much of geometry and engineering because any polygon can be divided into triangles. You use triangles to calculate heights, distances, and areas, and they lead naturally into trigonometry, one of the most widely applied branches of mathematics."
+      },
+      "firkanter": {
+        "p1": "Quadrilaterals are four-sided polygons, and they come in many varieties: squares, rectangles, parallelograms, rhombuses, trapezoids, and more. Each type has its own special properties related to side lengths, angles, parallel sides, and diagonals.",
+        "p2": "You learn to classify quadrilaterals, calculate their areas and perimeters, and understand how the different types relate to each other. Quadrilaterals appear in floor plans, screens, tiles, and countless everyday objects, making this knowledge both practical and foundational."
+      },
+      "cirkler": {
+        "p1": "A circle is the set of all points at a fixed distance (the radius) from a centre point. You learn about diameter, circumference (C = πd), area (A = πr²), chords, arcs, sectors, and tangent lines. The number π is central to all circle calculations.",
+        "p2": "Circles appear everywhere: wheels, clocks, coins, orbits, and pizza. Understanding circles connects to trigonometry, coordinate geometry, and calculus. The properties of circles have fascinated mathematicians for thousands of years and remain essential in science and engineering."
+      },
+      "polygoner": {
+        "p1": "A polygon is a closed shape with straight sides. You already know triangles (3 sides) and quadrilaterals (4 sides), and now you study pentagons (5), hexagons (6), and beyond. Regular polygons have all sides and angles equal, like a stop sign (octagon).",
+        "p2": "You learn to calculate interior and exterior angles, areas, and perimeters of polygons. Polygons are used in architecture, computer graphics, tiling patterns, and nature (honeycombs are hexagons). Understanding them strengthens your ability to reason about shapes and space."
+      },
+      "rumgeometri-stereometri": {
+        "p1": "Solid geometry (or stereometry) deals with three-dimensional objects: cubes, spheres, cylinders, cones, pyramids, and prisms. You learn to calculate their surface areas and volumes, and to visualise how they look from different angles.",
+        "p2": "Three-dimensional thinking is essential in the real world — from packaging design and architecture to understanding how much water a tank can hold. Solid geometry trains your spatial reasoning and connects directly to coordinate geometry and calculus in three dimensions."
+      },
+      "koordinatgeometri": {
+        "p1": "Coordinate geometry (or analytic geometry) places shapes on a grid using x- and y-coordinates. You describe points, lines, and curves with equations, and you can calculate distances, midpoints, slopes, and intersections using algebra.",
+        "p2": "This powerful approach unifies algebra and geometry: every equation becomes a picture, and every shape becomes a formula. Coordinate geometry is the basis for graphing functions, GPS navigation, computer graphics, and much of modern engineering and science."
+      },
+      "geometriske-transformationer": {
+        "p1": "Geometric transformations change a shape's position, size, or orientation. The main types are translation (sliding), rotation (turning), reflection (mirroring), and dilation (scaling). You learn how each transformation affects coordinates and preserves or changes properties like angles and lengths.",
+        "p2": "Transformations are used in art, animation, architecture, and computer graphics. Understanding them helps you recognise symmetry, solve geometric problems more efficiently, and prepares you for linear algebra where transformations become a central concept."
+      },
+      "retvinklet-trigonometri": {
+        "p1": "Right-angled trigonometry uses the ratios sine, cosine, and tangent to relate the angles and sides of a right-angled triangle. If you know one angle and one side, you can find every other measurement in the triangle using these ratios.",
+        "p2": "This is one of the most practically useful topics in mathematics. Surveyors, architects, engineers, and navigators all rely on trigonometry to calculate heights, distances, and angles that would be difficult or impossible to measure directly."
+      },
+      "enhedscirklen": {
+        "p1": "The unit circle is a circle with radius 1 centred at the origin. By wrapping angles around this circle, you can define sine and cosine for any angle — not just those in a triangle. The coordinates of a point on the unit circle are (cos θ, sin θ).",
+        "p2": "The unit circle is the bridge between triangle trigonometry and the trigonometric functions you use in calculus and physics. It reveals the periodic, wave-like nature of sine and cosine and makes it easy to find exact values for key angles like 30°, 45°, and 60°."
+      },
+      "trigonometriske-identiteter": {
+        "p1": "Trigonometric identities are equations that are true for all valid angle values, such as sin²θ + cos²θ = 1. You learn fundamental identities, double-angle formulas, and addition formulas that let you rewrite trigonometric expressions in simpler or more useful forms.",
+        "p2": "These identities are essential tools for simplifying expressions, solving trigonometric equations, and proving mathematical statements. They appear constantly in calculus (especially integration), physics, and engineering whenever you work with oscillations, waves, or rotations."
+      },
+      "vilkaarlige-trekanter": {
+        "p1": "Not every triangle has a right angle. For general (non-right-angled) triangles, you use the sine rule and the cosine rule to find unknown sides and angles. These formulas extend trigonometry to all triangles, no matter their shape.",
+        "p2": "General triangle trigonometry is vital in surveying, navigation, and any situation where you need to calculate distances or angles in a triangle that is not right-angled. Mastering the sine and cosine rules gives you the ability to solve any triangle problem you encounter."
+      },
+      "trigonometriske-ligninger": {
+        "p1": "Trigonometric equations involve finding angles that satisfy an equation like sin x = 0.5 or 2cos²x — 1 = 0. Because trigonometric functions repeat periodically, these equations typically have infinitely many solutions, and you learn to express them in a general form.",
+        "p2": "Solving trigonometric equations is a key skill in physics and engineering, where you need to find the times or positions at which a periodic process reaches a particular value. Combining your knowledge of identities, the unit circle, and algebra, you develop a systematic approach to these problems."
+      },
+      "vektorer-i-planen": {
+        "p1": "A vector in the plane is a quantity that has both a magnitude (length) and a direction, written as an arrow or as coordinates (a, b). You learn to add vectors, scale them, compute dot products, and find angles between them.",
+        "p2": "Vectors are the natural language for describing forces, velocities, and displacements in physics. In mathematics, they let you solve geometric problems algebraically — finding distances, projections, and whether lines are parallel or perpendicular — with elegant efficiency."
+      },
+      "vektorer-i-rummet": {
+        "p1": "Vectors in space extend the concept to three dimensions, with coordinates (a, b, c). In addition to the dot product, you learn the cross product, which gives a vector perpendicular to two given vectors. This new tool is essential for working in 3D.",
+        "p2": "Three-dimensional vectors are used in physics (forces, torques, magnetic fields), computer graphics (lighting, surfaces), and engineering (structural analysis). Mastering them lets you describe and solve problems in the full three-dimensional world we live in."
+      },
+      "linjer-og-planer-i-rummet": {
+        "p1": "Using vectors, you can describe lines and planes in three-dimensional space with parametric and Cartesian equations. You learn to determine whether lines intersect, are parallel, or are skew, and to find distances between points, lines, and planes.",
+        "p2": "These techniques are fundamental in 3D modelling, computer graphics, robotics, and physics. Understanding how geometric objects relate to each other in space connects your knowledge of vectors, equations, and geometry into a powerful framework for spatial reasoning."
+      },
+      "matricer": {
+        "p1": "A matrix is a rectangular grid of numbers that you can add, multiply, and invert according to specific rules. Matrices provide a compact way to represent systems of equations, transformations, and data sets. You learn operations like matrix multiplication and how to find determinants and inverses.",
+        "p2": "Matrices are everywhere in modern applications: computer graphics use them to rotate and scale images, search engines use them to rank web pages, and physicists use them to describe quantum states. They are a cornerstone of linear algebra, one of the most applied branches of mathematics."
+      },
+      "graensevaerdier": {
+        "p1": "A limit describes the value that a function approaches as the input gets closer and closer to some point. For example, the function (x² — 1)/(x — 1) is undefined at x = 1, but its limit as x approaches 1 is 2. Limits make it possible to handle situations where direct substitution does not work.",
+        "p2": "Limits are the foundation of calculus. Both the derivative and the integral are defined using limits. Understanding them gives you the conceptual framework for studying how functions change, and it allows you to make sense of ideas like instantaneous speed and the area under a curve."
+      },
+      "differentialkvotienten": {
+        "p1": "The derivative of a function tells you its instantaneous rate of change at any point. Geometrically, it gives the slope of the tangent line to the function's graph. You learn the formal definition using limits, and you build intuition about what the derivative means in context.",
+        "p2": "Derivatives answer questions like: How fast is the car moving right now? How quickly is the population growing? At what rate is the temperature changing? The derivative is one of the most powerful concepts in mathematics, forming the core of differential calculus."
+      },
+      "regneregler-for-differentiering": {
+        "p1": "The rules of differentiation — the power rule, product rule, quotient rule, and chain rule — let you find derivatives efficiently without going back to the limit definition every time. Each rule handles a specific way that functions can be combined.",
+        "p2": "Mastering these rules is like learning the grammar of calculus: once you know them, you can differentiate almost any function you encounter quickly and accurately. They are essential tools for function analysis, optimisation, and solving differential equations."
+      },
+      "afledede-af-standardfunktioner": {
+        "p1": "You learn the derivatives of the standard functions you already know: polynomials, exponential functions, logarithmic functions, trigonometric functions, and their combinations. For example, the derivative of sin x is cos x, and the derivative of eˣ is eˣ.",
+        "p2": "Knowing these derivatives by heart, combined with the differentiation rules, lets you handle virtually any function that arises in practice. This repertoire is your essential toolkit for all applications of calculus, from physics to economics."
+      },
+      "funktionsanalyse": {
+        "p1": "Function analysis uses derivatives to build a complete picture of a function's behaviour: where it increases and decreases, where it has maximum and minimum values, where it curves upward or downward (concavity), and where it has inflection points.",
+        "p2": "This systematic approach lets you sketch accurate graphs, understand the shape of a function, and interpret its meaning in real-world contexts. Function analysis is a central topic in upper secondary mathematics and a key application of differential calculus."
+      },
+      "optimering": {
+        "p1": "Optimisation is about finding the best possible outcome — the maximum profit, the minimum cost, the shortest path, or the largest area. Using derivatives, you can find the exact points where a function reaches its highest or lowest values.",
+        "p2": "Optimisation problems appear everywhere: businesses maximise revenue, engineers minimise material usage, and scientists find the most efficient designs. Learning to set up and solve these problems is one of the most directly useful applications of calculus."
+      },
+      "differentialer-og-tilnaermelser": {
+        "p1": "A differential is a way of approximating how much a function's output changes when its input changes by a small amount. Using the tangent line at a point, you can estimate nearby function values without computing them exactly.",
+        "p2": "This technique is the mathematical basis for error estimation and linear approximation in science and engineering. When exact calculations are too complex, differentials give you fast, reliable approximations that are often accurate enough for practical purposes."
+      },
+      "ubestemt-integral-stamfunktion": {
+        "p1": "An antiderivative (or indefinite integral) of a function f is a function F whose derivative is f. Finding antiderivatives reverses the process of differentiation. You write it as ∫f(x) dx = F(x) + C, where C is an arbitrary constant.",
+        "p2": "Antiderivatives are essential for solving differential equations and for computing definite integrals, which measure accumulated quantities. Learning to find them builds on your knowledge of derivatives and prepares you for the powerful applications of integral calculus."
+      },
+      "bestemt-integral": {
+        "p1": "The definite integral ∫ from a to b of f(x) dx calculates the total accumulated value of a function between two points. Geometrically, it represents the signed area between the graph and the x-axis. The Fundamental Theorem of Calculus links it directly to antiderivatives.",
+        "p2": "Definite integrals let you compute areas, volumes, total distances, work done by a force, and many other accumulated quantities. They are one of the two pillars of calculus (alongside derivatives) and are used extensively in physics, engineering, and economics."
+      },
+      "integrationsmetoder": {
+        "p1": "Not every integral is straightforward, so you learn techniques such as substitution (a change of variable), integration by parts, and partial fractions to handle more complex integrands. Each method transforms a difficult integral into one you can solve.",
+        "p2": "Mastering integration methods is like building a toolbox: different problems require different tools. These techniques are essential for advanced mathematics, physics, and engineering, where the integrals you encounter are rarely simple textbook examples."
+      },
+      "anvendelser-af-integration": {
+        "p1": "Integration has a wide range of applications beyond finding areas. You learn to calculate volumes of solids of revolution, arc lengths, surface areas, work, and average values. Each application uses the idea of adding up infinitely many infinitesimal contributions.",
+        "p2": "These applications show the true power of integral calculus: it lets you solve problems that would be impossible with basic geometry alone. From designing rocket nozzles to modelling fluid flow, integration is an indispensable tool in science and engineering."
+      },
+      "differentialligninger-introduktion": {
+        "p1": "A differential equation is an equation that involves a function and its derivatives. For example, dy/dx = 2x says that the rate of change of y equals 2x. Solving it means finding the function y(x) that satisfies this relationship.",
+        "p2": "Differential equations describe how things change over time: population growth, cooling coffee, oscillating springs, and electrical circuits. This introductory topic teaches you to recognise, classify, and solve simple types such as separable and first-order linear equations."
+      },
+      "deskriptiv-statistik": {
+        "p1": "Descriptive statistics is about organising, summarising, and presenting data. You learn to calculate measures of centre (mean, median, mode) and spread (range, variance, standard deviation), and to display data using charts like bar graphs, histograms, and box plots.",
+        "p2": "In a world full of data, being able to summarise and interpret it is a vital skill. Descriptive statistics helps you see patterns, compare groups, spot outliers, and communicate findings clearly — whether you are analysing survey results, sports data, or scientific measurements."
+      },
+      "kombinatorik": {
+        "p1": "Combinatorics is the mathematics of counting. You learn systematic methods for counting arrangements (permutations) and selections (combinations). For example, how many ways can you arrange 5 books on a shelf, or choose 3 players from a team of 12?",
+        "p2": "Counting problems arise in probability, computer science, cryptography, and everyday decision-making. Combinatorics teaches you to think carefully about structure and avoid over- or under-counting, which is a skill that sharpens your logical reasoning across all areas of mathematics."
+      },
+      "sandsynlighedsregning": {
+        "p1": "Probability measures how likely an event is to happen, on a scale from 0 (impossible) to 1 (certain). You learn about sample spaces, events, and rules for combining probabilities, including addition and multiplication rules for independent and dependent events.",
+        "p2": "Probability is the foundation of statistics, risk assessment, and decision-making under uncertainty. Whether you are predicting the weather, playing a game, evaluating a medical test, or designing an experiment, probability gives you the tools to reason about chance and uncertainty."
+      },
+      "diskrete-sandsynlighedsfordelinger": {
+        "p1": "A discrete probability distribution describes the probabilities of the possible outcomes of a random variable that can only take specific, separated values (like the number of heads in 10 coin flips). You study the binomial distribution, the Poisson distribution, and others.",
+        "p2": "These distributions let you model and analyse random processes: defective items in a production batch, the number of customers arriving per hour, or the outcomes of repeated experiments. Understanding them is essential for statistics, quality control, and data science."
+      },
+      "kontinuerte-sandsynlighedsfordelinger": {
+        "p1": "A continuous probability distribution describes the probabilities of a random variable that can take any value in an interval, like heights, temperatures, or waiting times. The most important example is the normal distribution, the famous bell curve.",
+        "p2": "The normal distribution appears everywhere because of the central limit theorem: averages of many random measurements tend to follow it regardless of the original distribution. You learn to calculate probabilities using density functions and to apply these models to real-world data."
+      },
+      "statistisk-inferens": {
+        "p1": "Statistical inference is about drawing conclusions from data. You learn to estimate population parameters from samples, construct confidence intervals that express uncertainty, and perform hypothesis tests to decide whether observed effects are real or due to chance.",
+        "p2": "Inference is what makes statistics truly powerful: it lets you make reliable statements about an entire population based on a manageable sample. These methods are used in medicine, social science, business, and any field where decisions must be based on data rather than guesswork."
+      },
+      "foelger": {
+        "p1": "A sequence is an ordered list of numbers that follows a pattern or rule. You study arithmetic sequences (where you add a constant each step) and geometric sequences (where you multiply by a constant each step), learning to find any term and to recognise the type from data.",
+        "p2": "Sequences appear in financial calculations (loan repayments, savings plans), in nature (Fibonacci numbers in sunflowers), and as a stepping stone to series and calculus. Understanding sequences trains you to spot patterns and express rules precisely using formulas."
+      },
+      "raekker": {
+        "p1": "A series is the sum of the terms in a sequence. You learn about finite sums (like adding the first n terms of an arithmetic sequence) and infinite series, where you add up infinitely many terms and ask whether the total converges to a finite value or diverges.",
+        "p2": "Series are used to define important mathematical constants, approximate functions with polynomials (Taylor series), and solve problems in physics and engineering. Determining whether an infinite series converges, and finding its sum, is a fundamental skill in higher mathematics."
+      },
+      "binomialformlen": {
+        "p1": "The binomial formula tells you how to expand (a + b)ⁿ into a sum of terms. Each term involves a binomial coefficient, which counts the number of ways to choose items from a set. For example, (a + b)³ = a³ + 3a²b + 3ab² + b³.",
+        "p2": "The binomial formula connects algebra, combinatorics, and probability in a beautiful way. Binomial coefficients appear in Pascal's triangle, in the binomial distribution, and in many areas of mathematics. Mastering this formula gives you a versatile tool for expanding and simplifying expressions."
+      },
+      "laengde-areal-rumfang": {
+        "p1": "Measurement starts with three fundamental quantities: length (how long something is), area (how much surface it covers), and volume (how much space it fills). You learn the standard units (metres, square metres, cubic metres) and how to calculate these for common shapes.",
+        "p2": "These measurement skills are used every day: buying fabric, painting walls, filling containers, and following recipes. Understanding the formulas for rectangles, triangles, circles, boxes, and cylinders gives you practical tools and a solid foundation for geometry and science."
+      },
+      "vaegt-og-masse": {
+        "p1": "Weight and mass measure how heavy something is. You learn about units like grams, kilograms, and tonnes, and how to convert between them. You also practise estimating, comparing, and measuring mass using scales and balances.",
+        "p2": "Understanding weight and mass is practical: you need it for cooking, shopping, science experiments, and understanding the world around you. It also introduces you to the idea of measurement units and conversion, which extends to many other areas of mathematics and science."
+      },
+      "tid": {
+        "p1": "Time is one of the most important things you measure every day. You learn to read clocks (both analogue and digital), understand units of time (seconds, minutes, hours, days, weeks, months, years), and calculate durations and differences between times.",
+        "p2": "Being confident with time lets you plan your day, understand schedules, and solve problems involving speed and distance. Time calculations also introduce you to working with a system that is not base-10 (60 seconds in a minute, 24 hours in a day), which is a valuable mathematical experience."
+      },
+      "skala-og-kort": {
+        "p1": "A scale tells you the relationship between a distance on a map or drawing and the real distance it represents. For example, a scale of 1:1000 means that 1 cm on the map equals 1000 cm (or 10 m) in reality. You learn to read, use, and create scale drawings and maps.",
+        "p2": "Scale and maps are essential for navigation, architecture, and design. Working with scale strengthens your understanding of ratios and proportional reasoning, which are skills you will use across mathematics and in many practical situations."
+      },
+      "matematisk-logik": {
+        "p1": "Mathematical logic studies the rules of valid reasoning. You learn about propositions (statements that are true or false), logical connectives (and, or, not, implies), truth tables, and the precise meaning of quantifiers like \"for all\" and \"there exists.\"",
+        "p2": "Logic is the foundation on which all of mathematics is built. Clear logical thinking helps you construct valid arguments, spot errors in reasoning, and understand why mathematical proofs work. These skills transfer to computer science, philosophy, and everyday critical thinking."
+      },
+      "bevisteknikker": {
+        "p1": "A mathematical proof is a logical argument that shows a statement must be true. You learn several proof techniques: direct proof, proof by contradiction (assuming the opposite leads to a contradiction), proof by induction (domino-style reasoning), and proof by contrapositive.",
+        "p2": "Learning to write proofs is learning to think with absolute precision. Proofs ensure that mathematical results are certain, not just likely. Developing this skill sharpens your logical reasoning and gives you a deeper understanding of why mathematical facts are true, not just that they are."
+      },
+      "rente-og-finansregning": {
+        "p1": "Financial mathematics covers how money grows over time through interest, and how loans and investments work. You learn about simple interest, compound interest, annuities, and how to compare financial products using concepts like present value and effective interest rate.",
+        "p2": "Understanding financial mathematics is one of the most directly useful things you can learn. It helps you make smart decisions about savings, loans, mortgages, and investments. The formulas connect to exponential functions and geometric series, showing how pure mathematics applies to your personal finances."
+      },
+      "maengdelaere": {
+        "p1": "Set theory is about collections of objects called sets. You learn to describe sets, use Venn diagrams, and perform operations like union (combining sets), intersection (finding common elements), and complement (everything not in a set).",
+        "p2": "Set theory provides the language and framework for much of modern mathematics. It helps you organise information, understand logical relationships, and reason about categories. Sets also appear in probability, database design, and anywhere you need to classify and compare groups of things."
+      },
+      "grafteori": {
+        "p1": "Graph theory studies networks made of nodes (vertices) connected by edges. You learn about paths, cycles, connectivity, trees, and algorithms for finding shortest routes or optimal solutions. A \"graph\" here is not a chart — it is a diagram of connections.",
+        "p2": "Graph theory is behind social networks, GPS navigation, internet routing, scheduling, and supply chains. It is one of the most applied areas of discrete mathematics, and its visual, puzzle-like nature makes it an accessible and engaging entry point into advanced mathematical thinking."
+      },
+      "talrepraesentationer": {
+        "p1": "Number representations explore how the same number can be written in different systems. You learn about the decimal system (base 10), binary (base 2, used by computers), and other bases. You also learn to convert between these systems and understand why they work.",
+        "p2": "Understanding different number bases reveals how our familiar decimal system is just one of many possible choices. Binary is the language of computers, and knowing how it works gives you insight into how digital technology stores and processes information at its most fundamental level."
+      }
+    }
+  },
+  "lesson": {
+    "backTo": "Back to {topicName}",
+    "comingSoonTitle": "Interactive content coming soon",
+    "comingSoonDesc": "We're working on building interactive lessons for {lessonName}. Come back soon to try it out!",
+    "cosineRule": {
+      "sections": {
+        "intro": "Introduction",
+        "proof": "Proof",
+        "interactive": "Interactive",
+        "examples": "Examples",
+        "exercises": "Exercises"
+      },
+      "intro": {
+        "title": "What is the",
+        "titleHighlight": "cosine rule",
+        "desc": "The cosine rule is a generalization of the Pythagorean theorem to arbitrary triangles — including those that are not right-angled. It connects a triangle's three sides with one of its angles.",
+        "formulaLabel": "The formula",
+        "findSideTitle": "Find an unknown side",
+        "findSideDesc": "When you know two sides and the included angle.",
+        "findAngleTitle": "Find an unknown angle",
+        "findAngleDesc": "When you know all three sides of the triangle.",
+        "pythagorasTitle": "Generalize Pythagoras",
+        "pythagorasDesc": "When A = 90° the formula reduces to a² = b² + c².",
+        "allTypesTitle": "All triangle types",
+        "allTypesDesc": "Works for acute, right-angled, and obtuse triangles.",
+        "variantsLabel": "Angle variants:"
+      },
+      "proof": {
+        "title": "Proof of the",
+        "titleHighlight": "cosine rule",
+        "desc": "Click through the proof step by step.",
+        "step": "Step {current}/{total}",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "interactive": {
+        "title": "Interactive",
+        "titleHighlight": "triangle",
+        "desc": "Adjust the sides and angle — see how the cosine rule calculates the unknown side in real time.",
+        "sideB": "Side b",
+        "sideC": "Side c",
+        "angleA": "Angle A",
+        "calculation": "Calculation",
+        "allAngles": "All angles:",
+        "rightAngled": "Right-angled!",
+        "obtuseAngled": "Obtuse",
+        "acuteAngled": "Acute"
+      },
+      "examples": {
+        "title": "Worked",
+        "titleHighlight": "examples",
+        "desc": "Click \"Show next step\" to reveal the solution step by step.",
+        "task": "Problem",
+        "showNext": "Show next step",
+        "reset": "Reset",
+        "answer": "Answer"
+      },
+      "exercises": {
+        "title": "Test yourself —",
+        "titleHighlight": "exercises",
+        "desc": "Try solving the exercises. You can use a calculator! Click \"Hint\" if you're stuck.",
+        "correct": "Correct ✓",
+        "tryAgain": "Try again",
+        "exerciseN": "Exercise {n}",
+        "hint": "Hint",
+        "hideHint": "Hide hint",
+        "placeholder": "Your answer...",
+        "check": "Check",
+        "correctAnswer": "The correct answer is {answer}{unit}. Try a similar problem!",
+        "checkAll": "Check all answers",
+        "perfect": "Perfect! You've mastered the cosine rule!",
+        "keepPracticing": "Keep practicing — you can do it!",
+        "score": "{score} / {total}"
+      }
+    }
+  },
+  "category": {
+    "topicsAndLessons": "{topics} topics · {lessons} lessons",
+    "about": {
+      "tal-og-talfornemmelse": {
+        "p1": "Numbers are the most fundamental thing in mathematics. From the very first years of school, you work with counting, comparing and understanding what numbers actually mean. Number sense is about having an intuitive feel for numbers — knowing that 100 is much more than 10, that half of 8 is 4, and being able to judge whether an answer is reasonable.",
+        "p2": "The four basic operations — addition, subtraction, multiplication and division — are the building blocks. Once you master them, you can solve countless everyday problems: sharing sweets fairly, calculating change, or figuring out how many days until the holidays. Arithmetic isn't just something you do at school; it's something you use all the time.",
+        "p3": "Gradually, your concept of numbers expands. You learn about negative numbers (what happens when the temperature drops below zero?), fractions (half a pizza, three quarters of an hour) and decimals. Each new type of number opens up new ways of describing reality.",
+        "p4": "You encounter percentages everywhere — in shop discounts, grades, statistics and the news. Understanding percentages means being able to translate between parts and wholes, and it's one of the most practical skills mathematics gives you.",
+        "p5": "In the older classes and upper secondary school, you dive into powers, roots and number theory. You learn what it means for a number to be prime, how to find the greatest common divisor, and why numbers like π and √2 can never be written as fractions.",
+        "p6": "A good number sense is the foundation for everything else in mathematics. The better you understand numbers and arithmetic, the easier algebra, geometry and everything that builds on them becomes."
+      },
+      "algebra": {
+        "p1": "In algebra we use letters like x and y to stand for numbers we don't know yet. Instead of asking \"what number plus 3 equals 10?\" we write x + 3 = 10 — and then we have an equation to solve. That's the core idea of algebra: writing mathematical questions with symbols so we can work our way to the answer step by step.",
+        "p2": "You actually use algebra already, perhaps without thinking about it. When you figure out how much money you're short for something you want to buy, you're making an equation in your head: what you have + what you need = the price. Algebra gives you a tool to write that kind of thinking down and solve it precisely.",
+        "p3": "When you start with algebra, you first learn to work with simple expressions and equations. You learn to collect like terms, expand brackets, and rearrange an equation so the unknown ends up alone on one side. It's a bit like a puzzle — there are fixed rules, and when you follow them, the answer falls into place.",
+        "p4": "Later you meet equations that are more challenging: equations with fractions, with several unknowns, or quadratic equations where x appears squared. You also learn handy shortcuts like the square identities, which make it faster to multiply and factorise expressions. The more techniques you have, the bigger problems you can tackle.",
+        "p5": "In upper secondary school you build further with polynomials, logarithms, and eventually complex numbers. But the principle is the same as from the start: you write a problem using symbols and transform it until you have an answer. The tools grow, but the way of thinking stays the same.",
+        "p6": "Algebra turns up everywhere in mathematics — in functions, geometry, physics, and economics. It's the shared toolbox that the rest of mathematics relies on. That's why getting comfortable with algebra is a great investment: it makes everything else easier."
+      },
+      "funktioner": {
+        "p1": "A function is a rule that takes a number in and gives a specific number back. Think of it as a machine: you put something in, and something comes out. If the rule is \"multiply by 2\", then input 3 gives output 6, and input 5 gives 10. That's the whole idea.",
+        "p2": "Functions are everywhere in daily life, even if you don't always notice. The price of petrol depends on how many litres you fill up. Your pay depends on how many hours you work. The temperature changes throughout the day. All these relationships can be described with functions.",
+        "p3": "The graph is the picture of a function. When you plot a function in a coordinate system, you can see its behaviour at a glance: is it rising or falling? How fast? Does it have a peak or a trough? A graph makes the abstract concrete and visual.",
+        "p4": "The simplest functions are linear ones — straight lines that rise or fall at a constant rate. From there you meet quadratic functions, which draw parabolas, and exponential functions, which grow explosively fast. Each type of function has its own shape and its own properties.",
+        "p5": "In upper secondary school you learn to analyse functions more precisely: where they grow, where they have extrema, how they behave as x gets very large. You also meet trigonometric functions, which oscillate like waves, and logarithmic functions, which are the inverse of exponentials.",
+        "p6": "Functions are the language that science and economics use to describe change. From the laws of motion in physics to economic growth models — it's all functions. Being able to read and work with functions is a key skill in almost every subject that uses mathematics."
+      },
+      "geometri": {
+        "p1": "Geometry is about shapes, figures and space. It's the part of mathematics you can see and touch — from triangles and circles on paper to buildings, bridges and balls in the real world. Geometry helps you understand how things are shaped, how big they are, and how they fit together.",
+        "p2": "You start with the basic figures: points, lines, triangles, quadrilaterals and circles. You learn to measure angles, calculate perimeters and areas, and you discover rules like the angles in a triangle always adding up to 180°. These rules aren't arbitrary — they follow from the logic of geometry.",
+        "p3": "Triangles hold a special place in geometry. They are the simplest shape with area, and they turn up everywhere: in roof structures, bridges, GPS calculations and computer graphics. Understanding triangles — their sides, angles and areas — is a cornerstone of the whole subject.",
+        "p4": "The circle is another key figure. With just one formula, C = 2πr, you can calculate the circumference of anything from a bicycle wheel to the Earth's equator. The number π ties the circle to the rest of mathematics in ways that still fascinate mathematicians.",
+        "p5": "In the older classes and upper secondary school, you work with coordinate geometry, where figures are described with numbers and equations. A circle becomes x² + y² = r², and distances and angles can be calculated precisely. You also meet solid geometry, working with spheres, cylinders and other three-dimensional shapes.",
+        "p6": "Geometry trains your ability to think visually and logically. It's one of the oldest mathematical subjects — the ancient Greeks used it to understand the world — and it's still just as relevant today, from architecture to robotics."
+      },
+      "trigonometri": {
+        "p1": "Trigonometry is about the relationship between angles and sides in triangles. The basic question is: if you know some of the sides and angles in a triangle, can you find the rest? The answer is yes — and trigonometry gives you the methods to do it.",
+        "p2": "It all starts with the right-angled triangle and the three fundamental ratios: sine, cosine and tangent. Each describes the ratio between two specific sides of the triangle, depending on which angle you're looking at. With these three tools you can calculate heights, distances and angles that you can't measure directly.",
+        "p3": "Trigonometry is incredibly practical. Surveyors use it to calculate distances without walking the whole way. Navigators use it to find position. Engineers use it to design structures. Whenever you need to find an unknown length or angle from what you already know, trigonometry is the answer.",
+        "p4": "In upper secondary school, trigonometry expands with the unit circle, which connects angles to coordinates. Sine and cosine become functions that oscillate like waves — and suddenly they can describe everything from sound and light to alternating current and tides.",
+        "p5": "You also meet trigonometric identities — formulas that are always true, no matter which angle you put in. And with the sine rule and cosine rule, you can work with all triangles, not just right-angled ones.",
+        "p6": "Trigonometry ties geometry and algebra together. It starts with something very concrete — a triangle with sides and angles — and leads you to tools used in everything from physics and engineering to music and computer graphics."
+      },
+      "vektorer-og-lineaer-algebra": {
+        "p1": "A vector is a quantity with both direction and magnitude. Think of it as an arrow: it tells you not just how much, but also where to. Wind has a strength and a direction. A force pushes in a specific direction. Movement has a speed and a heading. All of this is described with vectors.",
+        "p2": "In mathematics, we write a vector as a pair or triple of numbers, e.g. (3, 2), describing a movement of 3 to the right and 2 up. You can add vectors, subtract them and multiply them by numbers. These simple operations make it possible to describe and calculate movements, forces and directions precisely.",
+        "p3": "The dot product is one of the most important tools in vector algebra. It takes two vectors and returns a single number — and that number tells you something about the angle between them. If the dot product is zero, the vectors are perpendicular. It's an elegant way to measure directions.",
+        "p4": "Vectors in space extend the idea to three dimensions. Now you can describe positions, directions and movements in all of space — not just in the plane. You can find equations for lines and planes, calculate distances and intersections, and work with geometry in 3D.",
+        "p5": "Linear algebra is about systems of linear equations and the structures that arise. Matrices are rectangular tables of numbers that can describe everything from systems of equations to rotations and transformations. They are an indispensable tool in modern mathematics and computer science.",
+        "p6": "Vectors and linear algebra are the mathematical foundation for 3D graphics, machine learning, physics and economics. When a video game renders a 3D world, or an AI analyses data, it's vectors and matrices working behind the scenes."
+      },
+      "differentialregning": {
+        "p1": "Differential calculus is about change. How fast is something growing? When is it increasing, and when is it decreasing? When is it at its highest? If you can describe a quantity with a function, differential calculus can tell you exactly how that quantity is changing.",
+        "p2": "The central idea is the derivative — a new function that tells you how fast the original function is growing or shrinking at each point. If f(x) describes your position on a road, then f'(x) describes your speed. And the speed of the speed — f''(x) — is your acceleration.",
+        "p3": "Differentiating means finding the derivative, and it turns out to follow surprisingly simple rules. The power rule, the chain rule, the product rule — with a handful of techniques you can differentiate almost any function you encounter. It takes practice, but the patterns fall into place quickly.",
+        "p4": "One of the most important applications is finding maxima and minima. When is a function at its highest? That happens where the derivative is zero — the function is neither increasing nor decreasing. This principle is used in optimisation: finding the best solution, whether it's about minimising costs or maximising output.",
+        "p5": "Differential calculus also gives you tools to analyse functions thoroughly: turning points, intervals of increase and decrease, curvature and asymptotic behaviour. You can sketch an accurate graph of a function just by analysing its derivatives.",
+        "p6": "Differential calculus was developed by Newton and Leibniz in the 1600s and revolutionised mathematics. Today it's used in physics, economics, biology, engineering — everywhere something changes, and we want to understand how."
+      },
+      "integralregning": {
+        "p1": "Integral calculus is the counterpart of differential calculus. Where differentiation is about finding speed from position, integration is about the reverse: finding position from speed. If you know how fast something is growing, the integral can tell you how much it has grown in total.",
+        "p2": "The definite integral calculates the area under a curve. That might sound abstract, but it's extremely practical: the area under a speed graph is the distance travelled. The area under a power curve is the total energy consumption. Integrals translate graphs into concrete numbers.",
+        "p3": "Integrating in its simplest form means finding an antiderivative — a function whose derivative gives you the function you started with. If the derivative of x² is 2x, then an antiderivative of 2x is x². It's like running differentiation backwards.",
+        "p4": "Integration methods like substitution and integration by parts are techniques for handling more complicated functions. Just as differentiation has its rules, integration has its own — they require more creativity, but the principles are clear.",
+        "p5": "Integral calculus is also used to calculate volumes of solids of revolution, the length of curves and much more. It's a powerful geometric tool that reaches far beyond simple area calculations.",
+        "p6": "Together with differential calculus, integral calculus forms classical analysis — one of the most important and widely applied areas of mathematics. From physics and engineering to economics and probability theory, integrals are an indispensable tool."
+      },
+      "sandsynlighed-og-statistik": {
+        "p1": "Probability and statistics is about understanding data and randomness. What's the chance of rolling a six with a die? What's the average of a class's test scores? Can we trust the results of a poll? These are the kinds of questions this field answers.",
+        "p2": "Statistics begins with collecting and describing data. You learn to calculate mean, median and mode, and you learn to display data in charts that make the numbers easy to grasp. It's about getting a clear picture of what the numbers are telling you.",
+        "p3": "Probability is about predicting how likely something is. What's the chance of drawing a red card from a deck? What's the chance of winning the lottery? You learn to count possibilities, calculate probabilities and understand how randomness works.",
+        "p4": "Combinatorics gives you the tools to count systematically. How many ways can you choose 3 students from a class of 25? How many different codes can you make with 4 digits? It's about counting cleverly instead of counting everything one by one.",
+        "p5": "In upper secondary school, you meet probability distributions — mathematical models for random outcomes. The binomial distribution describes, for example, the number of successes in a series of trials, and the normal distribution is the famous bell-shaped curve that appears everywhere in nature and society.",
+        "p6": "Statistics and probability are among the most widely applied mathematics today. From medical trials and quality control to machine learning and weather forecasts — the ability to analyse data and assess uncertainty is a crucial skill."
+      },
+      "foelger-og-raekker": {
+        "p1": "A sequence is a list of numbers that follow a specific pattern. It can be as simple as 2, 4, 6, 8, ... (we add 2 each time) or 1, 2, 4, 8, 16, ... (we multiply by 2 each time). Finding the pattern and describing it with a formula is the fundamental task.",
+        "p2": "Arithmetic sequences increase or decrease by the same amount each time — like a staircase with equal steps. Geometric sequences are multiplied by the same number each time — they grow explosively fast or shrink towards zero. These two types form the foundation for understanding sequences.",
+        "p3": "A series arises when you add the terms of a sequence together. What does 1 + 2 + 3 + ... + 100 equal? Gauss found the answer as a child (5050), and the story illustrates nicely what series are about: finding clever ways to calculate sums without adding every number manually.",
+        "p4": "Recursive sequences are defined by each term depending on the previous ones. The Fibonacci sequence — 1, 1, 2, 3, 5, 8, 13, ... — is the most famous example: each number is the sum of the two before it. It appears in nature, from the spirals of sunflowers to nautilus shells.",
+        "p5": "In upper secondary school, you work with convergence: what happens when a sequence or series continues to infinity? Some series grow without bound, while others approach a specific number. The geometric series 1 + 1/2 + 1/4 + 1/8 + ..., for example, approaches exactly 2.",
+        "p6": "Sequences and series connect algebra with analysis and form the basis for many important concepts in mathematics, from compound interest to Taylor series, which can describe any function as an infinite sum."
+      },
+      "maaling-og-enheder": {
+        "p1": "Measurement is about putting numbers on the world we live in. How long is the table? How much does the parcel weigh? How long does the journey take? Every time you measure something, you're using mathematics to describe reality with numbers and units.",
+        "p2": "Length is the most basic measurement. You start with centimetres and metres and learn how the units relate: 100 centimetres make 1 metre, 1000 metres make 1 kilometre. Converting between units is an important skill used all the time in daily life.",
+        "p3": "Area measures how large a surface is — from a floor to be laid to a field to be sown. You learn to calculate the area of rectangles, triangles and circles, and you discover that area grows faster than you might expect: a square with sides twice as long has four times the area.",
+        "p4": "Volume tells you how much space there is inside something — how many litres of water a container can hold, or how much soil is needed to fill a bed. From boxes and cylinders to spheres and cones, you learn to calculate the volume of the shapes you encounter in everyday life.",
+        "p5": "Weight, time and scale are other important measurements. Grams and kilograms for weight, seconds, minutes and hours for time, and scale for maps and drawings, where 1 centimetre on paper can represent 1 kilometre in reality.",
+        "p6": "Mastering measurement and units gives you a practical mathematical toolkit you'll use for the rest of your life. It's mathematics you can literally get your hands on."
+      },
+      "logik-og-bevisteknik": {
+        "p1": "Mathematical logic is about thinking precisely. In everyday life we can get by with \"that's probably right\" or \"that makes sense\", but in mathematics we demand certainty. A proof is a chain of logical steps that shows something is true — not just likely, but undeniably true.",
+        "p2": "The foundation is propositional logic: statements that are either true or false. \"5 is a prime number\" is true. \"All even numbers are prime\" is false. You learn to combine statements with \"and\", \"or\" and \"not\", and you learn to understand implications: \"if A, then B.\"",
+        "p3": "Direct proof is the most straightforward technique: you start with what you know and derive step by step what you want to show. It's like building a bridge from premise to conclusion, where each step must be solid.",
+        "p4": "Proof by contradiction is an elegant method where you assume the opposite of what you want to prove and show that it leads to a contradiction. This is how it was proved, for example, that √2 is irrational — it cannot be written as a fraction, no matter how hard you try.",
+        "p5": "Proof by induction is used when you want to prove something for all natural numbers. You show it holds for 1, and that if it holds for any number n, it also holds for n + 1. Like dominoes: the first topples the next, which topples the next, forever.",
+        "p6": "Logic and proof technique are the foundation on which all of mathematics rests. Even if you never write a formal proof, it strengthens your ability to think clearly, argue precisely, and distinguish between what's been proved and what's merely a guess."
+      },
+      "finansiel-matematik": {
+        "p1": "Financial mathematics is about money and time. The core is a simple but important idea: money today is worth more than the same money in a year — because money can grow when it earns interest. Understanding this relationship is key to making good financial decisions.",
+        "p2": "Simple interest is the easiest to understand: you borrow 1000 kr. at 5% per year, and each year you pay 50 kr. in interest. But in practice, compound interest is used, where the interest itself starts earning interest. This is where money really begins to grow — or debt begins to mount.",
+        "p3": "The growth factor is the central tool. If the interest rate is 5%, the growth factor is 1.05. Multiplying by it once gives you the amount after one year. Multiplying by it ten times gives you the amount after ten years. That's exponential growth — and it can be surprising how fast it grows.",
+        "p4": "Annuities involve fixed payments over time — like a mortgage, where you pay the same amount each month for many years. The mathematics behind it calculates how much you pay in total and how much is interest versus repayment. It's directly useful knowledge for when you one day need to borrow money.",
+        "p5": "Index numbers are used to compare values over time: price trends, wage trends or inflation. By setting a base year at 100, you can quickly see whether something has risen or fallen, and by how much.",
+        "p6": "Financial mathematics is some of the most directly useful maths you'll learn. It helps you understand savings, loans, investment and the economic news you encounter every day. It's mathematics with pounds and pence."
+      },
+      "maengdelaere": {
+        "p1": "Set theory is about collecting things into groups and examining how those groups relate. A set is simply a collection of things — numbers, letters, people, anything. {1, 2, 3} is a set. The students in the class who wear glasses form a set. It's a simple but powerful concept.",
+        "p2": "The most important question in set theory is: does something belong to the set, or doesn't it? The number 5 belongs to the set of odd numbers. The number 4 doesn't. This simple yes/no logic is the foundation of the whole subject.",
+        "p3": "Venn diagrams are the visual tool of set theory. With overlapping circles you can show what two sets have in common and what's unique to each. It makes it easy to see relationships that can be hard to put into words alone.",
+        "p4": "Intersection, union and difference are the three basic operations. The intersection is what both groups share. The union is everything in at least one of them. The difference is what's in one but not the other.",
+        "p5": "Subsets and complements extend the toolkit. A subset is a set entirely contained within another — like \"girls in the class\" is a subset of \"all students.\" The complement is everything that's not included.",
+        "p6": "Set theory is a fundamental language in mathematics. It's used to define number types (natural numbers, integers, real numbers), in probability and in logic. It's easy to get started with, but the ideas reach far."
+      },
+      "diskret-matematik": {
+        "p1": "Discrete mathematics is about things that can be counted: whole numbers, networks, graphs and combinations. Unlike, say, calculus, where everything flows smoothly, discrete mathematics works with separate, countable objects — like steps on a staircase rather than a smooth ramp.",
+        "p2": "Graph theory is a central part of discrete mathematics. A graph is a network of points (nodes) connected by lines (edges). It sounds abstract, but it describes everything from road networks and train connections to social networks and the internet. Whenever you want to find the shortest route or the most efficient connection, you're using graph theory.",
+        "p3": "A classic problem is the \"bridges of Königsberg\": can you cross all seven bridges in the city exactly once? Euler proved in 1736 that it's impossible — and thereby founded graph theory. It's a good example of how a simple question can lead to an entirely new field of mathematics.",
+        "p4": "Number systems also belong here. We normally use the decimal system (base 10), but computers use the binary system (base 2). Understanding how numbers can be written in different bases gives insight into how computers think and calculate.",
+        "p5": "Algorithms — step-by-step recipes for solving problems — are at the heart of discrete mathematics and computer science. Sorting data, searching databases and optimising routes are all discrete problems with discrete solutions.",
+        "p6": "Discrete mathematics is the part of mathematics closest to computer science. In a world full of computers, networks and data, it's an increasingly important field — and it's surprisingly accessible, because it's about counting, drawing and thinking logically."
+      }
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Page not found",
+    "description": "The page you're looking for doesn't exist. It may have been moved or deleted.",
+    "goHome": "Go to homepage",
+    "seePensum": "See curriculum"
+  },
+  "footer": {
+    "tagline": "Built with passion for mathematics."
+  },
+  "breadcrumb": {
+    "trin": "Grades",
+    "pensum": "Curriculum",
+    "omraader": "Areas",
+    "about": "About us",
+    "contact": "Contact",
+    "faq": "FAQ"
+  }
+}

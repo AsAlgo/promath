@@ -1,0 +1,704 @@
+{
+  "metadata": {
+    "title": "Promath — Matematik bliver levende",
+    "description": "En interaktiv platform der gør matematik intuitivt og engagerende. Lær i dit eget tempo med interaktive opgaver og visuelle forklaringer."
+  },
+  "nav": {
+    "pensum": "Pensum",
+    "about": "Om os",
+    "contact": "Kontakt",
+    "grades": "Trin",
+    "topics": "Områder",
+    "selectGrade": "Vælg klassetrin",
+    "selectTopic": "Vælg område",
+    "hoverCategory": "Hold musen over en kategori",
+    "openMenu": "Åbn menu",
+    "closeMenu": "Luk menu",
+    "matematik": "Matematik",
+    "getStarted": "Kom i gang",
+    "gradeSection": "Klassetrin"
+  },
+  "theme": {
+    "lightMode": "Skift til lys tilstand",
+    "darkMode": "Skift til mørk tilstand"
+  },
+  "language": {
+    "label": "Sprog",
+    "switchLocale": "Skift sprog"
+  },
+  "edSystem": {
+    "label": "Skolesystem",
+    "switchSystem": "Skift skolesystem",
+    "dk": "Dansk (Folkeskole + Gymnasium)",
+    "de": "Tysk (Gymnasium G9)",
+    "uk": "Britisk (Key Stages)",
+    "us": "Amerikansk (K-12)"
+  },
+  "home": {
+    "badge": "Interaktiv matematik-platform",
+    "title": "Matematik",
+    "titleHighlight": "bliver levende",
+    "subtitle": "Promath gør matematik intuitivt og engagerende. Lær i dit eget tempo med interaktive opgaver og visuelle forklaringer.",
+    "cta": "Kom i gang — det er gratis",
+    "secondaryCta": "Se hvordan det virker",
+    "featuresTitle": "Lær matematik på en",
+    "featuresTitleHighlight": "ny måde",
+    "featuresSubtitle": "Promath kombinerer teknologi og pædagogik for at skabe den bedste læringsoplevelse.",
+    "feature1Title": "Interaktive opgaver",
+    "feature1Desc": "Løs opgaver trin for trin med øjeblikkelig feedback der guider dig fremad.",
+    "feature2Title": "Følg din fremgang",
+    "feature2Desc": "Se din udvikling over tid med detaljeret statistik og personlige milepæle.",
+    "feature3Title": "Tilpasset læring",
+    "feature3Desc": "Intelligent system der tilpasser sværhedsgraden til dit niveau og tempo.",
+    "feature4Title": "Visuelle forklaringer",
+    "feature4Desc": "Forstå komplekse koncepter gennem dynamiske visualiseringer og animationer.",
+    "topicsTitle": "Udforsk",
+    "topicsTitleHighlight": "emner",
+    "topicsSubtitle": "Fra grundlæggende algebra til avanceret calculus — vi dækker det hele.",
+    "topicAlgebraDesc": "Ligninger & polynomier",
+    "topicGeometryDesc": "Former & beviser",
+    "topicTrigDesc": "Vinkler & funktioner",
+    "topicFunctionsDesc": "Grafer & analyse",
+    "topicVectorsDesc": "Vektorer & lineær algebra",
+    "topicIntegralDesc": "Integraler & areal",
+    "topicStatsDesc": "Data & sandsynlighed",
+    "topicSequencesDesc": "Talfølger, rækker & konvergens",
+    "ctaTitle": "Klar til at mestre",
+    "ctaTitleHighlight": "matematik?",
+    "ctaSubtitle": "Tilmeld dig gratis og start din matematiske rejse i dag. Ingen kreditkort påkrævet.",
+    "ctaButton": "Start gratis nu"
+  },
+  "about": {
+    "metaTitle": "Om os — Promath",
+    "metaDescription": "Lær mere om Promath og vores mission om at gøre matematik tilgængelig og engagerende for alle.",
+    "title": "Om",
+    "titleHighlight": "Promath",
+    "intro": "Promath er en interaktiv matematik-platform bygget med det formål at gøre matematik tilgængelig, intuitivt og engagerende for elever i alle aldre.",
+    "missionTitle": "Vores mission",
+    "missionText": "Vi tror på, at alle kan lære matematik, når det præsenteres på den rigtige måde. Promath kombinerer interaktive visualiseringer, trin-for-trin forklaringer og øjeblikkelig feedback for at skabe den bedste læringsoplevelse mulig.",
+    "howTitle": "Hvordan det virker",
+    "howText1": "Promath er bygget op omkring klassetrin og emner. Vælg dit klassetrin, find et emne der interesserer dig, og dyk ned i interaktive lektioner med visuelle forklaringer.",
+    "howText2": "Hver lektion er designet til at bygge forståelse op gradvist — fra introduktion og teori til interaktive eksempler og øvelser.",
+    "levelsTitle": "For alle niveauer",
+    "levelsText": "Fra 1. klasses grundlæggende regning til gymnasiets calculus — Promath dækker hele spektret af dansk matematikundervisning med indhold tilpasset hvert enkelt klassetrin."
+  },
+  "contact": {
+    "metaTitle": "Kontakt — Promath",
+    "metaDescription": "Kontakt os med spørgsmål, feedback eller samarbejdsforslag.",
+    "title": "Kontakt",
+    "titleHighlight": "os",
+    "subtitle": "Har du spørgsmål, feedback eller forslag? Vi vil meget gerne høre fra dig.",
+    "emailTitle": "E-mail",
+    "emailDesc": "Send os en e-mail, og vi vender tilbage hurtigst muligt.",
+    "faqTitle": "FAQ",
+    "faqDesc": "Mange spørgsmål er allerede besvaret i vores FAQ.",
+    "faqLink": "Se ofte stillede spørgsmål →"
+  },
+  "faq": {
+    "metaTitle": "FAQ — Promath",
+    "metaDescription": "Ofte stillede spørgsmål om Promath.",
+    "title": "Ofte stillede",
+    "titleHighlight": "spørgsmål",
+    "subtitle": "Find svar på de mest almindelige spørgsmål om Promath.",
+    "q1": "Hvad er Promath?",
+    "a1": "Promath er en gratis, interaktiv matematik-platform designet til danske elever. Vi tilbyder lektioner med visuelle forklaringer, interaktive opgaver og øjeblikkelig feedback.",
+    "q2": "Er Promath gratis?",
+    "a2": "Ja, Promath er helt gratis at bruge. Vi tror på, at alle skal have adgang til god matematikundervisning.",
+    "q3": "Hvilke klassetrin dækker Promath?",
+    "a3": "Promath dækker 1. til 12. klasse, fra grundlæggende tal og regning til avanceret calculus på gymnasieniveau.",
+    "q4": "Kan jeg bruge Promath på mobilen?",
+    "a4": "Ja, Promath er fuldt responsivt og fungerer på alle enheder — computer, tablet og mobil.",
+    "q5": "Hvordan kommer jeg i gang?",
+    "a5": "Gå til klassetrins-oversigten, vælg dit klassetrin, og begynd at udforske emner og lektioner. Ingen tilmelding påkrævet.",
+    "q6": "Hvem står bag Promath?",
+    "a6": "Promath er bygget af et team med passion for matematik og teknologi. Læs mere på vores Om-side."
+  },
+  "grades": {
+    "metaTitle": "Klassetrin — Promath",
+    "metaDescription": "Vælg dit klassetrin og udforsk matematik.",
+    "title": "Vælg",
+    "titleHighlight": "klassetrin",
+    "subtitle": "Udforsk matematik tilpasset dit niveau.",
+    "label_DK": "{n}. klasse",
+    "label_DK_gym": "{n}",
+    "label_DE": "Klasse {n}",
+    "label_UK": "Year {n}",
+    "label_US": "Grade {n}",
+    "label_US_K": "Kindergarten",
+    "label_short_DK": "{n}. kl",
+    "label_short_DK_gym": "{n}",
+    "label_short_DE": "Kl. {n}",
+    "label_short_UK": "Y{n}",
+    "label_short_US": "Gr. {n}",
+    "label_short_US_K": "K",
+    "topicsCount": "{count} emner",
+    "lessonsCount": "{count} lektioner",
+    "topicsAndLessons": "{topics} emner · {lessons} lektioner"
+  },
+  "gradeGroups": {
+    "dk_indskoling": "Indskoling",
+    "dk_mellemtrin": "Mellemtrin",
+    "dk_udskoling": "Udskoling",
+    "dk_gymnasium": "Gymnasium",
+    "de_grundschule": "Grundschule",
+    "de_unterstufe": "Unterstufe",
+    "de_mittelstufe": "Mittelstufe",
+    "de_oberstufe": "Oberstufe",
+    "uk_ks1": "Key Stage 1",
+    "uk_ks2": "Key Stage 2",
+    "uk_ks3": "Key Stage 3",
+    "uk_ks4": "Key Stage 4 (GCSE)",
+    "uk_ks5": "Key Stage 5 (A-Level)",
+    "us_elementary": "Elementary School",
+    "us_middle": "Middle School",
+    "us_high": "High School"
+  },
+  "curriculum": {
+    "metaTitle": "Matematik — Promath",
+    "metaDescription": "Overblik over alle matematik-emner og klassetrin. Find interaktive lektioner.",
+    "title": "Udforsk",
+    "titleHighlight": "matematik",
+    "subtitle": "Find emner og lektioner på tværs af klassetrin.",
+    "showAll": "Vis alle",
+    "hideAll": "Skjul alle",
+    "topic": "Emne",
+    "topicsCount": "{count} emner",
+    "lessonsCount": "{count} lektioner",
+    "topicsAndLessons": "{topics} emner · {lessons} lektioner"
+  },
+  "topic": {
+    "notFoundTitle": "Ikke fundet — Promath",
+    "noLessons": "Der er endnu ingen lektioner i {topicName}.",
+    "noLessonsHint": "Vi arbejder på at tilføje indhold. Kom tilbage snart!",
+    "comingSoon": "Kommer snart",
+    "lessonsForGradeAndTopic": "Find interaktive lektioner på tværs af klassetrin.",
+    "lessonsShort": "{count} lekt.",
+    "allGrades": "Alle",
+    "noLessonsForGrade": "Ingen lektioner for det valgte klassetrin",
+    "about": {
+      "naturlige-tal": {
+        "p1": "Naturlige tal er de tal, du bruger til at tælle med: 1, 2, 3, 4, 5 og så videre. De er de mest grundlæggende tal i matematikken, og du har brugt dem, lige siden du lærte at tælle på fingrene. Nul regnes også med, og sammen danner de fundamentet for alt det, du senere skal lære om tal.",
+        "p2": "Når du forstår naturlige tal, kan du sammenligne størrelser, lægge sammen, trække fra og opbygge en sikker talfornemmelse. Det er din første byggesten — og den vigtigste."
+      },
+      "de-fire-regnearter": {
+        "p1": "De fire regnearter er addition, subtraktion, multiplikation og division. De er matematikkens grundværktøjer, og næsten alt, hvad du møder i matematik senere, bygger videre på dem. Tænk på dem som de fire ting, du kan gøre med tal.",
+        "p2": "Når du mestrer de fire regnearter, kan du løse hverdagsproblemer som at dele slik ligeligt, beregne priser i en butik eller finde ud af, hvor mange dage der er til din fødselsdag. De er nyttige overalt."
+      },
+      "hele-tal": {
+        "p1": "Hele tal udvider de naturlige tal med negative tal: ..., -3, -2, -1, 0, 1, 2, 3, ... Du kender allerede negative tal fra termometeret — når det er minus 5 grader udenfor, bruger du et helt tal.",
+        "p2": "Med hele tal kan du beskrive ting som gæld, temperatur under nul og højdeforskelle under havniveau. De giver dig et større talområde at arbejde med, og du lærer at regne med plus og minus på en ny måde."
+      },
+      "broeker": {
+        "p1": "Brøker beskriver dele af en helhed. Når du deler en pizza i fire lige store stykker og spiser ét, har du spist én fjerdedel — skrevet som 1/4. Tælleren fortæller, hvor mange dele du har, og nævneren fortæller, hvor mange dele helheden er delt i.",
+        "p2": "Brøker bruger du hele tiden i hverdagen: halve timer, kvarte liter og tredjedele af en kage. Når du lærer at regne med brøker, får du et værktøj, der gør dig klar til decimaltal, procent og algebra."
+      },
+      "decimaltal": {
+        "p1": "Decimaltal er en anden måde at skrive brøker på. I stedet for 1/2 kan du skrive 0,5 og i stedet for 3/4 kan du skrive 0,75. Kommaet adskiller hele tal fra dele af et helt tal.",
+        "p2": "Du møder decimaltal overalt: priser i butikken, dit gennemsnit i skolen og resultater i sport. Når du forstår decimaltal, kan du sammenligne, afrunde og regne præcist med tal, der ikke er hele."
+      },
+      "procent": {
+        "p1": "Procent betyder „per hundrede” og skrives med tegnet %. Hvis du får 80 ud af 100 rigtige i en prøve, har du svaret 80 % rigtigt. Det er en praktisk måde at sammenligne størrelser på, fordi alt omregnes til den samme skala.",
+        "p2": "Procent bruger du konstant: rabatter i butikker, renter i banken, statistik i nyhederne og karaktergennemsnit. Når du kan regne med procent, kan du gennemskue tilbud, forstå økonomi og tolke data i den virkelige verden."
+      },
+      "potenser-og-roedder": {
+        "p1": "Potenser er en forkortelse for gentagen multiplikation. I stedet for at skrive 2 × 2 × 2 skriver du 2³, som betyder „2 ganget med sig selv 3 gange“. Rødder er det modsatte: √9 = 3, fordi 3² = 9.",
+        "p2": "Potenser og rødder dukker op i mange sammenhænge: arealberegning, videnskabelig notation for meget store eller små tal, og eksponentiel vækst. De er uundværlige værktøjer, når du skal arbejde med funktioner og algebra."
+      },
+      "talteoretiske-begreber": {
+        "p1": "Talteori handler om tallenes indre egenskaber: primtal, delelighed, største fælles divisor og mindste fælles multiplum. Et primtal som 7 kan kun deles med 1 og sig selv, og det gør primtallene til matematikkens byggeklodser.",
+        "p2": "Når du forstår talteoretiske begreber, bliver du bedre til at forenkle brøker, finde mønstre i tal og løse problemløsningsopgaver. Talteori er desuden grundlaget for kryptering, som beskytter dine data på nettet."
+      },
+      "rationale-og-irrationale-tal": {
+        "p1": "Rationale tal er alle de tal, der kan skrives som en brøk, f.eks. 3/4 eller -2/5. Irrationale tal som π og √2 kan derimod ikke skrives som en brøk — deres decimaler fortsætter uendeligt uden at gentage sig.",
+        "p2": "At kende forskellen mellem rationale og irrationale tal giver dig et dybere billede af tallenes verden. Du lærer, at der er uendeligt mange tal mellem to vilkårlige tal, og du bliver klar til at arbejde med den reelle tallinje i gymnasiet."
+      },
+      "regnearternes-hierarki": {
+        "p1": "Regnearternes hierarki bestemmer, i hvilken rækkefølge du udfører beregninger. Multiplikation og division kommer før addition og subtraktion, og parenteser kommer først af alt. Uden disse regler ville det samme regnestykke kunne give forskellige svar.",
+        "p2": "Når du lærer hierarkiet, kan du læse og løse matematiske udtryk korrekt — både i skolen og på lommeregneren. Det er som grammatik i sproget: reglerne sørger for, at alle forstår det samme."
+      },
+      "grundlaeggende-algebra": {
+        "p1": "I algebra bruger du bogstaver som x og y til at stå for ukendte tal. I stedet for at gætte skriver du en ligning og løser den systematisk. Tænk på det som en slags matematisk detektivarbejde.",
+        "p2": "Algebra er sproget, der binder matematikkens emner sammen. Når du mestrer det grundlæggende — variable, udtryk og simple ligninger — står døren åben til funktioner, geometri og alt det, der følger efter."
+      },
+      "ligninger": {
+        "p1": "En ligning er et udsagn om, at to ting er lige store, f.eks. 2x + 3 = 11. At løse ligningen betyder at finde den værdi af x, der gør udsagnet sandt. Her er svaret x = 4, fordi 2 × 4 + 3 = 11.",
+        "p2": "Ligninger er et af matematikkens mest anvendte værktøjer. Du bruger dem til at beregne ukendte størrelser i fysik, økonomi og dagligdag — fra hastighed og pris til areal og tid."
+      },
+      "ligningssystemer": {
+        "p1": "Et ligningssystem består af to eller flere ligninger med de samme ubekendte. F.eks. kan du have både x + y = 10 og x - y = 2. Løsningen er de værdier af x og y, der opfylder begge ligninger på én gang.",
+        "p2": "Ligningssystemer bruges, når du har flere betingelser, der skal være opfyldt samtidig. Det kan være priser på varer, blandingsopgaver eller skæringspunkter mellem linjer. Du lærer metoder som substitution og elimination."
+      },
+      "parentesregler-og-faktorisering": {
+        "p1": "Parentesregler fortæller dig, hvordan du ganger ind i og ud af parenteser, f.eks. at a(b + c) = ab + ac. Faktorisering er det modsatte: du finder fælles faktorer og sætter dem uden for en parentes.",
+        "p2": "Disse teknikker er afgørende i algebra. De hjælper dig med at forenkle udtryk, løse ligninger og omskrive formler. Tænk på det som at pakke matematik ud eller pakke den sammen i en mere overskuelig form."
+      },
+      "andengradsligninger": {
+        "p1": "En andengradsligning indeholder x² og har typisk formen ax² + bx + c = 0. Den kan have to, én eller ingen løsninger, og du finder dem med diskriminanten og løsningsformlen.",
+        "p2": "Andengradsligninger dukker op i mange praktiske situationer: kastebaner, areal-beregninger og økonomiske modeller. Når du lærer at løse dem, får du et værktøj, der følger dig gennem hele gymnasiet."
+      },
+      "polynomier": {
+        "p1": "Et polynomium er et udtryk som 3x³ - 2x² + x - 5, der består af led med variable ophojet i hele, ikke-negative potenser. Graden af polynomiet (her 3) bestemmer, hvor mange nulpunkter det højst kan have.",
+        "p2": "Polynomier er arbejdshestene i matematisk modellering. Du bruger dem til at beskrive kurver, approksimere funktioner og løse ligninger af højere grad. De binder algebra og funktionslære tæt sammen."
+      },
+      "broekregning-med-algebra": {
+        "p1": "Brøkregning med algebra handler om at forenkle, addere, subtrahere, gange og dividere brøker, der indeholder variable. F.eks. kan du forkorte (x² - 4)/(x + 2) til x - 2.",
+        "p2": "Algebraiske brøker møder du bl.a. i differentialregning og funktionsanalyse. At kunne manipulere dem sikkert er en vigtig færdighed, der sparer dig for fejl og gør komplekse beregninger mere overskuelige."
+      },
+      "logaritmer": {
+        "p1": "En logaritme svarer på spørgsmålet: „Hvilken potens skal grundtallet ophojes i for at give et bestemt tal?“ F.eks. er log₂(8) = 3, fordi 2³ = 8. Logaritmer er altså det modsatte af potenser.",
+        "p2": "Logaritmer bruges til at håndtere eksponentiel vækst og store talområder. De dukker op i alt fra lydstyrke (decibel) til jordskalv (Richterskalaen) og er uundværlige, når du arbejder med eksponentialfunktioner."
+      },
+      "komplekse-tal": {
+        "p1": "Komplekse tal udvider tallinjen til et talplan ved at indføre den imaginære enhed i, hvor i² = -1. Et komplekst tal skrives som a + bi, og det giver mening af ligninger som x² + 1 = 0, der ellers ikke har nogen løsning.",
+        "p2": "Komplekse tal er ikke bare abstrakt teori. De bruges i elektroteknik, signalbehandling og kvantefysik. I gymnasiet lærer du at regne med dem og se, hvordan de hænger sammen med trigonometri og vektorer."
+      },
+      "grundlaeggende-funktionslaere": {
+        "p1": "En funktion er en regel, der til hvert input giver præcis ét output. Skriver du f(x) = 2x + 1, så giver inputtet 3 outputtet 7. Du kan tænke på en funktion som en maskine, der omdanner tal.",
+        "p2": "Funktioner er kernen i matematik fra 5. klasse og op. De bruges til at beskrive sammenhænge: fart som funktion af tid, pris som funktion af antal, temperatur som funktion af tidspunkt. At læse og tegne grafer er en central færdighed."
+      },
+      "lineaere-funktioner": {
+        "p1": "En lineær funktion har formen f(x) = ax + b og giver en ret linje, når du tegner den. Tallet a er hældningen (hvor stejlt linjen stiger eller falder), og b er skæringen med y-aksen.",
+        "p2": "Lineære funktioner er de simpleste og mest brugte funktioner. De beskriver alt fra konstant hastighed til faste priser med moms. Når du forstår dem, har du fundamentet for at arbejde med mere avancerede funktionstyper."
+      },
+      "andengradsfunktioner-parabler": {
+        "p1": "En andengradsfunktion har formen f(x) = ax² + bx + c, og dens graf er en parabel — en symmetrisk bue, der enten åbner opad eller nedad. Toppunktet er parablens højeste eller laveste punkt.",
+        "p2": "Parabler beskriver bl.a. kastebaner, broer og økonomisk profit. Du lærer at finde toppunkt, nulpunkter og skæringspunkter — færdigheder, der er centrale i både fysik og matematik."
+      },
+      "potensfunktioner": {
+        "p1": "En potensfunktion har formen f(x) = b · xᵃ, hvor b og a er konstanter. Afhængigt af værdien af a kan grafen være en parabel, en hyperbel eller en rodkurve. Potensfunktioner genkendes ved, at deres graf er en ret linje i et dobbeltlogaritmisk koordinatsystem.",
+        "p2": "Potensfunktioner bruges til at modellere sammenhænge i naturvidenskab, f.eks. hvordan et dyrs stofskifte afhænger af dets vægt. De er et vigtigt værktøj i regressionsanalyse."
+      },
+      "eksponentialfunktioner": {
+        "p1": "En eksponentialfunktion har formen f(x) = b · aˣ, hvor a er fremskrivningsfaktoren. Hvis a > 1, vokser funktionen — og den vokser hurtigt, fordi væksten er proportional med den aktuelle værdi. Hvis 0 < a < 1, aftager den.",
+        "p2": "Eksponentiel vækst og henfald er overalt: befolkningstilvækst, renters rente, radioaktivt henfald og spredning af virus. At forstå eksponentialfunktioner giver dig redskaber til at analysere den slags fænomener."
+      },
+      "logaritmefunktioner": {
+        "p1": "Logaritmefunktionen f(x) = log(x) er den omvendte af eksponentialfunktionen. Dens graf stiger langsomt og er kun defineret for positive x-værdier. Jo større x bliver, desto langsommere vokser funktionen.",
+        "p2": "Logaritmefunktioner bruges, når du skal „afkode” eksponentiel vækst, f.eks. bestemme fordoblingstid eller halveringstid. De er også centrale i semilogaritmiske plots, hvor eksponentielle data bliver til rette linjer."
+      },
+      "trigonometriske-funktioner": {
+        "p1": "De trigonometriske funktioner — sinus, cosinus og tangens — beskriver periodiske svingninger. Deres grafer bølger op og ned som bølger på havet, og de gentager sig med en fast periode.",
+        "p2": "Trigonometriske funktioner bruges til at modellere alt, der svinger: lyd, lys, strøm i en ledning og årstidernes skiften. De forbinder geometri med analyse og er uundværlige i fysik og ingeniørvidenskab."
+      },
+      "funktioners-egenskaber": {
+        "p1": "Når du analyserer en funktion, kigger du på dens definitionsmængde, værdimængde, monotoni (om den vokser eller aftager), ekstrema (toppunkter og bundpunkter) og eventuelle asymptotter.",
+        "p2": "At kunne beskrive en funktions egenskaber giver dig et samlet overblik over dens opførsel. Det er netop denne analyse, der binder funktionslære, differentialregning og grafisk forståelse sammen i gymnasiet."
+      },
+      "transformationer-af-funktioner": {
+        "p1": "Transformationer ændrer en funktions graf uden at ændre dens grundform. Du kan forskyde den opad, nedad, til højre eller venstre, spejle den eller skalere den — alt ved at tilføje eller gange med konstanter.",
+        "p2": "Når du forstår transformationer, kan du hurtigt tegne nye grafer ud fra kendte funktioner. F.eks. er f(x - 3) + 2 bare en forskydning af f(x) tre enheder til højre og to enheder op. Det sparer tid og giver indsigt."
+      },
+      "grundlaeggende-figurer-og-begreber": {
+        "p1": "Punkter, linjer, linjestykker, vinkler og simple figurer er geometriens grundelementer. Du lærer at genkende og navngive figurer som trekanter, firkanter og cirkler og forstår begreber som parallel, vinkelret og symmetri.",
+        "p2": "Disse begreber er dit geometriske ordforråd. Når du kender dem, kan du beskrive former præcist, måle vinkler og længder og følge med, når geometrien bliver mere avanceret."
+      },
+      "trekanter": {
+        "p1": "En trekant har tre sider og tre vinkler, der altid tilsammen giver 180°. Der findes ligesidede, ligebenede og uligesidet trekanter — og den vigtige retvinklede trekant, som er grundlaget for trigonometri.",
+        "p2": "Trekanter er fundamentale i geometri. Du lærer at beregne areal, omkreds og ukendte sider og vinkler. Pythagoras' sætning, kongruens og ligedannethed er centrale emner, der bygger videre på trekantsforståelsen."
+      },
+      "firkanter": {
+        "p1": "Firkanter har fire sider og fire vinkler. Familien inkluderer kvadrater, rektangler, parallelogrammer, romber og trapezer. Hver type har særlige egenskaber for sider, vinkler og diagonaler.",
+        "p2": "At kende de forskellige firkanttyper hjælper dig med at beregne areal og omkreds korrekt. Firkanter er overalt i arkitektur og design, så det er nyttig viden både i skolen og i den virkelige verden."
+      },
+      "cirkler": {
+        "p1": "En cirkel er mængden af alle punkter, der har samme afstand til et centrum. Denne afstand kaldes radius, og den dobbelte radius er diameteren. Forholdet mellem omkredsen og diameteren er det berømte tal π ≈ 3,14.",
+        "p2": "Cirkler dukker op overalt: hjul, ure, planeter i kredsbøb. Du lærer at beregne omkreds (2πr) og areal (πr²), og i gymnasiet møder du cirklens ligning og dens samspil med trigonometri."
+      },
+      "polygoner": {
+        "p1": "Polygoner er lukkede figurer med rette sider: femkanter, sekskanter, ottekanter og så videre. Regulære polygoner har alle sider og vinkler lige store, som f.eks. en regulær sekskant.",
+        "p2": "At forstå polygoner giver dig værktøjer til at beregne vinkelsummer, areal og symmetriegenskaber. Polygoner bruges i alt fra fliseudlægning til computergrafik, hvor komplekse former opbygges af mange små polygoner."
+      },
+      "rumgeometri-stereometri": {
+        "p1": "Rumgeometri handler om tredimensionelle figurer: prismer, cylindere, kugler, kegler og pyramider. Du lærer at beregne rumfang og overfladeareal og at visualisere figurer i 3D.",
+        "p2": "Rumgeometri er relevant overalt i den fysiske verden: fra emballagedesign til arkitektur. I gymnasiet udvider du med koordinater i rummet og vektorregning, så rumfigurerne får en algebraisk beskrivelse."
+      },
+      "koordinatgeometri": {
+        "p1": "Koordinatgeometri kombinerer algebra og geometri ved at placere figurer i et koordinatsystem. Hvert punkt får koordinater (x, y), og du kan beregne afstande, midtpunkter og hældninger med formler.",
+        "p2": "Med koordinatgeometri kan du bevise geometriske påstande med beregning i stedet for konstruktion. Du lærer at arbejde med linjer, cirkler og andre kurver som ligninger — en kraftfuld kombination af to matematiske verdener."
+      },
+      "geometriske-transformationer": {
+        "p1": "Geometriske transformationer ændrer figurers position, størrelse eller orientering. De vigtigste er translation (forskydning), rotation (drejning), spejling og skalering (forstørrelse/formindskelse).",
+        "p2": "Transformationer hjælper dig med at forstå symmetri og mønstre. De bruges i design, kunst og programmering — og de er grundlaget for at forstå, hvornår to figurer er kongruente eller ligedannede."
+      },
+      "retvinklet-trigonometri": {
+        "p1": "Retvinklet trigonometri handler om forholdet mellem sider og vinkler i en retvinklet trekant. De tre grundlæggende forhold er sinus, cosinus og tangens, og med dem kan du beregne ukendte sider og vinkler.",
+        "p2": "Det er praktisk overalt, hvor du kender noget og skal finde noget andet: højden på et træ ud fra en vinkel, længden af en stige eller afstande i landskabet. Retvinklet trigonometri er indgangen til det større trigonometriske univers."
+      },
+      "enhedscirklen": {
+        "p1": "Enhedscirklen er en cirkel med radius 1 og centrum i origo. Den udvider sinus og cosinus fra trekanter til alle vinkler — også negative og større end 360°. Hvert punkt på cirklen har koordinaterne (cos v, sin v).",
+        "p2": "Enhedscirklen er nøglen til at forstå trigonometriske funktioner som periodiske bølger. Den binder geometri og analyse sammen og giver dig et visuelt værktøj til at forstå vinkler, buer og svingninger."
+      },
+      "trigonometriske-identiteter": {
+        "p1": "Trigonometriske identiteter er ligninger, der altid er sande for alle vinkler, f.eks. sin²(v) + cos²(v) = 1. De bruges til at omskrive og forenkle trigonometriske udtryk.",
+        "p2": "Identiteterne er dine værktøjer, når du skal løse trigonometriske ligninger, bevise sammenhænge og forenkle beregninger i analyse og fysik. Jo bedre du kender dem, desto lettere bliver opgaverne."
+      },
+      "vilkaarlige-trekanter": {
+        "p1": "Når en trekant ikke er retvinklet, bruger du sinusrelationen og cosinusrelationen til at finde ukendte sider og vinkler. De generaliserer Pythagoras og de retvinklede trigonometriske forhold.",
+        "p2": "Disse metoder er afgørende i praksis, fordi de fleste trekanter i virkeligheden ikke er retvinklede. Du bruger dem i opmåling, navigation og konstruktion — overalt hvor du skal beregne afstande og vinkler."
+      },
+      "trigonometriske-ligninger": {
+        "p1": "En trigonometrisk ligning indeholder sinus, cosinus eller tangens af en ubekendt vinkel, f.eks. 2sin(x) = 1. Fordi trigonometriske funktioner er periodiske, har ligningerne typisk uendeligt mange løsninger.",
+        "p2": "Du lærer at finde alle løsninger ved hjælp af enhedscirklen og at skrive dem på en kompakt form. Trigonometriske ligninger bruges i fysik til at beskrive svingninger og bølgefænomener."
+      },
+      "vektorer-i-planen": {
+        "p1": "En vektor i planen er en størrelse med både længde og retning, skrevet som (x, y). Du kan lægge vektorer sammen, skalere dem og beregne prikproduktet, der fortæller om vinklerne mellem dem.",
+        "p2": "Vektorer giver dig et algebraisk værktøj til geometri: du kan bevise, at linjer er parallelle, finde vinkler og beregne afstande med formler. De er fundamentale i både matematik og fysik."
+      },
+      "vektorer-i-rummet": {
+        "p1": "Vektorer i rummet udvider vektorbegrebet til tre dimensioner: (x, y, z). Ud over prikproduktet får du nu også krydsproduktet, der giver en ny vektor vinkelret på de to oprindelige.",
+        "p2": "Med rumvektorer kan du beskrive og analysere 3D-geometri: afstande, vinkler, projektioner og tverrprodukter. Det er essentielt i fysik (kræfter, hastighed i rummet) og i 3D-grafik og spilprogrammering."
+      },
+      "linjer-og-planer-i-rummet": {
+        "p1": "I rummet kan linjer og planer beskrives med parameterfremstillinger og ligninger. En plan har en normalvektor, der står vinkelret på den, og du kan finde skæringspunkter, skæringslinjer og afstande.",
+        "p2": "At arbejde med linjer og planer i 3D er en naturlig udvidelse af koordinatgeometri. Det bruges i konstruktion, navigation og computergrafik, og det binder vektorregning og geometri smukt sammen."
+      },
+      "matricer": {
+        "p1": "En matrix er et rektangulært skema af tal ordnet i rækker og søjler. Du kan lægge matricer sammen, gange dem og finde den inverse. Matricer kan repræsentere ligningssystemer, transformationer og netværk.",
+        "p2": "Matricer er et centralt værktøj i lineær algebra og bruges flittigt i datalogi, økonomi og ingeniørvidenskab. I gymnasiet lærer du grundlæggende matrixregning og ser, hvordan den forenkler komplekse beregninger."
+      },
+      "graensevaerdier": {
+        "p1": "En grænseværdi beskriver, hvad en funktion nærmer sig, når x går mod en bestemt værdi — også selvom funktionen ikke er defineret dér. F.eks. nærmer (x² - 1)/(x - 1) sig 2, når x går mod 1.",
+        "p2": "Grænseværdier er det teoretiske fundament for differentialregning og integralregning. De gør det muligt at tale præcist om, hvad der sker „uendeligt tæt på“ et punkt, og de er nøglen til at definere den afledede."
+      },
+      "differentialkvotienten": {
+        "p1": "Differentialkvotienten f'(x) angiver hældningen af en funktions graf i et bestemt punkt — altså den øjeblikkelige ændringshastighed. Den er defineret som grænseværdien af en differenskvotient, når Δx går mod nul.",
+        "p2": "At forstå differentialkvotienten er gennembruddet i differentialregning. Den fortæller dig, hvor hurtigt noget ændrer sig — hastighed, væksthastighed, marginalomkostning — og den er grundlaget for al videre analyse."
+      },
+      "regneregler-for-differentiering": {
+        "p1": "Regnereglerne gør det muligt at differentiere sammensatte funktioner uden at gå tilbage til definitionen hver gang. Du lærer sumreglen, produktreglen, kvotientreglen og den vigtige kæderegel.",
+        "p2": "Med regnereglerne kan du hurtigt og sikkert finde den afledede af selv komplekse funktioner. De er dit daglige værktøj i differentialregning og nødvendige for funktionsanalyse og optimering."
+      },
+      "afledede-af-standardfunktioner": {
+        "p1": "Standardfunktionerne — potenser, eksponentialfunktioner, logaritmer, trigonometriske funktioner — har velkendte afledede. F.eks. er den afledede af xⁿ lig nxⁿ⁻¹, og den afledede af sin(x) er cos(x).",
+        "p2": "Når du kender de afledede af standardfunktionerne, kan du kombinere dem med regnereglerne og differentiere næsten hvad som helst. Det er som at have en værktøjskasse, hvor hvert værktøj passer til en bestemt funktionstype."
+      },
+      "funktionsanalyse": {
+        "p1": "Funktionsanalyse er den systematiske undersøgelse af en funktion: du finder nulpunkter, monotoniforhold, ekstrema (maksimum og minimum), vendetangenter og grænseværdier. Det hele samles i en fuld beskrivelse af funktionens opførsel.",
+        "p2": "Funktionsanalyse er differentialregningens store anvendelse. Den giver dig mulighed for at forstå og tegne grafer præcist og er central i eksamensopgaver i gymnasiet."
+      },
+      "optimering": {
+        "p1": "Optimering handler om at finde den største eller mindste værdi af en funktion, f.eks. den største areal med et givet hegn eller den laveste pris for en produktion. Du bruger differentialregning til at finde det optimale punkt.",
+        "p2": "Optimeringsopgaver er blandt de mest praktisk anvendelige i matematik. De forbinder differentialregning med virkeligheden og viser, hvordan matematik kan hjælpe dig med at træffe de bedste beslutninger."
+      },
+      "differentialer-og-tilnaermelser": {
+        "p1": "Differentialet dy = f'(x) · dx giver en lineær tilnærmelse til, hvor meget en funktion ændrer sig, når x ændres en lille smule. Det er som at zoome ind på grafen, til den ligner en ret linje.",
+        "p2": "Differentialer bruges til fejlvurdering og tilnærmede beregninger. Når du f.eks. vil vide, hvor meget et areal ændrer sig, hvis radius ændres lidt, giver differentialet et hurtigt og godt estimat."
+      },
+      "ubestemt-integral-stamfunktion": {
+        "p1": "Det ubestemte integral — også kaldet stamfunktionen — er det omvendte af differentiering. Hvis f'(x) = 2x, så er en stamfunktion F(x) = x² + C, hvor C er en vilkårlig konstant.",
+        "p2": "At finde stamfunktioner er det første skridt i integralregning. Du lærer en række standardresultater og teknikker, der gør dig i stand til at integrere mange typer funktioner."
+      },
+      "bestemt-integral": {
+        "p1": "Det bestemte integral beregner arealet under en graf mellem to grænser. Det skrives som ∫ fra a til b af f(x) dx og beregnes som F(b) - F(a), hvor F er en stamfunktion.",
+        "p2": "Det bestemte integral er et af matematikkens mest kraftfulde værktøjer. Det bruges til at beregne arealer, volumener, gennemsnitsværdier og akkumulerede størrelser i både matematik, fysik og økonomi."
+      },
+      "integrationsmetoder": {
+        "p1": "Når en funktion ikke kan integreres direkte, bruger du teknikker som substitution og partiel integration. Substitution svarer til kædereglen baglæns, mens partiel integration svarer til produktreglen baglæns.",
+        "p2": "At beherske integrationsmetoder giver dig frihed til at løse en bred vifte af integraler. Det kræver øvelse at vælge den rigtige metode, men med erfaring bliver det en naturlig del af dit værktøjssæt."
+      },
+      "anvendelser-af-integration": {
+        "p1": "Integration bruges til langt mere end arealberegning. Du kan finde volumener af omdrejningslegemer, længder af kurver, middel-værdier af funktioner og arbejde udført af en kraft.",
+        "p2": "Anvendelserne viser, hvorfor integralregning er så vigtig i naturvidenskab og teknik. Hver gang du skal summere uendeligt mange små bidrag, er det bestemte integral dit værktøj."
+      },
+      "differentialligninger-introduktion": {
+        "p1": "En differentialligning er en ligning, der indeholder en ukendt funktion og dens afledede, f.eks. y' = ky. Løsningen er ikke et tal, men en hel funktion — her den eksponentielle funktion y = Ceᵏˣ.",
+        "p2": "Differentialligninger beskriver forandring: befolkningsvækst, afkøling af kaffe, radioaktivt henfald og meget mere. Selv en grundlæggende forståelse åbner døren til at modellere dynamiske processer i den virkelige verden."
+      },
+      "deskriptiv-statistik": {
+        "p1": "Deskriptiv statistik handler om at beskrive og opsummere data: gennemsnit, median, typetal, variationsbredde og standardafvigelse. Du lærer også at præsentere data i diagrammer som søjlediagrammer, histogrammer og boxplot.",
+        "p2": "Med deskriptiv statistik kan du forvandle en lang række tal til meningsfuld information. Det bruger du i alle fag og i hverdagen, når du skal forstå og formidle, hvad data fortæller."
+      },
+      "kombinatorik": {
+        "p1": "Kombinatorik handler om at tælle: på hvor mange måder kan du vælge, ordne eller kombinere elementer? Grundprincipperne er multiplikationsprincippet, permutationer (rækkefølge tæller) og kombinationer (rækkefølge tæller ikke).",
+        "p2": "Kombinatorik er grundlaget for sandsynlighedsregning: for at finde sandsynligheden for en begivenhed, skal du ofte tælle de gunstige og mulige udfald. Emnerne bruges også i kryptografi og datalogi."
+      },
+      "sandsynlighedsregning": {
+        "p1": "Sandsynlighedsregning handler om at beregne, hvor stor chancen er for, at noget bestemt sker. Sandsynligheden angives som et tal mellem 0 (umuligt) og 1 (sikkert), og du lærer regler for uafhængige og betingede hændelser.",
+        "p2": "Sandsynlighed er relevant i dagligdagen, fra spil og lotteri til vejrudsigter og risikovurdering. Det giver dig et matematisk grundlag for at træffe beslutninger under usikkerhed."
+      },
+      "diskrete-sandsynlighedsfordelinger": {
+        "p1": "En diskret sandsynlighedsfordeling beskriver sandsynligheden for hvert muligt udfald af en stokastisk variabel, der kun kan antage tællelige værdier. De vigtigste er binomialfordelingen og den hypergeometriske fordeling.",
+        "p2": "Med diskrete fordelinger kan du modellere situationer som antal rigtige i en multiple choice-prøve, antal defekte varer i en stikprøve eller antal succeser i gentagne forsøg."
+      },
+      "kontinuerte-sandsynlighedsfordelinger": {
+        "p1": "Kontinuerte sandsynlighedsfordelinger beskriver stokastiske variable, der kan antage alle værdier i et interval. Den vigtigste er normalfordelingen, også kaldet Gauss-kurven, med sin karakteristiske klokkeform.",
+        "p2": "Normalfordelingen dukker op overalt: højder, målefejl, testresultater. At forstå den giver dig grundlaget for statistisk inferens og hypotesetest, som er centrale redskaber i forskning og kvalitetssikring."
+      },
+      "statistisk-inferens": {
+        "p1": "Statistisk inferens handler om at drage konklusioner om en hel population ud fra en stikprøve. Du lærer om konfidensintervaller (hvor sikker er du på dit estimat?) og hypotesetest (er en forskel signifikant?).",
+        "p2": "Inferens er hjertet af statistik: det er den metode, der gør det muligt at udtale sig om tusindvis af mennesker ud fra en stikprøve på få hundrede. Det bruges i medicin, økonomi, samfundsvidenskab og meget mere."
+      },
+      "foelger": {
+        "p1": "En følge er en ordnet liste af tal, der følger et mønster. De to vigtigste typer er aritmetiske følger (konstant forskel mellem led, f.eks. 2, 5, 8, 11, ...) og geometriske følger (konstant forhold mellem led, f.eks. 3, 6, 12, 24, ...).",
+        "p2": "Følger træner din evne til at opdage mønstre og udtrykke dem med formler. De er også grundlaget for rækker og bruges i økonomiske modeller som opsparing og afbetaling."
+      },
+      "raekker": {
+        "p1": "En række er summen af leddene i en følge. F.eks. er 1 + 2 + 3 + ... + n en aritmetisk række, og 1 + 1/2 + 1/4 + 1/8 + ... er en geometrisk række. Nogle rækker har en endelig sum, selv med uendeligt mange led.",
+        "p2": "Rækker bruges til at beregne akkumulerede værdier: samlet opsparing, samlet afbetaling eller approksimation af funktioner. De uendelige rækkers konvergens er et fascinerende emne, der binder algebra og analyse sammen."
+      },
+      "binomialformlen": {
+        "p1": "Binomialformlen fortæller dig, hvordan du udregner (a + b)ⁿ for ethvert positivt heltal n. Koefficienterne i udvidelsen er binomialkoefficienterne, som du finder i Pascals trekant.",
+        "p2": "Binomialformlen forbinder algebra med kombinatorik: koefficienten foran hvert led er netop antallet af måder, du kan vælge elementer på. Den bruges også i sandsynlighedsregning og i tilnærmelser."
+      },
+      "laengde-areal-rumfang": {
+        "p1": "Længde, areal og rumfang er de tre grundlæggende måletyper i geometrien. Længde måler afstand (cm, m, km), areal måler fladeindhold (cm², m²), og rumfang måler, hvor meget plads noget fylder (cm³, liter).",
+        "p2": "Du bruger disse begreber hele tiden: når du måler et værelse, beregner maling til en væg eller fylder vand i en beholder. At kunne omregne mellem enheder og vælge den rigtige formel er en vigtig praktisk færdighed."
+      },
+      "vaegt-og-masse": {
+        "p1": "Vægt og masse handler om, hvor tungt noget er. Du lærer enhederne gram, kilogram og ton og øver dig i at veje, sammenligne og omregne mellem dem.",
+        "p2": "At forstå vægt og masse er vigtig i hverdagen: når du bager efter en opskrift, handler ind eller pakker en kuffert. Det giver dig også et godt grundlag for at forstå tæthed og kraft i naturfag."
+      },
+      "tid": {
+        "p1": "Her lærer du at læse klokken, omregne mellem sekunder, minutter og timer og beregne tidsforskelle. Du øver dig på både analog og digital tidsvisning og lærer om kalenderen.",
+        "p2": "Tid er en grundlæggende del af hverdagen. Når du kan regne med tid, kan du planlægge din dag, beregne rejsetid og forstå køreplaner. Det er en færdighed, du bruger resten af livet."
+      },
+      "skala-og-kort": {
+        "p1": "Skala fortæller dig forholdet mellem afstande på et kort og de virkelige afstande. Hvis skalaen er 1:10.000, svarer 1 cm på kortet til 10.000 cm (= 100 m) i virkeligheden.",
+        "p2": "At forstå skala er vigtigt, når du læser kort, tegner plantegninger eller bygger modeller. Det træner din evne til at tænke i forholdstal og giver dig en praktisk færdighed, du bruger i både geografi og dagligdag."
+      },
+      "matematisk-logik": {
+        "p1": "Matematisk logik er læren om præcis tænkning og gyldige slutninger. Du arbejder med udsagn (sandt eller falsk), logiske operatorer (og, eller, ikke, hvis-så) og kvantorer (for alle, der eksisterer).",
+        "p2": "Logik er matematikkens fundament: alle beviser bygger på logiske slutninger. At lære logik skærper din tankegang og gør dig bedre til at argumentere præcist — ikke kun i matematik, men i alle sammenhænge."
+      },
+      "bevisteknikker": {
+        "p1": "Bevisteknikker er metoder til at vise, at en matematisk påstand er sand. De vigtigste er direkte bevis, modstridsbevis (antag det modsatte og vis, at det fører til en modstrid) og induktionsbevis.",
+        "p2": "At føre et bevis er som at bygge en logisk kæde fra kendte sandheder til en ny konklusion. Det er en central matematisk færdighed, der træner din evne til at tænke struktureret og argumentere stringent."
+      },
+      "rente-og-finansregning": {
+        "p1": "Rente- og finansregning handler om, hvordan penge vokser over tid. Du lærer om simpel rente, renters rente, opsparing, lån og annuiteter. Renters rente er eksponentiel vækst i praksis.",
+        "p2": "At forstå finansregning er en livsfærdighed. Det hjælper dig med at gennemskue lånetilbud, planlægge opsparing og træffe kloge økonomiske beslutninger — viden, du får brug for som voksen."
+      },
+      "maengdelaere": {
+        "p1": "Mængdelære handler om samlinger af objekter: mængder, delmængder, fællesmængder, foreningsmængder og komplementmængder. Venn-diagrammer er et visuelt værktøj til at vise, hvordan mængder forholder sig til hinanden.",
+        "p2": "Mængdelære er matematikkens sprog for at organisere og gruppere ting. Det bruges i sandsynlighed, logik og databaser. Når du tænker i mængder, får du et klart overblik over komplekse sammenhænge."
+      },
+      "grafteori": {
+        "p1": "Grafteori handler om netværk bestående af knuder (punkter) og kanter (forbindelser). Det kan modellere alt fra venskaber på sociale medier til ruter i et vejnet. Du lærer om grader, stier, kredse og træer.",
+        "p2": "Grafteori er et moderne og anvendelsesorienteret emne. Det bruges i ruteplanlægning, netværksanalyse, logistik og datalogi. Det er matematik, der direkte løser problemer i den digitale verden."
+      },
+      "talrepraesentationer": {
+        "p1": "Talrepræsentationer handler om, at det samme tal kan skrives på forskellige måder: titalsystemet (som vi normalt bruger), totalsystemet (binære tal, som computere bruger), romertalsystemet og andre talsystemer.",
+        "p2": "At forstå talsystemer giver dig indsigt i, hvordan computere arbejder med tal, og hvorfor vores titalsystem ikke er den eneste mulighed. Det træner din talforståelse og åbner døren til digital teknologi."
+      }
+    }
+  },
+  "lesson": {
+    "backTo": "Tilbage til {topicName}",
+    "comingSoonTitle": "Interaktivt indhold kommer snart",
+    "comingSoonDesc": "Vi arbejder på at bygge interaktive lektioner for {lessonName}. Kom tilbage snart for at prøve det af!",
+    "cosineRule": {
+      "sections": {
+        "intro": "Introduktion",
+        "proof": "Bevis",
+        "interactive": "Interaktiv",
+        "examples": "Eksempler",
+        "exercises": "Opgaver"
+      },
+      "intro": {
+        "title": "Hvad er",
+        "titleHighlight": "cosinusreglen",
+        "desc": "Cosinusreglen er en generalisering af Pythagoras' sætning til vilkårlige trekanter — også dem der ikke er retvinklede. Den forbinder en trekants tre sider med én af dens vinkler.",
+        "formulaLabel": "Formlen",
+        "findSideTitle": "Find en ukendt side",
+        "findSideDesc": "Når du kender to sider og den mellemliggende vinkel.",
+        "findAngleTitle": "Find en ukendt vinkel",
+        "findAngleDesc": "Når du kender alle tre sider i trekanten.",
+        "pythagorasTitle": "Generaliser Pythagoras",
+        "pythagorasDesc": "Når A = 90° reduceres formlen til a² = b² + c².",
+        "allTypesTitle": "Alle trekanttyper",
+        "allTypesDesc": "Virker for spidsvinklede, retvinklede og stumpvinklede trekanter.",
+        "variantsLabel": "Vinkelvarianter:"
+      },
+      "proof": {
+        "title": "Bevis for",
+        "titleHighlight": "cosinusreglen",
+        "desc": "Klik dig igennem beviset trin for trin.",
+        "step": "Trin {current}/{total}",
+        "previous": "Forrige",
+        "next": "Næste"
+      },
+      "interactive": {
+        "title": "Interaktiv",
+        "titleHighlight": "trekant",
+        "desc": "Juster siderne og vinklen — se hvordan cosinusreglen beregner den ukendte side i realtid.",
+        "sideB": "Side b",
+        "sideC": "Side c",
+        "angleA": "Vinkel A",
+        "calculation": "Beregning",
+        "allAngles": "Alle vinkler:",
+        "rightAngled": "Retvinklet!",
+        "obtuseAngled": "Stumpvinklet",
+        "acuteAngled": "Spidsvinklet"
+      },
+      "examples": {
+        "title": "Gennemgåede",
+        "titleHighlight": "eksempler",
+        "desc": "Klik \"Vis næste trin\" for at afdække løsningen trin for trin.",
+        "task": "Opgave",
+        "showNext": "Vis næste trin",
+        "reset": "Nulstil",
+        "answer": "Svar"
+      },
+      "exercises": {
+        "title": "Test dig selv —",
+        "titleHighlight": "opgaver",
+        "desc": "Prøv at løse opgaverne. Du kan bruge lommeregner! Klik \"Hint\" hvis du sidder fast.",
+        "correct": "Korrekt ✓",
+        "tryAgain": "Prøv igen",
+        "exerciseN": "Opgave {n}",
+        "hint": "Hint",
+        "hideHint": "Skjul hint",
+        "placeholder": "Dit svar...",
+        "check": "Tjek",
+        "correctAnswer": "Det rigtige svar er {answer}{unit}. Prøv en lignende opgave!",
+        "checkAll": "Tjek alle svar",
+        "perfect": "Perfekt! Du mestrer cosinusreglen!",
+        "keepPracticing": "Bliv ved med at øve — du kan gøre det!",
+        "score": "{score} / {total}"
+      }
+    }
+  },
+  "category": {
+    "topicsAndLessons": "{topics} emner · {lessons} lektioner",
+    "about": {
+      "tal-og-talfornemmelse": {
+        "p1": "Tal er det mest grundlæggende i matematik. Allerede fra de første skoleår arbejder du med at tælle, sammenligne og forstå, hvad tal egentlig betyder. Talfornemmelse handler om at have en intuitiv forståelse af tal — at vide, at 100 er meget mere end 10, at halvdelen af 8 er 4, og at kunne vurdere om et svar er rimeligt.",
+        "p2": "De fire regnearter — plus, minus, gange og division — er de grundlæggende byggesten. Når du mestrer dem, kan du løse utallige hverdagsproblemer: dele slik ligeligt, beregne vekslepenge eller finde ud af, hvor mange dage der er til ferie. Regning er ikke bare noget du laver i skolen, det er noget du bruger hele tiden.",
+        "p3": "Efterhånden udvider du dit talbegreb. Du lærer om negative tal (hvad sker der, når temperaturen falder under nul?), brøker (en halv pizza, tre fjerdedele af en time) og decimaltal. Hvert nyt slags tal åbner for nye måder at beskrive virkeligheden på.",
+        "p4": "Procent møder du overalt — i tilbud i butikken, karakterer, statistik og nyheder. At forstå procent er at kunne oversætte mellem dele og helheder, og det er en af de mest praktiske færdigheder, du får med fra matematikken.",
+        "p5": "I de ældre klasser og gymnasiet dykker du ned i potenser, rødder og talteori. Du lærer, hvad det vil sige, at et tal er et primtal, hvordan man finder største fælles divisor, og hvorfor der findes tal som π og √2, der aldrig kan skrives som en brøk.",
+        "p6": "En god talfornemmelse er fundamentet for alt andet i matematik. Jo bedre du forstår tal og regning, jo nemmere bliver algebra, geometri og alt det, der bygger ovenpå."
+      },
+      "algebra": {
+        "p1": "I algebra bruger vi bogstaver som x og y til at stå for tal, vi ikke kender endnu. I stedet for at spørge \"hvilket tal plus 3 giver 10?\" skriver vi x + 3 = 10 — og så har vi en ligning, vi kan løse. Det er algebraens grundidé: at skrive matematiske spørgsmål med symboler, så vi kan arbejde os frem til svaret trin for trin.",
+        "p2": "Du bruger faktisk allerede algebra, uden måske at tænke over det. Når du regner ud, hvor mange penge du mangler til noget, du vil købe, laver du i hovedet en ligning: det du har + det du mangler = prisen. Algebra giver dig et værktøj til at skrive den slags tanker ned og løse dem præcist.",
+        "p3": "Når du starter med algebra, lærer du først at arbejde med enkle udtryk og ligninger. Du lærer at samle led, gange parenteser ud og flytte rundt på tingene i en ligning, så den ubekendte ender alene på den ene side. Det er lidt som et puslespil — der er faste regler, og når du følger dem, falder svaret på plads.",
+        "p4": "Senere møder du ligninger, der er mere udfordrende: ligninger med brøker, med flere ubekendte, eller andengradsligninger, hvor x optræder i anden potens. Du lærer også smarte genveje som kvadratsætningerne, der gør det hurtigere at gange og faktorisere udtryk. Jo flere teknikker du har, jo større opgaver kan du tackle.",
+        "p5": "I gymnasiet bygger du videre med polynomier, logaritmer og til sidst komplekse tal. Men princippet er det samme som fra starten: du skriver et problem op med symboler og omformer det, indtil du har et svar. Værktøjerne bliver flere, men tankegangen er den samme.",
+        "p6": "Algebra dukker op overalt i matematik — i funktioner, geometri, fysik og økonomi. Det er den fælles værktøjskasse, som resten af matematikken bruger. Derfor er det en god investering at blive fortrolig med algebra: det gør alt det andet lettere."
+      },
+      "funktioner": {
+        "p1": "En funktion er en regel, der tager et tal ind og giver et bestemt tal tilbage. Tænk på det som en maskine: du putter noget ind, og der kommer noget ud. Hvis reglen er \"gang med 2\", så giver input 3 output 6, og input 5 giver 10. Det er hele idéen.",
+        "p2": "Funktioner er overalt i hverdagen, selvom man ikke altid lægger mærke til det. Prisen på benzin afhænger af, hvor mange liter du tanker. Din løn afhænger af, hvor mange timer du arbejder. Temperaturen ændrer sig i løbet af dagen. Alle disse sammenhænge kan beskrives med funktioner.",
+        "p3": "Grafen er funktionens billede. Når du tegner en funktion i et koordinatsystem, kan du se dens opførsel med det samme: stiger den eller falder? Hvor hurtigt? Har den et toppunkt eller et bundpunkt? En graf gør det abstrakte konkret og visuelt.",
+        "p4": "De simpleste funktioner er de lineære — rette linjer, der stiger eller falder med en fast hældning. Derfra møder du andengradsfunktioner, der tegner parabler, og eksponentialfunktioner, der vokser eksplosivt hurtigt. Hver type funktion har sin egen form og sine egne egenskaber.",
+        "p5": "I gymnasiet lærer du at analysere funktioner mere præcist: hvor de vokser, hvor de har ekstrema, hvordan de opfører sig, når x bliver meget stort. Du møder også trigonometriske funktioner, der svinger som bølger, og logaritmefunktioner, der er det omvendte af eksponentielle.",
+        "p6": "Funktioner er det sprog, naturvidenskab og økonomi bruger til at beskrive forandring. Fra fysikkens bevægelseslove til økonomiske vækstmodeller — det hele er funktioner. At kunne læse og arbejde med funktioner er en nøglefærdighed i næsten alle fag, der bruger matematik."
+      },
+      "geometri": {
+        "p1": "Geometri handler om former, figurer og rum. Det er den del af matematikken, du kan se og røre ved — fra trekanter og cirkler på papir til bygninger, broer og bolde i den virkelige verden. Geometri hjælper dig med at forstå, hvordan ting er formet, hvor store de er, og hvordan de passer sammen.",
+        "p2": "Du starter med de grundlæggende figurer: punkter, linjer, trekanter, firkanter og cirkler. Du lærer at måle vinkler, beregne omkreds og areal, og du opdager regler som at vinklerne i en trekant altid lægger sammen til 180°. Disse regler er ikke tilfældige — de følger af geometriens logik.",
+        "p3": "Trekanter har en særlig plads i geometri. De er den simpleste figur med areal, og de dukker op overalt: i tagkonstruktioner, broer, GPS-beregninger og computergrafik. At forstå trekanter — deres sider, vinkler og arealer — er en grundsten i hele faget.",
+        "p4": "Cirklen er en anden hovedfigur. Med bare én formel, O = 2πr, kan du beregne omkredsen af alt fra et cykelhjul til jordens ækvator. Tallet π binder cirklen sammen med resten af matematikken på måder, der stadig fascinerer matematikere.",
+        "p5": "I de ældre klasser og gymnasiet arbejder du med koordinatgeometri, hvor figurer beskrives med tal og ligninger. En cirkel bliver til x² + y² = r², og afstande og vinkler kan beregnes præcist. Du møder også rumgeometri, hvor du arbejder med kugler, cylindre og andre tredimensionelle figurer.",
+        "p6": "Geometri træner din evne til at tænke visuelt og logisk. Det er et af de ældste matematiske fag — de gamle grækere brugte det til at forstå verden — og det er stadig lige så relevant i dag, fra arkitektur til robotteknologi."
+      },
+      "trigonometri": {
+        "p1": "Trigonometri handler om forholdet mellem vinkler og sider i trekanter. Det grundlæggende spørgsmål er: hvis du kender nogle af siderne og vinklerne i en trekant, kan du så finde resten? Svaret er ja — og trigonometri giver dig metoderne til at gøre det.",
+        "p2": "Det hele starter med den retvinklede trekant og de tre grundlæggende forhold: sinus, cosinus og tangens. Hver af dem beskriver forholdet mellem to bestemte sider i trekanten, afhængigt af hvilken vinkel du kigger på. Med disse tre værktøjer kan du beregne højder, afstande og vinkler, som du ikke kan måle direkte.",
+        "p3": "Trigonometri er utrolig praktisk. Landmålere bruger det til at beregne afstande uden at gå hele vejen. Navigatører bruger det til at finde position. Ingeniører bruger det til at designe konstruktioner. Hver gang du skal finde en ukendt længde eller vinkel ud fra det, du allerede ved, er trigonometri svaret.",
+        "p4": "I gymnasiet udvides trigonometri med enhedscirklen, som forbinder vinkler med koordinater. Sinus og cosinus bliver til funktioner, der svinger som bølger — og pludselig kan de beskrive alt fra lyd og lys til vekselstrøm og tidevand.",
+        "p5": "Du møder også trigonometriske identiteter — formler der altid er sande, uanset hvilken vinkel du sætter ind. Og med sinusrelationen og cosinusrelationen kan du arbejde med alle trekanter, ikke kun retvinklede.",
+        "p6": "Trigonometri binder geometri og algebra sammen. Det starter med noget meget konkret — en trekant med sider og vinkler — og fører dig til værktøjer, der bruges i alt fra fysik og ingeniørvidenskab til musik og computergrafik."
+      },
+      "vektorer-og-lineaer-algebra": {
+        "p1": "En vektor er en størrelse med både retning og længde. Tænk på det som en pil: den fortæller ikke bare hvor meget, men også hvorhen. Vind har en styrke og en retning. En kraft skubber i en bestemt retning. Bevægelse har en hastighed og en kurs. Alt dette beskrives med vektorer.",
+        "p2": "I matematik skriver vi en vektor som et par eller tripel af tal, f.eks. (3, 2), der beskriver en bevægelse 3 til højre og 2 op. Du kan lægge vektorer sammen, trække dem fra hinanden og gange dem med tal. Disse simple operationer gør det muligt at beskrive og beregne bevægelser, kræfter og retninger præcist.",
+        "p3": "Skalarproduktet er et af vektorregningens vigtigste værktøjer. Det tager to vektorer og giver ét tal tilbage — og det tal fortæller dig noget om vinklen mellem dem. Er skalarproduktet nul, står vektorerne vinkelret på hinanden. Det er en elegant måde at måle retninger på.",
+        "p4": "Vektorer i rummet udvider idéen til tre dimensioner. Nu kan du beskrive positioner, retninger og bevægelser i hele rummet — ikke bare i planen. Du kan finde ligninger for linjer og planer, beregne afstande og skæringspunkter, og arbejde med geometri i 3D.",
+        "p5": "Lineær algebra handler om systemer af lineære ligninger og de strukturer, der opstår. Matricer er rektangulære tabeller af tal, som kan beskrive alt fra ligningssystemer til rotationer og transformationer. De er et uundværligt værktøj i moderne matematik og datalogi.",
+        "p6": "Vektorer og lineær algebra er det matematiske fundament for 3D-grafik, maskinlæring, fysik og økonomi. Når et computerspil renderer en 3D-verden, eller en AI analyserer data, er det vektorregning og matricer, der arbejder bag kulisserne."
+      },
+      "differentialregning": {
+        "p1": "Differentialregning handler om forandring. Hvor hurtigt vokser noget? Hvornår stiger det, og hvornår falder det? Hvornår er det på sit højeste? Hvis du kan beskrive en størrelse med en funktion, kan differentialregning fortælle dig, præcis hvordan den størrelse ændrer sig.",
+        "p2": "Den centrale idé er den afledede — en ny funktion, der fortæller, hvor hurtigt den oprindelige funktion vokser eller falder i hvert punkt. Hvis f(x) beskriver din position på en vej, så beskriver f'(x) din hastighed. Og hastigheden af hastigheden — f''(x) — er din acceleration.",
+        "p3": "At differentiere er at finde den afledede, og det viser sig at følge overraskende enkle regler. Potensreglen, kædereglen, produktreglen — med en håndfuld teknikker kan du differentiere næsten enhver funktion, du møder. Det kræver øvelse, men mønstrene falder hurtigt på plads.",
+        "p4": "En af de vigtigste anvendelser er at finde maksimum og minimum. Hvornår er en funktion på sit højeste? Det sker, hvor den afledede er nul — funktionen hverken stiger eller falder. Dette princip bruges i optimering: at finde den bedste løsning, hvad enten det handler om at minimere omkostninger eller maksimere udbytte.",
+        "p5": "Differentialregning giver dig også værktøjer til at analysere funktioner grundigt: vendepunkter, monotoniforhold, krumning og asymptotisk opførsel. Du kan tegne en præcis skitse af en funktions graf bare ved at analysere dens afledede.",
+        "p6": "Differentialregning blev udviklet af Newton og Leibniz i 1600-tallet og revolutionerede matematikken. I dag bruges det i fysik, økonomi, biologi, ingeniørvidenskab — overalt hvor noget ændrer sig, og vi vil forstå hvordan."
+      },
+      "integralregning": {
+        "p1": "Integralregning er differentialregningens modstykke. Hvor differentialregning handler om at finde hastigheden ud fra positionen, handler integralregning om det omvendte: at finde positionen ud fra hastigheden. Hvis du ved, hvor hurtigt noget vokser, kan integralet fortælle dig, hvor meget der er vokset i alt.",
+        "p2": "Det bestemte integral beregner arealet under en kurve. Det lyder måske abstrakt, men det er ekstremt praktisk: arealet under en hastighedsgraf er den tilbagelagte strækning. Arealet under en effektkurve er det samlede energiforbrug. Integraler oversætter grafer til konkrete tal.",
+        "p3": "At integrere er i sin enkleste form at finde en stamfunktion — en funktion, hvis afledede giver den funktion, du startede med. Hvis den afledede af x² er 2x, så er en stamfunktion til 2x netop x². Det er som at spole differentialregning baglæns.",
+        "p4": "Integrationsmetoder som substitution og partiel integration er teknikker til at håndtere mere komplicerede funktioner. Ligesom differentialregning har sine regler, har integralregning sine — de kræver mere kreativitet, men principperne er klare.",
+        "p5": "Integralregning bruges også til at beregne rumfang af rotationslegemer, længden af kurver og meget andet. Det er et kraftfuldt geometrisk værktøj, der rækker langt ud over simple arealberegninger.",
+        "p6": "Sammen med differentialregning udgør integralregning den klassiske analyse — et af matematikkens vigtigste og mest anvendte områder. Fra fysik og ingeniørvidenskab til økonomi og sandsynlighedsteori er integraler et uundværligt redskab."
+      },
+      "sandsynlighed-og-statistik": {
+        "p1": "Sandsynlighed og statistik handler om at forstå data og tilfældighed. Hvor stor er chancen for at slå en sekser med en terning? Hvad er gennemsnittet af en klasses testresultater? Kan vi stole på resultaterne af en meningsmåling? Det er den slags spørgsmål, dette område besvarer.",
+        "p2": "Statistik begynder med at samle og beskrive data. Du lærer at beregne gennemsnit, median og typetal, og du lærer at vise data i diagrammer, der gør tallene overskuelige. Det handler om at få et klart billede af, hvad tallene fortæller.",
+        "p3": "Sandsynlighedsregning handler om at forudsige, hvor sandsynligt noget er. Hvad er chancen for at trække et rødt kort fra en kortbunke? Hvad er chancen for at vinde i lotteriet? Du lærer at tælle muligheder, beregne sandsynligheder og forstå, hvordan tilfældighed virker.",
+        "p4": "Kombinatorik giver dig værktøjerne til at tælle systematisk. Hvor mange måder kan du vælge 3 elever fra en klasse på 25? Hvor mange forskellige koder kan du lave med 4 cifre? Det handler om at tælle klogt i stedet for at tælle alt igennem.",
+        "p5": "I gymnasiet møder du sandsynlighedsfordelinger — matematiske modeller for tilfældige udfald. Binomialfordelingen beskriver f.eks. antallet af succeser i en række forsøg, og normalfordelingen er den berømte klokkeformede kurve, der dukker op overalt i naturen og samfundet.",
+        "p6": "Statistik og sandsynlighed er noget af den mest anvendte matematik i dag. Fra medicinske forsøg og kvalitetskontrol til machine learning og vejrudsigter — evnen til at analysere data og vurdere usikkerhed er en afgørende kompetence."
+      },
+      "foelger-og-raekker": {
+        "p1": "En følge er en liste af tal, der følger et bestemt mønster. Det kan være simpelt som 2, 4, 6, 8, ... (vi lægger 2 til hver gang) eller 1, 2, 4, 8, 16, ... (vi ganger med 2 hver gang). At finde mønstret og beskrive det med en formel er den grundlæggende opgave.",
+        "p2": "Aritmetiske følger stiger eller falder med det samme beløb hver gang — som en trappe med lige store trin. Geometriske følger ganges med det samme tal hver gang — de vokser eksplosivt hurtigt eller krymper mod nul. Disse to typer danner grundlaget for forståelsen af følger.",
+        "p3": "En række opstår, når du lægger leddene i en følge sammen. Hvad giver 1 + 2 + 3 + ... + 100? Gauss fandt som barn svaret (5050), og historien illustrerer fint, hvad rækker handler om: at finde smarte måder at beregne summer på, uden at lægge hvert tal sammen manuelt.",
+        "p4": "Rekursive følger defineres ved, at hvert led afhænger af de foregående. Fibonacci-følgen — 1, 1, 2, 3, 5, 8, 13, ... — er det mest berømte eksempel: hvert tal er summen af de to foregående. Den dukker op i naturen, fra solsikkernes spiraler til nautilus-skaller.",
+        "p5": "I gymnasiet arbejder du med konvergens: hvad sker der, når en følge eller række fortsætter i det uendelige? Nogle rækker vokser mod uendeligt, mens andre nærmer sig et bestemt tal. Den geometriske række 1 + 1/2 + 1/4 + 1/8 + ... nærmer sig for eksempel præcis 2.",
+        "p6": "Følger og rækker forbinder algebra med analyse og danner grundlag for mange vigtige begreber i matematik, fra renters rente til Taylor-rækker, der kan beskrive enhver funktion som en uendelig sum."
+      },
+      "maaling-og-enheder": {
+        "p1": "Måling handler om at sætte tal på den verden, vi lever i. Hvor lang er bordet? Hvor meget vejer pakken? Hvor lang tid tager turen? Hver gang du måler noget, bruger du matematik til at beskrive virkeligheden med tal og enheder.",
+        "p2": "Længde er det mest grundlæggende mål. Du starter med centimeter og meter og lærer, hvordan enhederne hænger sammen: 100 centimeter er 1 meter, 1000 meter er 1 kilometer. At skifte mellem enheder er en vigtig færdighed, der bruges hele tiden i hverdagen.",
+        "p3": "Areal måler, hvor stort en flade er — fra et gulv, der skal lægges, til en mark, der skal sås. Du lærer at beregne areal af rektangler, trekanter og cirkler, og du opdager, at areal vokser hurtigere, end du måske forventer: en firkant med dobbelt så lange sider har fire gange så stort areal.",
+        "p4": "Rumfang fortæller, hvor meget der er plads til indeni noget — hvor mange liter vand en beholder kan rumme, eller hvor meget jord der skal bruges til at fylde et bed. Fra kasser og cylindre til kugler og kegler lærer du at beregne rumfang af de former, du møder i hverdagen.",
+        "p5": "Vægt, tid og skala er andre vigtige målinger. Gram og kilogram til vægt, sekunder, minutter og timer til tid, og skala til kort og tegninger, hvor 1 centimeter på papiret kan svare til 1 kilometer i virkeligheden.",
+        "p6": "At mestre måling og enheder giver dig en praktisk matematisk værktøjskasse, du bruger resten af livet. Det er matematik, du kan tage og føle på — bogstaveligt talt."
+      },
+      "logik-og-bevisteknik": {
+        "p1": "Matematisk logik handler om at tænke præcist. I dagligdagen kan vi nøjes med \"det er nok rigtigt\" eller \"det giver mening\", men i matematik kræver vi sikkerhed. Et bevis er en kæde af logiske skridt, der viser, at noget er sandt — ikke bare sandsynligt, men ubestrideligt sandt.",
+        "p2": "Grundlaget er udsagnslogik: påstande, der enten er sande eller falske. \"5 er et primtal\" er sandt. \"Alle lige tal er primtal\" er falsk. Du lærer at kombinere udsagn med \"og\", \"eller\" og \"ikke\", og du lærer at forstå implikationer: \"hvis A, så B.\"",
+        "p3": "Direkte bevis er den mest ligetilgængelige teknik: du starter med det, du ved, og udleder skridt for skridt det, du vil vise. Det er som at bygge en bro fra forudsætning til konklusion, hvor hvert trin skal være solidt.",
+        "p4": "Modstridsbevis er en elegant metode, hvor du antager det modsatte af det, du vil bevise, og viser, at det fører til en selvmodsigelse. Sådan beviste man for eksempel, at √2 er irrational — det kan ikke skrives som en brøk, uanset hvor hårdt man prøver.",
+        "p5": "Induktionsbevis bruges, når du vil bevise noget for alle naturlige tal. Du viser, at det gælder for 1, og at hvis det gælder for et vilkårligt tal n, så gælder det også for n + 1. Ligesom dominobrikker: den første vælter den næste, som vælter den næste, i al uendelighed.",
+        "p6": "Logik og bevisteknik er det fundament, hele matematikken hviler på. Selv hvis du aldrig kommer til at skrive et formelt bevis, styrker det din evne til at tænke klart, argumentere præcist og skelne mellem, hvad der er bevist, og hvad der bare er gættet."
+      },
+      "finansiel-matematik": {
+        "p1": "Finansiel matematik handler om penge og tid. Kernen er en simpel, men vigtig idé: penge i dag er mere værd end de samme penge om et år — fordi penge kan vokse, når de forrentes. At forstå denne sammenhæng er nøglen til at træffe gode økonomiske beslutninger.",
+        "p2": "Simpel rente er det letteste at forstå: du låner 1000 kr. til 5% om året, og hvert år betaler du 50 kr. i rente. Men i praksis bruges renters rente, hvor renten selv begynder at give rente. Det er her, pengene for alvor begynder at vokse — eller gælden begynder at stige.",
+        "p3": "Vækstfaktoren er det centrale redskab. Hvis renten er 5%, er vækstfaktoren 1,05. At gange med den én gang giver dig beløbet efter ét år. At gange med den ti gange giver dig beløbet efter ti år. Det er eksponentiel vækst — og det kan overraske, hvor hurtigt det vokser.",
+        "p4": "Annuitet handler om faste betalinger over tid — som et boliglån, hvor du betaler det samme beløb hver måned i mange år. Matematikken bag beregner, hvor meget du betaler i alt, og hvor meget der er renter versus afdrag. Det er direkte anvendelig viden, når du en dag skal låne penge.",
+        "p5": "Indekstal bruges til at sammenligne tal over tid: prisudvikling, lønudvikling eller inflation. Ved at sætte et basisår til 100 kan du hurtigt se, om noget er steget eller faldet, og hvor meget.",
+        "p6": "Finansiel matematik er noget af det mest direkte nyttige, du lærer i matematik. Det hjælper dig med at forstå opsparing, lån, investering og de økonomiske nyheder, du møder hver dag. Det er matematik med kroner og ører."
+      },
+      "maengdelaere": {
+        "p1": "Mængdelære handler om at samle ting i grupper og undersøge, hvordan grupperne hænger sammen. En mængde er bare en samling af ting — tal, bogstaver, personer, hvad som helst. {1, 2, 3} er en mængde. De elever i klassen, der har briller, er en mængde. Det er et simpelt, men kraftfuldt begreb.",
+        "p2": "Det vigtigste spørgsmål i mængdelære er: hører noget til i mængden, eller gør det ikke? Tallet 5 hører til i mængden af ulige tal. Tallet 4 gør ikke. Denne enkle ja/nej-logik er grundlaget for hele emnet.",
+        "p3": "Venn-diagrammer er mængdelærens visuelle værktøj. Med overlappende cirkler kan du vise, hvad to mængder har til fælles, og hvad der er unikt for hver. Det gør det nemt at se sammenhænge, som kan være svære at formulere med ord alene.",
+        "p4": "Fællesmængde, foreningsmængde og differensmængde er de tre grundoperationer. Fællesmængden er det, begge grupper deler. Foreningsmængden er alt, der findes i mindst én af dem. Differensmængden er det, der er i den ene, men ikke i den anden.",
+        "p5": "Delmængder og komplementmængder udvider værktøjskassen. En delmængde er en mængde, der helt indeholdes i en anden — som \"piger i klassen\" er en delmængde af \"alle elever.\" Komplementet er alt det, der ikke er med.",
+        "p6": "Mængdelære er et grundlæggende sprog i matematik. Det bruges til at definere taltyper (naturlige tal, hele tal, reelle tal), til sandsynlighedsregning og til logik. Det er enkelt at komme i gang med, men idéerne rækker langt."
+      },
+      "diskret-matematik": {
+        "p1": "Diskret matematik handler om ting, der kan tælles: hele tal, netværk, grafer og kombinationer. I modsætning til f.eks. differentialregning, hvor alting glider jævnt, arbejder diskret matematik med adskilte, tælbare objekter — som skridt på en trappe i stedet for en glat rampe.",
+        "p2": "Grafteori er en central del af diskret matematik. En graf er et netværk af punkter (knuder) forbundet af linjer (kanter). Det lyder abstrakt, men det beskriver alt fra vejnet og togforbindelser til sociale netværk og internettet. Hver gang du vil finde den korteste rute eller den mest effektive forbindelse, bruger du grafteori.",
+        "p3": "Et klassisk problem er \"broerne i Königsberg\": kan du gå over alle syv broer i byen præcis én gang? Euler beviste i 1736, at det er umuligt — og grundlagde dermed grafteori. Det er et godt eksempel på, hvordan et simpelt spørgsmål kan føre til et helt nyt matematisk felt.",
+        "p4": "Talsystemer hører også hjemme her. Vi bruger normalt titalsystemet (base 10), men computere bruger totalsystemet (binært). At forstå, hvordan tal kan skrives i forskellige baser, giver indsigt i, hvordan computere tænker og regner.",
+        "p5": "Algoritmer — trinvise opskrifter til at løse problemer — er kernen i diskret matematik og datalogi. Sortering af data, søgning i databaser og optimering af ruter er alt sammen diskrete problemer med diskrete løsninger.",
+        "p6": "Diskret matematik er den del af matematikken, der ligger tættest på datalogi. I en verden fuld af computere, netværk og data er det et stadig vigtigere felt — og det er overraskende tilgængeligt, fordi det handler om at tælle, tegne og tænke logisk."
+      }
+    }
+  },
+  "notFound": {
+    "code": "404",
+    "title": "Siden blev ikke fundet",
+    "description": "Den side du leder efter findes ikke. Måske er den blevet flyttet eller slettet.",
+    "goHome": "Gå til forsiden",
+    "seePensum": "Se pensum"
+  },
+  "footer": {
+    "tagline": "Bygget med passion for matematik."
+  },
+  "breadcrumb": {
+    "trin": "Trin",
+    "pensum": "Pensum",
+    "omraader": "Områder",
+    "about": "Om os",
+    "contact": "Kontakt",
+    "faq": "FAQ"
+  }
+}

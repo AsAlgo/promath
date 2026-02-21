@@ -1,26 +1,151 @@
-@import "tailwindcss";
+@import 'katex/dist/katex.min.css';
+@import 'tailwindcss';
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #faf8f5;
+  --foreground: #1c1917;
+  --primary: #312e81;
+  --primary-hover: #3730a3;
+  --primary-fg: #ffffff;
+  --primary-subtle: #eef2ff;
+  --accent: #d97706;
+  --accent-hover: #b45309;
+  --surface: #ffffff;
+  --surface-alt: #f5f0ff;
+  --muted: #78716c;
+  --border: #e7e5e4;
+  --success: #16a34a;
+  --error: #dc2626;
+}
+
+/* Explicit dark mode via toggle */
+.dark {
+  --background: #0a0818;
+  --foreground: #f5f4f0;
+  --primary: #818cf8;
+  --primary-hover: #a5b4fc;
+  --primary-fg: #0a0818;
+  --primary-subtle: #1e1b4b;
+  --accent: #fbbf24;
+  --accent-hover: #f59e0b;
+  --surface: #110e2b;
+  --surface-alt: #0f0c24;
+  --muted: #a8a29e;
+  --border: #2d2a5e;
+  --success: #22c55e;
+  --error: #f87171;
+}
+
+/* Fallback: system preference when user hasn't chosen */
+@media (prefers-color-scheme: dark) {
+  :root:not(.light) {
+    --background: #0a0818;
+    --foreground: #f5f4f0;
+    --primary: #818cf8;
+    --primary-hover: #a5b4fc;
+    --primary-fg: #0a0818;
+    --primary-subtle: #1e1b4b;
+    --accent: #fbbf24;
+    --accent-hover: #f59e0b;
+    --surface: #110e2b;
+    --surface-alt: #0f0c24;
+    --muted: #a8a29e;
+    --border: #2d2a5e;
+    --success: #22c55e;
+    --error: #f87171;
+  }
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-fg: var(--primary-fg);
+  --color-primary-subtle: var(--primary-subtle);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-surface: var(--surface);
+  --color-surface-alt: var(--surface-alt);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-success: var(--success);
+  --color-error: var(--error);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-display: var(--font-instrument);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Keyframe animations */
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  33% {
+    transform: translateY(-18px) rotate(3deg);
+  }
+  66% {
+    transform: translateY(-8px) rotate(-2deg);
+  }
+}
+
+@keyframes float-reverse {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  33% {
+    transform: translateY(14px) rotate(-3deg);
+  }
+  66% {
+    transform: translateY(6px) rotate(2deg);
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Utility classes */
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.graph-paper {
+  background-image:
+    linear-gradient(
+      color-mix(in srgb, var(--primary) 10%, transparent) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      color-mix(in srgb, var(--primary) 10%, transparent) 1px,
+      transparent 1px
+    );
+  background-size: 48px 48px;
+  background-position: center center;
 }
