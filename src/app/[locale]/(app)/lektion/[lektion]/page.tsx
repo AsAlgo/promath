@@ -7,6 +7,7 @@ import {
 } from '@/lib/curriculum';
 import { notFound } from 'next/navigation';
 import CosineRuleApp from '@/components/lessons/cosine-rule/index';
+import PythagorasApp from '@/components/lessons/pythagoras/index';
 
 interface PageProps {
   params: Promise<{ lektion: string; locale: string }>;
@@ -45,14 +46,10 @@ export default async function LessonPage({ params }: PageProps) {
 
   return (
     <>
-      <div className="mb-8">
-        <h1 className="font-display text-4xl sm:text-5xl tracking-tight mb-4">
-          {lesson.name}
-        </h1>
-      </div>
-
       {lesson.id === 'cosinusreglen' ? (
         <CosineRuleApp />
+      ) : lesson.id === 'pythagoras-saetning-a-b-c' ? (
+        <PythagorasApp />
       ) : (
         <div className="rounded-2xl border border-border bg-surface p-12 sm:p-16 text-center">
           <span className="font-display text-7xl text-primary/20 block mb-6">

@@ -1,0 +1,62 @@
+  Opsætning                                                                                                                                            
+                                                                                                                                                         ┌──────────────────────┬─────────────────────────────────────┐                                                                                       
+  │       Feature        │               Status                │                                                                                         ├──────────────────────┼─────────────────────────────────────┤                                                                                       
+  │ Next.js 16 (seneste) │ App Router + React 19               │
+  ├──────────────────────┼─────────────────────────────────────┤
+  │ TypeScript           │ Strict mode                         │
+  ├──────────────────────┼─────────────────────────────────────┤
+  │ Tailwind CSS v4      │ PostCSS plugin                      │
+  ├──────────────────────┼─────────────────────────────────────┤
+  │ ESLint 9             │ Core Web Vitals + TypeScript regler │
+  ├──────────────────────┼─────────────────────────────────────┤
+  │ Prettier             │ Integreret med ESLint               │
+  ├──────────────────────┼─────────────────────────────────────┤
+  │ Turbopack            │ Aktiveret i dev script              │
+  ├──────────────────────┼─────────────────────────────────────┤
+  │ src/ mappe           │ src/app/                            │
+  ├──────────────────────┼─────────────────────────────────────┤
+  │ Import alias         │ @/* → ./src/*                       │
+  └──────────────────────┴─────────────────────────────────────┘
+
+  Scripts
+
+  ┌──────────────────────┬────────────────────────────────┐
+  │       Kommando       │          Beskrivelse           │
+  ├──────────────────────┼────────────────────────────────┤
+  │ npm run dev          │ Start dev server med Turbopack │
+  ├──────────────────────┼────────────────────────────────┤
+  │ npm run build        │ Production build               │
+  ├──────────────────────┼────────────────────────────────┤
+  │ npm run start        │ Start production server        │
+  ├──────────────────────┼────────────────────────────────┤
+  │ npm run lint         │ Kør ESLint                     │
+  ├──────────────────────┼────────────────────────────────┤
+  │ npm run format       │ Formater kode med Prettier     │
+  ├──────────────────────┼────────────────────────────────┤
+  │ npm run format:check │ Tjek formatering               │
+  └──────────────────────┴────────────────────────────────┘
+
+  Projektstruktur
+
+  promath/
+  ├── src/
+  │   └── app/
+  │       ├── layout.tsx      # Root layout
+  │       ├── page.tsx         # Forside
+  │       ├── globals.css      # Global CSS + Tailwind
+  │       └── favicon.ico
+  ├── public/                  # Statiske filer
+  ├── cosine-rule.jsx          # Din eksisterende fil
+  ├── eslint.config.mjs
+  ├── tsconfig.json
+  ├── next.config.ts
+  ├── postcss.config.mjs
+  ├── .prettierrc
+  └── package.json
+områder 
+  Kør npm run dev for at starte udviklingsserveren!
+
+
+
+  categories (emne) -> topics -> lessons
+

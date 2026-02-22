@@ -4,30 +4,30 @@ import { useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
 import { useTabHash } from '../use-tab-hash';
-import { IntroSection } from './intro';
+import { ExploreSection } from './explore';
+import { UnderstandSection } from './understand';
 import { ProofSection } from './proof';
-import { InteractiveSection } from './interactive';
 import { ExamplesSection } from './examples';
 import { ExercisesSection } from './exercises';
 
 const SECTION_KEYS = [
-  'intro',
+  'explore',
+  'understand',
   'proof',
-  'interactive',
   'examples',
   'exercises',
 ] as const;
 
 const SECTIONS = [
-  IntroSection,
+  ExploreSection,
+  UnderstandSection,
   ProofSection,
-  InteractiveSection,
   ExamplesSection,
   ExercisesSection,
 ];
 
-export default function CosineRuleApp() {
-  const t = useTranslations('lesson.cosineRule');
+export default function PythagorasApp() {
+  const t = useTranslations('lesson.pythagoras');
   const [section, setSection] = useTabHash(SECTION_KEYS);
 
   const handleKeyDown = useCallback(
@@ -35,7 +35,8 @@ export default function CosineRuleApp() {
       let next = section;
       if (e.key === 'ArrowRight')
         next = Math.min(section + 1, SECTIONS.length - 1);
-      else if (e.key === 'ArrowLeft') next = Math.max(section - 1, 0);
+      else if (e.key === 'ArrowLeft')
+        next = Math.max(section - 1, 0);
       else if (e.key === 'Home') next = 0;
       else if (e.key === 'End') next = SECTIONS.length - 1;
       else return;
@@ -52,7 +53,7 @@ export default function CosineRuleApp() {
     <div>
       {/* Tab navigation */}
       <div
-        className="flex gap-1 px-3 mb-5 overflow-x-auto scrollbar-hide"
+        className="flex gap-1 mb-4 overflow-x-auto scrollbar-hide"
         role="tablist"
         aria-label="Lesson sections"
       >

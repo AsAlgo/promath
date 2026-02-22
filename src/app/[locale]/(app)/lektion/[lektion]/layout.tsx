@@ -49,7 +49,7 @@ export default async function LessonLayout({
           { label: lesson.name },
         ]}
       />
-      <div className="max-w-6xl mx-auto px-6 py-8 sm:py-12">
+      <div className="max-w-6xl mx-auto px-6 py-4 sm:py-6">
         <div className="flex gap-8">
           <UnifiedSidebar />
           <main className="flex-1 min-w-0">{children}</main>

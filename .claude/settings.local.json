@@ -1,0 +1,50 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app:*)",
+      "Bash(npm install:*)",
+      "Bash(npm run build:*)",
+      "Bash(ls:*)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run format:check:*)",
+      "Bash(npm run format:*)",
+      "Bash(npx prettier:*)",
+      "Bash(head:*)",
+      "Bash(python3 -c \" import json, sys line = sys.stdin.read\\(\\) data = json.loads\\(line\\) content = data[''message''][''content''] # Find the JSON part starting from the first { start = content.index\\(''{''\\) # Find matching closing brace depth = 0 end = start for i in range\\(start, len\\(content\\)\\): if content[i] == ''{'': depth += 1 elif content[i] == ''}'': depth -= 1 if depth == 0: end = i + 1 break json_str = content[start:end] parsed = json.loads\\(json_str\\) print\\(json.dumps\\(parsed, indent=2, ensure_ascii=False\\)\\) \" 2)",
+      "Bash(1 echo \"Exit code: $?\" wc -l /tmp/pensum_raw.json)",
+      "Bash(node -e:*)",
+      "Bash(npx next build)",
+      "Bash(curl:*)",
+      "WebSearch",
+      "WebFetch(domain:next-intl.dev)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(npx tsc:*)",
+      "Bash(for f in /tmp/da-topics.json /tmp/en-topics.json /tmp/de-topics.json)",
+      "Bash(do node -e \"const d = JSON.parse\\(require\\(''fs''\\).readFileSync\\(''$f'',''utf8''\\)\\); console.log\\(''$f: '' + Object.keys\\(d\\).length + '' topics''\\)\")",
+      "Bash(done)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(wc:*)",
+      "WebFetch(domain:blog.roastmylandingpage.com)",
+      "WebFetch(domain:thrivethemes.com)",
+      "mcp__ide__getDiagnostics",
+      "WebFetch(domain:www.framer.com)",
+      "WebFetch(domain:brilliant.org)",
+      "WebFetch(domain:mathigon.org)",
+      "WebFetch(domain:www.geogebra.org)",
+      "WebFetch(domain:www.involve.me)",
+      "WebFetch(domain:www.caffeinemarketing.com)",
+      "WebFetch(domain:medium.com)",
+      "WebFetch(domain:plus.maths.org)",
+      "Bash(cat:*)"
+    ]
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "powershell -NoProfile -Command \"$j = [Console]::In.ReadToEnd() | ConvertFrom-Json; $parts = @(); $d = $j.workspace.current_dir -replace '^C:/_git/', ''; if($d){$parts += $d}; if($j.model.display_name){$parts += $j.model.display_name}; if($j.output_style.name){$parts += $j.output_style.name}; if($j.context_window.used_percentage -ne $null){$u=[math]::Round($j.context_window.used_percentage,0); $r=[math]::Round($j.context_window.remaining_percentage,0); $parts += 'ctx:' + $u + '%/' + $r + '%'}; if($j.cost.total_cost_usd -ne $null){$parts += 'USD ' + [string][math]::Round($j.cost.total_cost_usd,2)}; if($j.vim.mode){$parts += $j.vim.mode}; Write-Host ($parts -join ' | ') -NoNewline\""
+  }
+}

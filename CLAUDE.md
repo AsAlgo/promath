@@ -4,6 +4,9 @@
 
 Promath — Next.js 16 math education app (Danish content, i18n for da/en/de). App Router, no Pages Router.
 
+- **Repository**: GitHub — https://github.com/AsAlgo/promath
+- **Hosting**: Vercel
+
 ## Commands
 
 - `npm run dev` — Dev server (Turbopack)
