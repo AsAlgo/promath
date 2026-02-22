@@ -588,7 +588,8 @@
         "understand": "Teori",
         "proof": "Bevis",
         "examples": "Eksempler",
-        "exercises": "Øvelser"
+        "exercises": "Øvelser",
+        "background": "Baggrund"
       },
       "explore": {
         "title": "Udforsk",
@@ -597,7 +598,7 @@
         "desc": "Juster siderne og se, hvordan arealerne forholder sig til hinanden.",
         "hookScenario": "Forestil dig, at du står i et hjørne af en park. Du kan gå 300 meter langs vejen mod øst, og derefter 400 meter mod nord. Men der er også en sti tværs igennem. Hvor lang mon den er?",
         "hookDiagramLabel": "Park med to veje og en genvej",
-        "hookQuestion": "Kan du finde genvejen? Lad os undersøge det!",
+        "hookQuestion": "Svaret gemmer sig i en formel, der er over 2500 år gammel.",
         "hookCTA": "Lad os undersøge det!",
         "svgLabel": "Interaktiv retvinklet trekant med arealkvadrater",
         "sideA": "Katet a",
@@ -618,7 +619,18 @@
         "skipToCelebrate": "Spring over",
         "celebrateTitle": "Du fandt den!",
         "celebrateDesc": "Du har netop genopdaget Pythagoras' sætning! Denne sammenhæng har været kendt i over 2500 år.",
-        "celebrateNudge": "Gå videre til næste fane for at lære mere →"
+        "celebrateNudge": "Gå videre til næste fane for at lære mere →",
+        "hookIntro": "Lad os starte med et eksempel fra virkeligheden.",
+        "applicationsIntro": "Pythagoras dukker op i mange sammenhænge — her er nogle af de mest almindelige.",
+        "applicationsTitle": "I praksis",
+        "shortcutTitle": "Genvejen",
+        "shortcutDesc": "Find den korteste vej tværs igennem en park eller et felt.",
+        "heightTitle": "Højden",
+        "heightDesc": "Beregn hvor højt en stige når op ad en mur.",
+        "diagonalTitle": "Diagonalen",
+        "diagonalDesc": "Find diagonalen i et rektangel eller en skærm.",
+        "rightTestTitle": "Er den retvinklet?",
+        "rightTestDesc": "Tjek om en trekant har en ret vinkel ved at indsætte siderne."
       },
       "understand": {
         "title": "Forstå",
@@ -642,15 +654,7 @@
         "findADesc": "Når du kender c og b",
         "findBLabel": "Find b",
         "findBDesc": "Når du kender c og a",
-        "applicationsTitle": "Hvad kan du bruge det til?",
-        "shortcutTitle": "Genvejen",
-        "shortcutDesc": "Find den korteste vej tværs igennem en park eller et felt.",
-        "heightTitle": "Højden",
-        "heightDesc": "Beregn hvor højt en stige når op ad en mur.",
-        "diagonalTitle": "Diagonalen",
-        "diagonalDesc": "Find diagonalen i et rektangel eller en skærm.",
-        "rightTestTitle": "Er den retvinklet?",
-        "rightTestDesc": "Tjek om en trekant har en ret vinkel ved at indsætte siderne."
+        "applicationsTitle": "Hvad kan du bruge det til?"
       },
       "proof": {
         "title": "Bevis for",
@@ -694,6 +698,20 @@
         "score": "{score} / {total}",
         "selectStep": "Klik på det trin, der indeholder fejlen:",
         "stepCorrectNote": "Godt set! Du har skarpt øje for fejl."
+      },
+      "background": {
+        "title": "Historien bag",
+        "titleHighlight": "Pythagoras' sætning",
+        "intro": "Sætningen bærer Pythagoras' navn, men historien starter mere end tusind år tidligere. Forholdet mellem siderne i en retvinklet trekant blev opdaget uafhængigt af flere civilisationer på tværs af årtusinder — et af matematikkens mest universelle resultater.",
+        "timelineLabel": "Tidslinje over Pythagoras' sætnings historie fra 1800 f.Kr. til i dag",
+        "babylonTitle": "Babylonerne · ~1800 f.Kr.",
+        "babylonText": "I 1945 fandt forskere en lille lertavle fra det gamle Babylon kaldet Plimpton 322. Den indeholder 15 rækker af tal, der alle er pythagoræiske tripler — altså heltal der opfylder a² + b² = c². Tavlen er næsten 3800 år gammel og er det ældste kendte bevis på, at mennesker kendte til sammenhængen. Babylonerne havde ingen formel sætning, men de brugte forholdet i praksis til landmåling og byggeri langs Eufrat og Tigris.",
+        "asiaTitle": "Kina & Indien · ~1100–800 f.Kr.",
+        "asiaText": "I Kina beskrev den gamle tekst Zhoubi Suanjing (周髀算經) det samme forhold som \"Gougu-sætningen\" — gou og gu er navnene på de to kateter. Teksten indeholder et visuelt bevis med omarrangerede trekanter. I Indien formulerede præsten Baudhayana sætningen i sine Sulba Sutraer omkring 800 f.Kr. som en regel til at konstruere altere med præcise rette vinkler. Begge opdagelser skete uafhængigt af hinanden og af Babylon.",
+        "greeceTitle": "Pythagoras & Euklid · ~500–300 f.Kr.",
+        "greeceText": "Pythagoras af Samos (ca. 570–495 f.Kr.) grundlagde en filosofisk skole i Syditalien, hvor tal var selve virkelighedens grundstof. Hans tilhængere — pythagoræerne — krediteres det første deduktive bevis for sætningen: ikke bare \"det virker\", men \"det må altid virke\". To hundrede år senere samlede Euklid al kendt geometri i sit mesterværk Elementer, hvor sætningen optræder som Proposition 47 i Bog I med et elegant bevis baseret på areal-sammenligning.",
+        "todayTitle": "I dag",
+        "todayText": "Pythagoras' sætning er en af de mest beviste sætninger i matematikkens historie — over 400 forskellige beviser er kendt, inklusive ét af den amerikanske præsident James Garfield fra 1876. I 2023 præsenterede to amerikanske gymnasieelever, Calcea Johnson og Ne'Kiya Jackson, et nyt bevis baseret udelukkende på trigonometri — noget mange matematikere havde anset for umuligt. Sætningen bruges stadig dagligt: ingeniører beregner afstande med den, computergrafik bygger på den, GPS-navigation afhænger af den, og den er grundstenen i al afstandsmåling i både to og tre dimensioner."
       }
     }
   },

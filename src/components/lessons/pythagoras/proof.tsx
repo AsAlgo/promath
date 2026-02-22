@@ -274,7 +274,7 @@ export function ProofSection() {
   return (
     <div>
       {/* Proof SVG — sticky on large screens only */}
-      <div className="bg-surface rounded-xl p-5 mb-4 border border-border lg:sticky lg:top-4 lg:z-10">
+      <div className="bg-surface rounded-xl p-5 mb-4 border border-border lg:sticky lg:top-20 lg:z-10">
         {renderProofSVG()}
       </div>
 

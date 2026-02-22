@@ -588,7 +588,8 @@
         "understand": "Theory",
         "proof": "Proof",
         "examples": "Examples",
-        "exercises": "Exercises"
+        "exercises": "Exercises",
+        "background": "Background"
       },
       "explore": {
         "title": "Explore",
@@ -597,7 +598,7 @@
         "desc": "Adjust the sides and see how the areas relate to each other.",
         "hookScenario": "Imagine you're standing at the corner of a park. You can walk 300 metres east along the road, then 400 metres north. But there's also a path cutting straight across. How long is it?",
         "hookDiagramLabel": "Park with two roads and a shortcut",
-        "hookQuestion": "Can you find the shortcut? Let's investigate!",
+        "hookQuestion": "The answer lies in a formula that is over 2,500 years old.",
         "hookCTA": "Let's investigate!",
         "svgLabel": "Interactive right triangle with area squares",
         "sideA": "Leg a",
@@ -618,7 +619,18 @@
         "skipToCelebrate": "Skip",
         "celebrateTitle": "You found it!",
         "celebrateDesc": "You just rediscovered the Pythagorean theorem! This relationship has been known for over 2,500 years.",
-        "celebrateNudge": "Continue to the next tab to learn more →"
+        "celebrateNudge": "Continue to the next tab to learn more →",
+        "hookIntro": "Let's start with a real-world example.",
+        "applicationsIntro": "Pythagoras shows up in many contexts — here are some of the most common.",
+        "applicationsTitle": "In practice",
+        "shortcutTitle": "The shortcut",
+        "shortcutDesc": "Find the shortest path across a park or field.",
+        "heightTitle": "The height",
+        "heightDesc": "Calculate how high a ladder reaches up a wall.",
+        "diagonalTitle": "The diagonal",
+        "diagonalDesc": "Find the diagonal of a rectangle or screen.",
+        "rightTestTitle": "Is it right-angled?",
+        "rightTestDesc": "Check whether a triangle has a right angle by plugging in the sides."
       },
       "understand": {
         "title": "Understand",
@@ -642,15 +654,7 @@
         "findADesc": "When you know c and b",
         "findBLabel": "Find b",
         "findBDesc": "When you know c and a",
-        "applicationsTitle": "What can you use it for?",
-        "shortcutTitle": "The shortcut",
-        "shortcutDesc": "Find the shortest path across a park or field.",
-        "heightTitle": "The height",
-        "heightDesc": "Calculate how high a ladder reaches up a wall.",
-        "diagonalTitle": "The diagonal",
-        "diagonalDesc": "Find the diagonal of a rectangle or screen.",
-        "rightTestTitle": "Is it right-angled?",
-        "rightTestDesc": "Check whether a triangle has a right angle by plugging in the sides."
+        "applicationsTitle": "What can you use it for?"
       },
       "proof": {
         "title": "Proof of the",
@@ -694,6 +698,20 @@
         "score": "{score} / {total}",
         "selectStep": "Click the step that contains the error:",
         "stepCorrectNote": "Well spotted! You have a sharp eye for errors."
+      },
+      "background": {
+        "title": "The history behind",
+        "titleHighlight": "the Pythagorean theorem",
+        "intro": "The theorem bears Pythagoras' name, but the story begins more than a thousand years earlier. The relationship between the sides of a right triangle was discovered independently by several civilisations across millennia — one of the most universal results in all of mathematics.",
+        "timelineLabel": "Timeline of the history of the Pythagorean theorem from 1800 BC to today",
+        "babylonTitle": "Babylonians · ~1800 BC",
+        "babylonText": "In 1945 researchers identified a small clay tablet from ancient Babylon called Plimpton 322. It contains 15 rows of numbers, all Pythagorean triples — integers satisfying a² + b² = c². The tablet is almost 3,800 years old and is the oldest known evidence that humans were aware of the relationship. The Babylonians had no formal theorem, but they used it in practice for surveying and construction along the Euphrates and Tigris rivers.",
+        "asiaTitle": "China & India · ~1100–800 BC",
+        "asiaText": "In China the ancient text Zhoubi Suanjing (周髀算經) described the same relationship as the \"Gougu theorem\" — gou and gu being the names of the two legs. The text includes a visual proof using rearranged triangles. In India the priest Baudhayana stated the theorem in his Sulba Sutras around 800 BC as a rule for constructing altars with precise right angles. Both discoveries occurred independently of each other and of Babylon.",
+        "greeceTitle": "Pythagoras & Euclid · ~500–300 BC",
+        "greeceText": "Pythagoras of Samos (c. 570–495 BC) founded a philosophical school in southern Italy where numbers were the very fabric of reality. His followers — the Pythagoreans — are credited with the first deductive proof of the theorem: not just \"it works\" but \"it must always work\". Two hundred years later Euclid compiled all known geometry in his masterwork Elements, where the theorem appears as Proposition 47 in Book I with an elegant proof based on area comparison.",
+        "todayTitle": "Today",
+        "todayText": "The Pythagorean theorem is one of the most proven theorems in the history of mathematics — over 400 different proofs are known, including one by US President James Garfield from 1876. In 2023 two American high-school students, Calcea Johnson and Ne'Kiya Jackson, presented a new proof based purely on trigonometry — something many mathematicians had considered impossible. The theorem is still used daily: engineers calculate distances with it, computer graphics are built on it, GPS navigation depends on it, and it is the cornerstone of all distance measurement in both two and three dimensions."
       }
     }
   },

@@ -9,6 +9,7 @@ import { UnderstandSection } from './understand';
 import { ProofSection } from './proof';
 import { ExamplesSection } from './examples';
 import { ExercisesSection } from './exercises';
+import { BackgroundSection } from './background';
 
 const SECTION_KEYS = [
   'explore',
@@ -16,6 +17,7 @@ const SECTION_KEYS = [
   'proof',
   'examples',
   'exercises',
+  'background',
 ] as const;
 
 const SECTIONS = [
@@ -24,6 +26,7 @@ const SECTIONS = [
   ProofSection,
   ExamplesSection,
   ExercisesSection,
+  BackgroundSection,
 ];
 
 export default function PythagorasApp() {

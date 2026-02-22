@@ -588,7 +588,8 @@
         "understand": "Theorie",
         "proof": "Beweis",
         "examples": "Beispiele",
-        "exercises": "Übungen"
+        "exercises": "Übungen",
+        "background": "Hintergrund"
       },
       "explore": {
         "title": "Erkunde",
@@ -597,7 +598,7 @@
         "desc": "Passe die Seiten an und beobachte, wie sich die Flächen zueinander verhalten.",
         "hookScenario": "Stell dir vor, du stehst an der Ecke eines Parks. Du kannst 300 Meter nach Osten die Straße entlang gehen und dann 400 Meter nach Norden. Aber es gibt auch einen Weg quer durch. Wie lang ist er wohl?",
         "hookDiagramLabel": "Park mit zwei Straßen und einer Abkürzung",
-        "hookQuestion": "Kannst du die Abkürzung finden? Lass uns nachforschen!",
+        "hookQuestion": "Die Antwort steckt in einer Formel, die über 2.500 Jahre alt ist.",
         "hookCTA": "Lass uns nachforschen!",
         "svgLabel": "Interaktives rechtwinkliges Dreieck mit Flächenquadraten",
         "sideA": "Kathete a",
@@ -618,7 +619,18 @@
         "skipToCelebrate": "Überspringen",
         "celebrateTitle": "Du hast es gefunden!",
         "celebrateDesc": "Du hast gerade den Satz des Pythagoras wiederentdeckt! Dieser Zusammenhang ist seit über 2.500 Jahren bekannt.",
-        "celebrateNudge": "Gehe zum nächsten Tab, um mehr zu erfahren →"
+        "celebrateNudge": "Gehe zum nächsten Tab, um mehr zu erfahren →",
+        "hookIntro": "Beginnen wir mit einem Beispiel aus der Praxis.",
+        "applicationsIntro": "Pythagoras taucht in vielen Zusammenhängen auf — hier sind einige der häufigsten.",
+        "applicationsTitle": "In der Praxis",
+        "shortcutTitle": "Die Abkürzung",
+        "shortcutDesc": "Finde den kürzesten Weg quer durch einen Park oder ein Feld.",
+        "heightTitle": "Die Höhe",
+        "heightDesc": "Berechne, wie hoch eine Leiter an einer Wand reicht.",
+        "diagonalTitle": "Die Diagonale",
+        "diagonalDesc": "Finde die Diagonale eines Rechtecks oder Bildschirms.",
+        "rightTestTitle": "Ist es rechtwinklig?",
+        "rightTestDesc": "Prüfe, ob ein Dreieck einen rechten Winkel hat, indem du die Seiten einsetzt."
       },
       "understand": {
         "title": "Verstehe den",
@@ -642,15 +654,7 @@
         "findADesc": "Wenn du c und b kennst",
         "findBLabel": "b finden",
         "findBDesc": "Wenn du c und a kennst",
-        "applicationsTitle": "Wofür kannst du es nutzen?",
-        "shortcutTitle": "Die Abkürzung",
-        "shortcutDesc": "Finde den kürzesten Weg quer durch einen Park oder ein Feld.",
-        "heightTitle": "Die Höhe",
-        "heightDesc": "Berechne, wie hoch eine Leiter an einer Wand reicht.",
-        "diagonalTitle": "Die Diagonale",
-        "diagonalDesc": "Finde die Diagonale eines Rechtecks oder Bildschirms.",
-        "rightTestTitle": "Ist es rechtwinklig?",
-        "rightTestDesc": "Prüfe, ob ein Dreieck einen rechten Winkel hat, indem du die Seiten einsetzt."
+        "applicationsTitle": "Wofür kannst du es nutzen?"
       },
       "proof": {
         "title": "Beweis des",
@@ -694,6 +698,20 @@
         "score": "{score} / {total}",
         "selectStep": "Klicke auf den Schritt, der den Fehler enthält:",
         "stepCorrectNote": "Gut erkannt! Du hast ein scharfes Auge für Fehler."
+      },
+      "background": {
+        "title": "Die Geschichte hinter dem",
+        "titleHighlight": "Satz des Pythagoras",
+        "intro": "Der Satz trägt den Namen des Pythagoras, doch die Geschichte beginnt mehr als tausend Jahre früher. Der Zusammenhang zwischen den Seiten eines rechtwinkligen Dreiecks wurde von mehreren Zivilisationen über Jahrtausende hinweg unabhängig voneinander entdeckt — eines der universellsten Ergebnisse der gesamten Mathematik.",
+        "timelineLabel": "Zeitleiste der Geschichte des Satzes von Pythagoras von 1800 v. Chr. bis heute",
+        "babylonTitle": "Babylonier · ~1800 v. Chr.",
+        "babylonText": "1945 identifizierten Forscher eine kleine Tontafel aus dem alten Babylon namens Plimpton 322. Sie enthält 15 Zeilen mit Zahlen, die alle pythagoreische Tripel sind — also ganze Zahlen, die a² + b² = c² erfüllen. Die Tafel ist fast 3.800 Jahre alt und der älteste bekannte Beleg dafür, dass Menschen den Zusammenhang kannten. Die Babylonier hatten keinen formalen Satz, nutzten ihn aber in der Praxis für Vermessung und Bauwesen entlang von Euphrat und Tigris.",
+        "asiaTitle": "China & Indien · ~1100–800 v. Chr.",
+        "asiaText": "In China beschrieb der alte Text Zhoubi Suanjing (周髀算經) denselben Zusammenhang als den \"Gougu-Satz\" — Gou und Gu sind die Namen der beiden Katheten. Der Text enthält einen visuellen Beweis mit umgeordneten Dreiecken. In Indien formulierte der Priester Baudhayana den Satz in seinen Sulba-Sutras um 800 v. Chr. als Regel zur Konstruktion von Altären mit präzisen rechten Winkeln. Beide Entdeckungen geschahen unabhängig voneinander und von Babylon.",
+        "greeceTitle": "Pythagoras & Euklid · ~500–300 v. Chr.",
+        "greeceText": "Pythagoras von Samos (ca. 570–495 v. Chr.) gründete eine philosophische Schule in Süditalien, in der Zahlen der Grundstoff der Wirklichkeit waren. Seinen Anhängern — den Pythagoreern — wird der erste deduktive Beweis des Satzes zugeschrieben: nicht nur ‚es funktioniert', sondern ‚es muss immer funktionieren'. Zweihundert Jahre später fasste Euklid die gesamte bekannte Geometrie in seinem Meisterwerk Elemente zusammen, wo der Satz als Proposition 47 in Buch I mit einem eleganten Beweis durch Flächenvergleich erscheint.",
+        "todayTitle": "Heute",
+        "todayText": "Der Satz des Pythagoras ist einer der am häufigsten bewiesenen Sätze in der Geschichte der Mathematik — über 400 verschiedene Beweise sind bekannt, darunter einer von US-Präsident James Garfield aus dem Jahr 1876. Im Jahr 2023 präsentierten zwei amerikanische Highschool-Schülerinnen, Calcea Johnson und Ne'Kiya Jackson, einen neuen Beweis, der ausschließlich auf Trigonometrie basiert — etwas, das viele Mathematiker für unmöglich gehalten hatten. Der Satz wird noch heute täglich genutzt: Ingenieure berechnen damit Abstände, Computergrafik baut darauf auf, GPS-Navigation hängt davon ab, und er ist der Grundstein jeder Abstandsmessung in zwei und drei Dimensionen."
       }
     }
   },
