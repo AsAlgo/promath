@@ -669,7 +669,9 @@
         "blankCorrect": "Korrekt! Godt gået.",
         "blankWrong": "Ikke helt rigtigt. Prøv igen!",
         "provedTitle": "Bevist!",
-        "provedDesc": "Du har nu set, hvorfor a² + b² = c² altid gælder for retvinklede trekanter."
+        "provedDesc": "Du har nu set, hvorfor a² + b² = c² altid gælder for retvinklede trekanter.",
+        "solveToReveal": "Udfyld opgaven for at se resten af beviset",
+        "skip": "Spring over →"
       },
       "examples": {
         "title": "Gennemgåede",

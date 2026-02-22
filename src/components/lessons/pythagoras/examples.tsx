@@ -1,9 +1,10 @@
-import { useState } from 'react';
+import { useState, useCallback } from 'react';
 import { useTranslations } from 'next-intl';
 import { cn } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Math as Tex } from '@/components/ui/math';
+import { ItemStepper, type ItemStatus } from '@/components/ui/item-stepper';
 import { STORY_EXAMPLES } from './data';
 import type { StoryExample } from './data';
 
@@ -420,132 +421,131 @@ function ScenarioDiagram({
 
 export function ExamplesSection() {
   const t = useTranslations('lesson.pythagoras.examples');
-  const [activeEx, setActiveEx] = useState(0);
-  const [revealedStep, setRevealedStep] = useState(-1);
+  const [revealedSteps, setRevealedSteps] = useState<number[]>(
+    STORY_EXAMPLES.map(() => -1),
+  );
 
-  const reset = (idx: number) => {
-    setActiveEx(idx);
-    setRevealedStep(-1);
-  };
+  const statuses: ItemStatus[] = STORY_EXAMPLES.map((ex, i) =>
+    revealedSteps[i] >= ex.steps.length - 1 ? 'completed' : 'pending',
+  );
 
-  const ex = STORY_EXAMPLES[activeEx];
+  const reveal = useCallback(
+    (exIdx: number) => {
+      const newSteps = [...revealedSteps];
+      newSteps[exIdx] = Math.min(
+        STORY_EXAMPLES[exIdx].steps.length - 1,
+        newSteps[exIdx] + 1,
+      );
+      setRevealedSteps(newSteps);
+    },
+    [revealedSteps],
+  );
+
+  const reset = useCallback(
+    (exIdx: number) => {
+      const newSteps = [...revealedSteps];
+      newSteps[exIdx] = -1;
+      setRevealedSteps(newSteps);
+    },
+    [revealedSteps],
+  );
 
   return (
     <div>
-      {/* Example tabs */}
-      <div
-        className="flex gap-1.5 mb-4"
-        role="tablist"
-        aria-label="Examples"
+      <ItemStepper
+        count={STORY_EXAMPLES.length}
+        labels={STORY_EXAMPLES.map((e) => e.title)}
+        statuses={statuses}
+        autoAdvanceOn={['completed']}
       >
-        {STORY_EXAMPLES.map((e, i) => (
-          <button
-            key={e.id}
-            role="tab"
-            aria-selected={i === activeEx}
-            aria-controls={`example-panel-${e.id}`}
-            id={`example-tab-${e.id}`}
-            onClick={() => reset(i)}
-            className={cn(
-              'flex-1 py-2 px-2.5 rounded-lg text-xs font-bold cursor-pointer transition-all duration-200 border',
-              i === activeEx
-                ? 'border-primary bg-primary-subtle/40 text-primary'
-                : 'border-border bg-surface text-muted hover:border-primary/30',
-            )}
-          >
-            {e.title}
-          </button>
-        ))}
-      </div>
+        {(activeIdx) => {
+          const ex = STORY_EXAMPLES[activeIdx];
+          const revealed = revealedSteps[activeIdx];
 
-      <div
-        role="tabpanel"
-        id={`example-panel-${ex.id}`}
-        aria-labelledby={`example-tab-${ex.id}`}
-      >
-        {/* Scenario card */}
-        <div className="bg-surface rounded-xl p-5 border border-border mb-4">
-          <Badge>{t('scenario')}</Badge>
-          <p className="mt-2.5 text-[15px] leading-relaxed">
-            {ex.scenario}
-          </p>
-          <p className="text-sm font-semibold text-primary mt-2">
-            {ex.question}
-          </p>
-        </div>
+          return (
+            <div>
+              {/* Scenario card */}
+              <div className="bg-surface rounded-xl p-5 border border-border mb-4">
+                <Badge>{t('scenario')}</Badge>
+                <p className="mt-2.5 text-[15px] leading-relaxed">
+                  {ex.scenario}
+                </p>
+                <p className="text-sm font-semibold text-primary mt-2">
+                  {ex.question}
+                </p>
+              </div>
 
-        {/* Scenario diagram */}
-        <div className="bg-surface rounded-xl p-3 border border-border mb-4">
-          <ScenarioDiagram type={ex.diagramType} />
-        </div>
+              {/* Scenario diagram */}
+              <div className="bg-surface rounded-xl p-3 border border-border mb-4">
+                <ScenarioDiagram type={ex.diagramType} />
+              </div>
 
-        {/* Accumulated steps */}
-        <div className="flex flex-col gap-2 mb-4">
-          {ex.steps.map((s, i) => (
-            <div
-              key={i}
-              className={cn(
-                'rounded-lg py-2.5 px-4 text-[15px] transition-all duration-400 border',
-                i <= revealedStep
-                  ? 'bg-surface border-primary/25 opacity-100'
-                  : 'bg-surface-alt border-border opacity-30',
+              {/* Accumulated steps */}
+              <div className="flex flex-col gap-2 mb-4">
+                {ex.steps.map((s, i) => (
+                  <div
+                    key={i}
+                    className={cn(
+                      'rounded-lg py-2.5 px-4 text-[15px] transition-all duration-400 border',
+                      i <= revealed
+                        ? 'bg-surface border-primary/25 opacity-100'
+                        : 'bg-surface-alt border-border opacity-30',
+                    )}
+                  >
+                    <span className="text-muted text-xs mr-2 font-semibold">
+                      {s.label}
+                    </span>
+                    {i <= revealed ? (
+                      <span>
+                        <Tex>{s.math}</Tex>
+                        <p className="text-xs text-muted mt-1 italic">
+                          {s.explanation}
+                        </p>
+                      </span>
+                    ) : (
+                      '\u2022 \u2022 \u2022'
+                    )}
+                  </div>
+                ))}
+              </div>
+
+              {/* Controls */}
+              <div className="flex gap-2.5">
+                <Button
+                  variant="primary"
+                  size="sm"
+                  className="flex-1 rounded-lg font-bold"
+                  onClick={() => reveal(activeIdx)}
+                  disabled={revealed >= ex.steps.length - 1}
+                >
+                  {t('showNext')}
+                </Button>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  className="rounded-lg"
+                  onClick={() => reset(activeIdx)}
+                >
+                  {t('reset')}
+                </Button>
+              </div>
+
+              {/* Answer */}
+              {revealed >= ex.steps.length - 1 && (
+                <div className="mt-4 rounded-lg p-4 border border-success/25 bg-success/5 text-center">
+                  <div className="text-xs text-success font-bold tracking-widest uppercase mb-1">
+                    {t('answer')}
+                  </div>
+                  <div className="text-xl text-success font-bold">
+                    <Tex>{ex.answer}</Tex>{' '}
+                    <span className="text-sm">{ex.answerUnit}</span>
+                  </div>
+                </div>
               )}
-            >
-              <span className="text-muted text-xs mr-2 font-semibold">
-                {s.label}
-              </span>
-              {i <= revealedStep ? (
-                <span>
-                  <Tex>{s.math}</Tex>
-                  <p className="text-xs text-muted mt-1 italic">
-                    {s.explanation}
-                  </p>
-                </span>
-              ) : (
-                '\u2022 \u2022 \u2022'
-              )}
             </div>
-          ))}
-        </div>
-
-        {/* Controls */}
-        <div className="flex gap-2.5">
-          <Button
-            variant="primary"
-            size="sm"
-            className="flex-1 rounded-lg font-bold"
-            onClick={() =>
-              setRevealedStep(
-                Math.min(ex.steps.length - 1, revealedStep + 1),
-              )
-            }
-            disabled={revealedStep >= ex.steps.length - 1}
-          >
-            {t('showNext')}
-          </Button>
-          <Button
-            variant="outline"
-            size="sm"
-            className="rounded-lg"
-            onClick={() => setRevealedStep(-1)}
-          >
-            {t('reset')}
-          </Button>
-        </div>
-
-        {/* Answer */}
-        {revealedStep >= ex.steps.length - 1 && (
-          <div className="mt-4 rounded-lg p-4 border border-success/25 bg-success/5 text-center">
-            <div className="text-xs text-success font-bold tracking-widest uppercase mb-1">
-              {t('answer')}
-            </div>
-            <div className="text-xl text-success font-bold">
-              <Tex>{ex.answer}</Tex>{' '}
-              <span className="text-sm">{ex.answerUnit}</span>
-            </div>
-          </div>
-        )}
-      </div>
+          );
+        }}
+      </ItemStepper>
     </div>
   );
 }

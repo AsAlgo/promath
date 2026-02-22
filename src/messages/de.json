@@ -669,7 +669,9 @@
         "blankCorrect": "Richtig! Gut gemacht.",
         "blankWrong": "Nicht ganz richtig. Versuch es nochmal!",
         "provedTitle": "Bewiesen!",
-        "provedDesc": "Du hast jetzt gesehen, warum a² + b² = c² für rechtwinklige Dreiecke immer gilt."
+        "provedDesc": "Du hast jetzt gesehen, warum a² + b² = c² für rechtwinklige Dreiecke immer gilt.",
+        "solveToReveal": "Beantworte die Aufgabe, um den Rest des Beweises zu sehen",
+        "skip": "Überspringen →"
       },
       "examples": {
         "title": "Durchgerechnete",

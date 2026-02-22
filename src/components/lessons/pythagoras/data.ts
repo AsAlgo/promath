@@ -27,11 +27,16 @@ export interface DiscoveryPrompt {
   successMessage?: string;
 }
 
+export interface TermHighlight {
+  svgTargets: string[];
+  color: 'success' | 'error' | 'primary' | 'accent';
+}
+
 export interface ProofStep {
   title: string;
   text: string;
   math?: string;
-  blank?: { prompt: string; answer: string; hint: string };
+  highlights?: Record<string, TermHighlight>;
 }
 
 export interface StoryStep {
@@ -139,35 +144,50 @@ export const PROOF_STEPS: ProofStep[] = [
   {
     title: 'Trekanten',
     text: 'Her er en retvinklet trekant med korte sider $a$ og $b$ og lang side $c$. Vi vil vise, at $a^2 + b^2 = c^2$.',
+    highlights: {
+      a: { svgTargets: ['side-a'], color: 'success' },
+      b: { svgTargets: ['side-b'], color: 'error' },
+      c: { svgTargets: ['side-c'], color: 'primary' },
+    },
   },
   {
     title: 'Byg det store kvadrat',
     text: 'Tegn et stort kvadrat med sidelængde $(a + b)$. Placer fire kopier af trekanten indeni, så de danner et indre kvadrat med sidelængde $c$.',
     math: '\\text{Areal}_{\\text{ydre}} = (a + b)^2',
+    highlights: {
+      '(a + b)': { svgTargets: ['outer-rect'], color: 'accent' },
+      c: { svgTargets: ['side-c'], color: 'primary' },
+    },
   },
   {
     title: 'Beregn det ydre areal',
     text: 'Udvid $(a + b)^2$ med kvadrats\u00e6tningen:',
     math: '(a + b)^2 = a^2 + 2ab + b^2',
-    blank: {
-      prompt: 'Hvad er $(a+b)^2$ udvidet?',
-      answer: 'a^2+2ab+b^2',
-      hint: 'Brug kvadrats\u00e6tningen: $(x+y)^2 = x^2 + 2xy + y^2$',
+    highlights: {
+      '(a + b)^2': { svgTargets: ['outer-rect'], color: 'accent' },
     },
   },
   {
     title: 'Beregn med delene',
     text: 'Det samme areal er ogs\u00e5 de fire trekanter plus det indre kvadrat:',
     math: '4 \\cdot \\tfrac{1}{2}ab + c^2 = 2ab + c^2',
+    highlights: {
+      'c^2': { svgTargets: ['inner-square', 'c-sq-label'], color: 'accent' },
+      '\\tfrac{1}{2}ab': {
+        svgTargets: ['tri-0', 'tri-1', 'tri-2', 'tri-3'],
+        color: 'primary',
+      },
+    },
   },
   {
     title: 'S\u00e6t udtrykkene lig hinanden',
     text: 'Begge udtryk beskriver det samme areal. S\u00e6t dem lig hinanden og forenkl:',
     math: '\\begin{aligned} a^2 + 2ab + b^2 &= 2ab + c^2 \\\\ a^2 + b^2 &= c^2 \\quad \\blacksquare \\end{aligned}',
-    blank: {
-      prompt: 'Hvad kan vi fjerne fra begge sider?',
-      answer: '2ab',
-      hint: '$2ab$ optr\u00e6der p\u00e5 begge sider af lighedstegnet.',
+    highlights: {
+      'a^2 + b^2 = c^2': {
+        svgTargets: ['inner-square'],
+        color: 'primary',
+      },
     },
   },
 ];

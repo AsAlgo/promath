@@ -669,7 +669,9 @@
         "blankCorrect": "Correct! Well done.",
         "blankWrong": "Not quite right. Try again!",
         "provedTitle": "Proved!",
-        "provedDesc": "You've now seen why a² + b² = c² always holds for right triangles."
+        "provedDesc": "You've now seen why a² + b² = c² always holds for right triangles.",
+        "solveToReveal": "Answer the question to reveal the rest of the proof",
+        "skip": "Skip →"
       },
       "examples": {
         "title": "Worked",

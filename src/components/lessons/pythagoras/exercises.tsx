@@ -4,6 +4,7 @@ import { cn } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Math as Tex, MathText } from '@/components/ui/math';
+import { ItemStepper, type ItemStatus } from '@/components/ui/item-stepper';
 import type { Exercise } from './data';
 import { EXERCISES } from './data';
 
@@ -14,18 +15,21 @@ function VisualIdentifyExercise({
   index,
   result,
   onResult,
+  selected,
+  onSelect,
 }: {
   ex: Extract<Exercise, { type: 'visual-identify' }>;
   index: number;
   result: boolean | null;
   onResult: (correct: boolean) => void;
+  selected: number | null;
+  onSelect: (idx: number) => void;
 }) {
   const t = useTranslations('lesson.pythagoras.exercises');
-  const [selected, setSelected] = useState<number | null>(null);
 
   const handleSelect = (idx: number) => {
     if (selected !== null) return;
-    setSelected(idx);
+    onSelect(idx);
     onResult(idx === ex.correctIndex);
   };
 
@@ -164,26 +168,29 @@ function NumericExercise({
   index,
   result,
   onResult,
+  answer,
+  onAnswerChange,
+  showHint,
+  onToggleHint,
+  attempts,
 }: {
   ex: Extract<Exercise, { type: 'numeric' }>;
   index: number;
   result: boolean | null;
   onResult: (correct: boolean) => void;
+  answer: string;
+  onAnswerChange: (value: string) => void;
+  showHint: boolean;
+  onToggleHint: () => void;
+  attempts: number;
 }) {
   const t = useTranslations('lesson.pythagoras.exercises');
-  const [answer, setAnswer] = useState('');
-  const [showHint, setShowHint] = useState(false);
-  const [attempts, setAttempts] = useState(0);
 
   const check = () => {
     const val = parseFloat(answer);
     if (isNaN(val)) return;
     const correct = Math.abs(val - ex.answer) <= ex.tolerance;
     onResult(correct);
-    if (!correct) {
-      setAttempts((a) => a + 1);
-      if (attempts === 0) setShowHint(true);
-    }
   };
 
   return (
@@ -214,7 +221,7 @@ function NumericExercise({
               : t('exerciseN', { n: index + 1 })}
         </Badge>
         <button
-          onClick={() => setShowHint(!showHint)}
+          onClick={onToggleHint}
           className="bg-transparent border border-border rounded-md text-muted text-[11px] py-0.5 px-2.5 cursor-pointer font-semibold hover:border-primary/30 transition-colors"
         >
           {showHint ? t('hideHint') : t('hint')}
@@ -240,7 +247,7 @@ function NumericExercise({
           type="number"
           step="any"
           value={answer}
-          onChange={(e) => setAnswer(e.target.value)}
+          onChange={(e) => onAnswerChange(e.target.value)}
           onKeyDown={(e) => e.key === 'Enter' && check()}
           placeholder={t('placeholder')}
           className="flex-1 py-2 px-3 rounded-lg border border-border bg-surface-alt text-[15px] outline-none focus:border-primary/50 transition-colors"
@@ -278,18 +285,21 @@ function MultipleChoiceExercise({
   index,
   result,
   onResult,
+  selected,
+  onSelect,
 }: {
   ex: Extract<Exercise, { type: 'multiple-choice' }>;
   index: number;
   result: boolean | null;
   onResult: (correct: boolean) => void;
+  selected: number | null;
+  onSelect: (idx: number) => void;
 }) {
   const t = useTranslations('lesson.pythagoras.exercises');
-  const [selected, setSelected] = useState<number | null>(null);
 
   const handleSelect = (idx: number) => {
     if (selected !== null) return;
-    setSelected(idx);
+    onSelect(idx);
     onResult(idx === ex.correctIndex);
   };
 
@@ -369,18 +379,21 @@ function FindErrorExercise({
   index,
   result,
   onResult,
+  selected,
+  onSelect,
 }: {
   ex: Extract<Exercise, { type: 'find-error' }>;
   index: number;
   result: boolean | null;
   onResult: (correct: boolean) => void;
+  selected: number | null;
+  onSelect: (idx: number) => void;
 }) {
   const t = useTranslations('lesson.pythagoras.exercises');
-  const [selected, setSelected] = useState<number | null>(null);
 
   const handleSelect = (idx: number) => {
     if (selected !== null) return;
-    setSelected(idx);
+    onSelect(idx);
     onResult(idx === ex.errorIndex);
   };
 
@@ -474,26 +487,29 @@ function WordProblemExercise({
   index,
   result,
   onResult,
+  answer,
+  onAnswerChange,
+  showHint,
+  onToggleHint,
+  attempts,
 }: {
   ex: Extract<Exercise, { type: 'word-problem' }>;
   index: number;
   result: boolean | null;
   onResult: (correct: boolean) => void;
+  answer: string;
+  onAnswerChange: (value: string) => void;
+  showHint: boolean;
+  onToggleHint: () => void;
+  attempts: number;
 }) {
   const t = useTranslations('lesson.pythagoras.exercises');
-  const [answer, setAnswer] = useState('');
-  const [showHint, setShowHint] = useState(false);
-  const [attempts, setAttempts] = useState(0);
 
   const check = () => {
     const val = parseFloat(answer);
     if (isNaN(val)) return;
     const correct = Math.abs(val - ex.answer) <= ex.tolerance;
     onResult(correct);
-    if (!correct) {
-      setAttempts((a) => a + 1);
-      if (attempts === 0) setShowHint(true);
-    }
   };
 
   return (
@@ -524,7 +540,7 @@ function WordProblemExercise({
               : t('exerciseN', { n: index + 1 })}
         </Badge>
         <button
-          onClick={() => setShowHint(!showHint)}
+          onClick={onToggleHint}
           className="bg-transparent border border-border rounded-md text-muted text-[11px] py-0.5 px-2.5 cursor-pointer font-semibold hover:border-primary/30 transition-colors"
         >
           {showHint ? t('hideHint') : t('hint')}
@@ -557,7 +573,7 @@ function WordProblemExercise({
           type="number"
           step="any"
           value={answer}
-          onChange={(e) => setAnswer(e.target.value)}
+          onChange={(e) => onAnswerChange(e.target.value)}
           onKeyDown={(e) => e.key === 'Enter' && check()}
           placeholder={t('placeholder')}
           className="flex-1 py-2 px-3 rounded-lg border border-border bg-surface-alt text-[15px] outline-none focus:border-primary/50 transition-colors"
@@ -592,108 +608,153 @@ export function ExercisesSection() {
   const [results, setResults] = useState<(boolean | null)[]>(
     EXERCISES.map(() => null),
   );
-  const [score, setScore] = useState<number | null>(null);
+
+  // Lifted state for preservation across navigation
+  const [answers, setAnswers] = useState<Record<number, string>>({});
+  const [selected, setSelected] = useState<Record<number, number | null>>({});
+  const [showHints, setShowHints] = useState<Record<number, boolean>>({});
+  const [attempts, setAttempts] = useState<Record<number, number>>({});
+
+  const statuses: ItemStatus[] = results.map((r) =>
+    r === true ? 'correct' : r === false ? 'incorrect' : 'pending',
+  );
 
   const handleResult = useCallback(
     (index: number, correct: boolean) => {
       const newResults = [...results];
       newResults[index] = correct;
       setResults(newResults);
+
+      if (!correct) {
+        const prev = attempts[index] ?? 0;
+        const next = prev + 1;
+        setAttempts((a) => ({ ...a, [index]: next }));
+        if (next === 1) {
+          setShowHints((h) => ({ ...h, [index]: true }));
+        }
+      }
     },
-    [results],
+    [results, attempts],
   );
 
-  const checkAll = useCallback(() => {
-    setScore(results.filter((r) => r === true).length);
-  }, [results]);
+  const score = results.filter((r) => r === true).length;
 
   return (
     <div>
-      <div className="flex flex-col gap-3.5">
-        {EXERCISES.map((ex, i) => {
+      <ItemStepper
+        count={EXERCISES.length}
+        labels={EXERCISES.map((_, i) => t('exerciseN', { n: i + 1 }))}
+        statuses={statuses}
+        autoAdvanceOn={['correct']}
+        renderSummary={() => (
+          <div
+            className={cn(
+              'text-center p-5 rounded-xl border',
+              score === EXERCISES.length
+                ? 'bg-success/5 border-success/25'
+                : 'bg-surface border-border',
+            )}
+          >
+            <div className="text-xl font-bold">
+              {t('score', { score, total: EXERCISES.length })}
+            </div>
+            <div className="text-xs text-muted mt-1">
+              {score === EXERCISES.length
+                ? t('perfect')
+                : t('keepPracticing')}
+            </div>
+          </div>
+        )}
+      >
+        {(activeIdx) => {
+          const ex = EXERCISES[activeIdx];
+          const i = activeIdx;
+
           switch (ex.type) {
             case 'visual-identify':
               return (
                 <VisualIdentifyExercise
-                  key={i}
                   ex={ex}
                   index={i}
                   result={results[i]}
                   onResult={(c) => handleResult(i, c)}
+                  selected={selected[i] ?? null}
+                  onSelect={(idx) =>
+                    setSelected((s) => ({ ...s, [i]: idx }))
+                  }
                 />
               );
             case 'numeric':
               return (
                 <NumericExercise
-                  key={i}
                   ex={ex}
                   index={i}
                   result={results[i]}
                   onResult={(c) => handleResult(i, c)}
+                  answer={answers[i] ?? ''}
+                  onAnswerChange={(v) =>
+                    setAnswers((a) => ({ ...a, [i]: v }))
+                  }
+                  showHint={showHints[i] ?? false}
+                  onToggleHint={() =>
+                    setShowHints((h) => ({
+                      ...h,
+                      [i]: !h[i],
+                    }))
+                  }
+                  attempts={attempts[i] ?? 0}
                 />
               );
             case 'multiple-choice':
               return (
                 <MultipleChoiceExercise
-                  key={i}
                   ex={ex}
                   index={i}
                   result={results[i]}
                   onResult={(c) => handleResult(i, c)}
+                  selected={selected[i] ?? null}
+                  onSelect={(idx) =>
+                    setSelected((s) => ({ ...s, [i]: idx }))
+                  }
                 />
               );
             case 'find-error':
               return (
                 <FindErrorExercise
-                  key={i}
                   ex={ex}
                   index={i}
                   result={results[i]}
                   onResult={(c) => handleResult(i, c)}
+                  selected={selected[i] ?? null}
+                  onSelect={(idx) =>
+                    setSelected((s) => ({ ...s, [i]: idx }))
+                  }
                 />
               );
             case 'word-problem':
               return (
                 <WordProblemExercise
-                  key={i}
                   ex={ex}
                   index={i}
                   result={results[i]}
                   onResult={(c) => handleResult(i, c)}
+                  answer={answers[i] ?? ''}
+                  onAnswerChange={(v) =>
+                    setAnswers((a) => ({ ...a, [i]: v }))
+                  }
+                  showHint={showHints[i] ?? false}
+                  onToggleHint={() =>
+                    setShowHints((h) => ({
+                      ...h,
+                      [i]: !h[i],
+                    }))
+                  }
+                  attempts={attempts[i] ?? 0}
                 />
               );
           }
-        })}
-      </div>
-
-      <Button
-        variant="primary"
-        size="md"
-        className="w-full mt-4 rounded-lg font-bold"
-        onClick={checkAll}
-      >
-        {t('checkAll')}
-      </Button>
-
-      {score !== null && (
-        <div
-          className={cn(
-            'mt-4 text-center p-5 rounded-xl border',
-            score === EXERCISES.length
-              ? 'bg-success/5 border-success/25'
-              : 'bg-surface border-border',
-          )}
-        >
-          <div className="text-xl font-bold">
-            {t('score', { score, total: EXERCISES.length })}
-          </div>
-          <div className="text-xs text-muted mt-1">
-            {score === EXERCISES.length
-              ? t('perfect')
-              : t('keepPracticing')}
-          </div>
-        </div>
-      )}
+        }}
+      </ItemStepper>
     </div>
   );
 }

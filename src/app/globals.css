@@ -182,6 +182,16 @@ body {
   }
 }
 
+@keyframes highlight-glow {
+  0%,
+  100% {
+    filter: drop-shadow(0 0 3px currentColor);
+  }
+  50% {
+    filter: drop-shadow(0 0 8px currentColor);
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   .animate-cta-glow {
     animation: none;

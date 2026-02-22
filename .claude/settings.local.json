@@ -40,7 +40,8 @@
       "WebFetch(domain:www.caffeinemarketing.com)",
       "WebFetch(domain:medium.com)",
       "WebFetch(domain:plus.maths.org)",
-      "Bash(cat:*)"
+      "Bash(cat:*)",
+      "Bash(cd /c/_git/promath && npx eslint src/components/ui/item-stepper.tsx 2>&1)"
     ]
   },
   "statusLine": {
